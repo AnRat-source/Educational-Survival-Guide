@@ -30,7 +30,9 @@
       ['“Asawa ko”', '— Sir Oliver'],
       ['“Make us holy”', '— Sir T'],
       ['“You da WOMAN”', '— Sir T'],
+      ['“I want Problems!”', '— Sir Oliver'],
       ['“Does Problems want us back? 💔”', '— Parscian #67'],
+      ['“Walang Genius sa Parsci”', '— Sir Oliver'],
     ];
     const [line, source] = quotes[Math.floor(Math.random() * quotes.length)];
     const attribution = document.createElement('em');
