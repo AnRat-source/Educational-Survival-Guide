@@ -1,7 +1,9 @@
 (() => {
-  const tabs = [...document.querySelectorAll('[data-tab]')];
+  let tabs = [...document.querySelectorAll('[data-tab]')];
   const panels = [...document.querySelectorAll('.tab-panel')];
+  let rerollQuote = () => {};
   const selectTab = (id) => {
+    rerollQuote();
     tabs.forEach((tab) => {
       const active = tab.dataset.tab === id;
       tab.classList.toggle('is-active', active);
@@ -11,6 +13,9 @@
       const active = panel.id === id;
       panel.classList.toggle('is-active', active);
       panel.hidden = !active;
+    });
+    document.querySelectorAll('[data-main-content]').forEach((item) => {
+      item.hidden = id !== 'main';
     });
     if (history.replaceState) history.replaceState(null, '', `#${id}`);
   };
@@ -34,11 +39,14 @@
       ['“Does Problems want us back? 💔”', '— Parscian #67'],
       ['“Walang Genius sa Parsci”', '— Sir Oliver'],
     ];
-    const [line, source] = quotes[Math.floor(Math.random() * quotes.length)];
-    const attribution = document.createElement('em');
-    attribution.className = 'quote-source';
-    attribution.textContent = source;
-    title.replaceChildren(document.createTextNode(line), document.createElement('br'), attribution);
+    rerollQuote = () => {
+      const [line, source] = quotes[Math.floor(Math.random() * quotes.length)];
+      const attribution = document.createElement('em');
+      attribution.className = 'quote-source';
+      attribution.textContent = source;
+      title.replaceChildren(document.createTextNode(line), document.createElement('br'), attribution);
+    };
+    rerollQuote();
 
     document.querySelector('.hero .eyebrow').textContent = 'PARSCI // MENDEL FIELD NOTES // SY 2026–2027';
     document.querySelector('.lead').textContent = 'Mendelche, lock in. Reviewers, notes, and presentation slots for when ikaw na bahala, ginoo is no longer a valid study plan.';
@@ -88,30 +96,57 @@
     const day = parts.find((part) => part.type === 'weekday').value;
     const date = parts.filter((part) => part.type !== 'weekday').map((part) => part.value).join('').replace(/^,\s*/, '');
     const today = schedules[day] || [];
-    const classes = today.filter(([, , key]) => key && key !== 'break');
-    const resources = {
-      GenSci: ['GenSci presentation', 'PRESENTATION', 'gen-sci-presentation.html'],
-      Chemistry: ['Chemistry T2 — Summative 2', 'REVIEWER', 'chemistry-specific-reviewer.html'],
-      PKLP: ['PKLP T2 — Summative 2', 'REVIEWER', 'pklp-reviewer.html'],
+    const toMinutes = (value) => {
+      const [hourText, minuteText] = value.trim().split(':');
+      let hour = Number(hourText);
+      if (hour > 0 && hour < 7) hour += 12;
+      return hour * 60 + Number(minuteText);
     };
-    const matching = [...new Set(classes.map(([, , key]) => key))].filter((key) => resources[key]).map((key) => resources[key]);
+    const currentTime = new Intl.DateTimeFormat('en-PH', { timeZone: 'Asia/Manila', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(now);
+    const nowMinutes = Number(currentTime.find((part) => part.type === 'hour').value) * 60 + Number(currentTime.find((part) => part.type === 'minute').value);
+    const periods = today.filter(([, , key]) => key !== 'break');
+    const current = periods.find(([time]) => {
+      const [start, end] = time.split('–');
+      return nowMinutes >= toMinutes(start) && nowMinutes < toMinutes(end);
+    });
+    const next = periods.find(([time]) => nowMinutes < toMinutes(time.split('–')[0]));
+    const currentLabel = current ? current[1] : today.length ? (nowMinutes < toMinutes(today[0][0].split('–')[0]) ? 'Before first period' : 'Classes finished') : 'No classes today';
+    const nextLabel = next ? `${next[0]} · ${next[1]}` : 'No more classes today';
+    // Add future events here: { date: 'Nov 6', title: 'Chemistry quiz', course: 'Chemistry' }
+    const upcomingEvents = [];
     const title = document.querySelector('.hero .eyebrow');
     if (title) title.textContent = `TODAY // ${day.toUpperCase()} // ${date.toUpperCase()}`;
     const status = document.querySelectorAll('.hero-aside div');
     if (status.length === 3) {
-      status[0].firstElementChild.textContent = 'TODAY’S CLASSES';
-      status[0].lastElementChild.textContent = `${classes.length} class blocks`;
-      status[1].firstElementChild.textContent = 'RELEVANT STUDY PAGES';
-      status[1].lastElementChild.textContent = `${matching.length} ready today`;
-      status[2].firstElementChild.textContent = 'NEXT BREAK';
-      status[2].lastElementChild.textContent = today.length ? '9:00 AM recess' : 'No classes today';
+      status[0].firstElementChild.textContent = 'CURRENT CLASS';
+      status[0].lastElementChild.textContent = currentLabel;
+      status[1].firstElementChild.textContent = 'NEXT CLASS';
+      status[1].lastElementChild.textContent = nextLabel;
+      status[2].firstElementChild.textContent = 'UPCOMING EVENTS';
+      status[2].lastElementChild.textContent = upcomingEvents.length ? `${upcomingEvents.length} scheduled` : 'Nothing scheduled';
     }
+    const hero = document.querySelector('.hero');
+    hero.dataset.mainContent = '';
     const dashboard = document.createElement('section');
     dashboard.className = 'today-dashboard';
+    dashboard.dataset.mainContent = '';
     const rows = today.length ? today.map(([time, subject, key]) => `<li class="schedule-row ${key === 'break' ? 'is-break' : ''}"><time>${time}</time><span>${subject}</span></li>`).join('') : '<li class="schedule-empty">No classes on the timetable today. A little rest is also productive.</li>';
-    const pageCards = matching.map(([name, type, href]) => `<a class="today-page" href="${href}"><span>${type}</span><strong>${name}</strong><b>Open →</b></a>`).join('');
-    dashboard.innerHTML = `<div class="today-heading"><div><p class="eyebrow">DAILY COMMAND CENTER</p><h2>${day} schedule</h2></div><p>${date} · Your timetable, then the pages that actually match it.</p></div><div class="today-grid"><section class="schedule-panel"><h3>Today’s periods</h3><ol>${rows}</ol></section><aside class="today-resources"><h3>Relevant for today</h3><div class="today-page-list">${pageCards || '<p class="no-page">No subject-specific study page yet—check the notes archive.</p>'}<a class="today-page notes-link" href="index.html#notes"><span>LATEST NOTES</span><strong>Today’s subjects archive</strong><b>Browse →</b></a></div></aside></div>`;
-    document.querySelector('.hero').after(dashboard);
+    const eventCards = upcomingEvents.map((event) => `<article class="today-page"><span>${event.date} // ${event.course}</span><strong>${event.title}</strong></article>`).join('');
+    dashboard.innerHTML = `<div class="today-heading"><div><p class="eyebrow">DAILY COMMAND CENTER</p><h2>${day} schedule</h2></div><p>${date} · See where you are now, then what comes next.</p></div><div class="today-grid"><section class="schedule-panel"><h3>Today’s periods</h3><ol>${rows}</ol></section><aside class="today-resources"><h3>Upcoming events</h3><div class="today-page-list">${eventCards || '<p class="no-page">Nothing scheduled yet. Add quizzes, deadlines, and school events here when they happen.</p>'}</div></aside></div>`;
+    hero.after(dashboard);
+  };
+
+  const addMainTab = () => {
+    const nav = document.querySelector('.editor-tabs');
+    const button = document.createElement('button');
+    button.className = 'editor-tab';
+    button.type = 'button';
+    button.dataset.tab = 'main';
+    button.setAttribute('role', 'tab');
+    button.setAttribute('aria-selected', 'false');
+    button.textContent = 'main';
+    nav.prepend(button);
+    tabs = [...document.querySelectorAll('[data-tab]')];
   };
 
   const addFolderStyling = () => {
@@ -206,9 +241,10 @@
   addFolderStyling();
   makeItMendelicous();
   buildTodayDashboard();
+  addMainTab();
   makeClassFolders();
   makeCardsSelectableAndClickable();
   tabs.forEach((tab) => tab.addEventListener('click', () => selectTab(tab.dataset.tab)));
-  const requested = location.hash.slice(1);
+  const requested = location.hash.slice(1) || 'main';
   if (tabs.some((tab) => tab.dataset.tab === requested)) selectTab(requested);
 })();
