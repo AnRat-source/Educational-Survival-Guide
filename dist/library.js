@@ -61,7 +61,7 @@
     }
     document.querySelectorAll('.section-heading p').forEach((copy) => {
       if (copy.textContent.includes('newest material')) copy.textContent = 'Reviewer folders, newest material first. Mendelche responsibly.';
-      if (copy.textContent.includes('Work in progress')) copy.textContent = 'Work in progress—the source archive is still being organized.';
+      if (copy.textContent.includes('Work in progress')) copy.textContent = 'Every available lesson has its own page with original scans, diagrams, source material, and two PDF print layouts.';
       if (copy.textContent.includes('Slides and project')) copy.textContent = 'For when the GenSci presentation needs to be mendelicous.';
     });
     const resourceCopy = document.querySelectorAll('.entry:not(.is-empty) p');
@@ -217,10 +217,54 @@
     });
   };
 
+  const populateNotes = () => {
+    const fetchJson = (url, fallback) => fetch(url).then((response) => response.ok ? response.json() : fallback).catch(() => fallback);
+    Promise.all([fetchJson('data/lessons.json', []), fetchJson('data/lesson-overrides.json', {})]).then(([sourceLessons, overrides]) => {
+      const lessons = sourceLessons.map((lesson) => ({ ...lesson, ...(overrides[lesson.id] || {}) }));
+      document.querySelectorAll('#notes .class-group').forEach((group) => {
+        const folder = group.querySelector('.class-folder');
+        const title = folder?.querySelector('.class-title')?.textContent.replace('//', '').trim();
+        const entries = lessons.filter((lesson) => lesson.subject === title);
+        if (!folder || !entries.length) return;
+        folder.querySelector('.empty-note')?.remove();
+        const grid = document.createElement('div');
+        grid.className = 'entry-grid';
+        entries.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true })).forEach((lesson, index) => {
+          const card = document.createElement('article');
+          card.className = 'entry';
+          const header = document.createElement('div');
+          header.className = 'entry-header';
+          const type = document.createElement('span');
+          type.className = 'class-label';
+          type.textContent = 'CLEAN STUDY GUIDE';
+          const date = document.createElement('time');
+          date.className = 'date';
+          date.removeAttribute('datetime');
+          date.textContent = `LESSON ${index + 1}`;
+          const heading = document.createElement('h3');
+          heading.textContent = lesson.title;
+          const copy = document.createElement('p');
+          copy.textContent = lesson.summary;
+          const link = document.createElement('a');
+          link.className = 'entry-link';
+          link.href = `lessons/${lesson.id}.html`;
+          link.textContent = 'Open lesson';
+          header.append(type, date);
+          card.append(header, heading, copy, link);
+          grid.append(card);
+        });
+        folder.append(grid);
+      });
+      makeCardsSelectableAndClickable();
+    }).catch(() => {});
+  };
+
   const makeCardsSelectableAndClickable = () => {
     document.querySelectorAll('.entry').forEach((card) => {
+      if (card.dataset.cardReady) return;
       const link = card.querySelector('.entry-link');
       if (!link) return;
+      card.dataset.cardReady = 'true';
       card.classList.add('entry--link');
       card.tabIndex = 0;
       card.setAttribute('role', 'link');
@@ -244,6 +288,7 @@
   addMainTab();
   makeClassFolders();
   makeCardsSelectableAndClickable();
+  populateNotes();
   tabs.forEach((tab) => tab.addEventListener('click', () => selectTab(tab.dataset.tab)));
   const requested = location.hash.slice(1) || 'main';
   if (tabs.some((tab) => tab.dataset.tab === requested)) selectTab(requested);

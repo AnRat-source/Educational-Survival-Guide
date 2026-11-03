@@ -1,0 +1,515 @@
+{
+  "chemistry-01-lesson-1": {
+    "title": "Introduction to Chemistry: Branches and Careers",
+    "summary": "A guided introduction to what chemistry studies, the major branches of the field, and the work people do with chemistry.",
+    "focus": ["Match organic, inorganic, physical, analytical, and biochemistry to what each one investigates.", "Connect chemistry to real work in health, industry, food, the environment, and research.", "Use the examples in the notes to explain why chemistry is part of everyday life."],
+    "sections": [
+      {
+        "heading": "Chemistry as a central science",
+        "paragraphs": [
+          "Chemistry is the study of matter: its composition, structure, properties, the changes it undergoes, and the energy that accompanies those changes. It is called a central science because it connects to biology, physics, geology, medicine, environmental studies, materials science, and technology.",
+          "Chemistry explains ordinary experiences at home, school, and in the community. Food, cleaning products, medicines, fuels, plastics, batteries, and the materials used to build things are all connected to chemical substances and chemical change. Industry depends on chemistry to make new or improved materials."
+        ]
+      },
+      {
+        "heading": "Major branches of chemistry",
+        "paragraphs": ["A branch of chemistry is defined by the kind of matter or process it emphasizes. The same real-world problem can involve more than one branch."],
+        "bullets": [
+          "Organic chemistry studies most carbon-containing chemicals; examples include pharmaceuticals and plastics.",
+          "Inorganic chemistry studies substances that are not generally treated as organic, including minerals, metals, nonmetals, and semiconductors.",
+          "Physical chemistry applies physical laws to the behavior and changes of matter, including reaction rates, reaction mechanisms, and energy changes.",
+          "Analytical chemistry uses laboratory methods to determine the composition of matter; quality control is one application.",
+          "Biochemistry studies matter and processes in living organisms, including food nutrients, metabolism, and fermentation.",
+          "Environmental chemistry examines matter in the environment, including pollution and biochemical cycles.",
+          "Industrial chemistry studies chemical processes used in industry. Polymer chemistry focuses on polymers and plastics; theoretical chemistry examines chemical interactions; thermochemistry focuses on heat in chemical processes."
+        ]
+      },
+      {
+        "heading": "Measurement, accuracy, and precision",
+        "paragraphs": [
+          "Chemistry is quantitative: it uses physical quantities and measurement units. Fundamental units are basic units, while derived units are obtained by combining basic units. Every measurement has uncertainty because instruments have limits and because reading a scale requires estimation.",
+          "Accuracy means that a measurement is close to the accepted or correct value. Precision means that repeated measurements are close to one another. A set of measurements can be accurate and precise, precise but inaccurate, or neither. Identifying sources of error and improving the reliability of results are core laboratory skills."
+        ],
+        "bullets": [
+          "Use appropriate equipment such as a graduated cylinder, balance, ruler, or thermometer, and record only the digits the instrument supports.",
+          "Use scientific notation and correct unit conversions when reporting very large or very small quantities."
+        ]
+      },
+      {
+        "heading": "Significant figures",
+        "paragraphs": [
+          "Significant figures are the certain digits plus one estimated digit in a measurement. They communicate the precision and reliability of a value rather than simply making an answer look longer.",
+          "Non-zero digits are significant. Zeros between non-zero digits are significant, so 1002 has four significant figures. Leading zeros are not significant, so 0.005 has one significant figure. Trailing zeros are significant when a decimal point is shown; for example, 2.00 has three significant figures."
+        ],
+        "bullets": [
+          "For addition or subtraction, round the final answer to the least number of decimal places used in the data.",
+          "For multiplication or division, round the final answer to the least number of significant figures used in the data.",
+          "Exact numbers do not limit the significant figures in a calculated answer. Keep extra digits during the calculation and round only the final answer."
+        ]
+      },
+      {
+        "heading": "Where chemistry can lead",
+        "paragraphs": ["A chemistry background can connect to medicine, toxicology, computational work, biochemistry, alternative fuels, nanotechnology, forensics, polymer and materials work, business, law, education, pharmaceuticals, physics, and environmental work. These examples show that chemical knowledge is useful beyond a laboratory job title."]
+      }
+    ]
+  },
+  "chemistry-02-lesson-2": {
+    "title": "Laboratory Skills, Safety, and Separation Methods",
+    "summary": "Practice the careful laboratory habits behind measuring, heating, handling materials, and separating mixtures.",
+    "focus": ["Name the equipment used to measure mass and handle small amounts of solids.", "Choose filtration, decantation, evaporation, or another method from the properties of a mixture.", "Review safe heating and reagent-handling habits before a practical activity."],
+    "sections": [
+      {
+        "heading": "Basic laboratory work",
+        "paragraphs": ["Laboratory work begins with reliable measurement and controlled handling of materials. The lesson groups the core operations into determining mass, determining and transferring volume, heating substances, and basic processes such as evaporation, decantation, filtration, and odor determination."]
+      },
+      {
+        "heading": "Determining mass",
+        "paragraphs": ["A triple-beam balance is used to determine mass. When weighing a solid, do not place loose chemicals directly on the pan. Use a watch glass, a reagent bottle or stock container when appropriate, or a clean improvised container. A spatula is used to transfer small portions of solid material."],
+        "bullets": ["Keep the balance clean and zeroed before taking a measurement.", "Transfer only the amount needed; avoid returning unused material to the stock bottle.", "Read and record the mass with the correct precision for the balance."]
+      },
+      {
+        "heading": "Volume and liquid transfer",
+        "paragraphs": ["Determining volume and transferring liquids are separate skills. The destination container matters: a wide-mouthed container is handled differently from a narrow-mouthed container. Work slowly so liquid does not spill, contaminate the outside of the glassware, or change the measured amount."],
+        "bullets": ["Read the liquid level at eye height when using marked glassware.", "Use the right transfer method for a wide- or narrow-mouthed receiving container.", "Label containers and never assume that an unlabeled liquid is safe to use."]
+      },
+      {
+        "heading": "Heating and separating materials",
+        "paragraphs": ["Heating procedures differ for powdered or solid substances and for liquids. Heat should be controlled, and the opening of a test tube or container should never be aimed at yourself or another person. The basic processes in the notes are evaporation, decantation, filtration, and odor determination."],
+        "bullets": ["Evaporation removes a liquid, often leaving a dissolved solid behind.", "Decantation pours off a liquid after a heavier material has settled.", "Filtration separates an insoluble solid from a liquid by passing the mixture through a filter.", "When determining odor, waft vapour gently toward the nose; never inhale a chemical directly."]
+      },
+      {
+        "heading": "Scientific notation in lab work",
+        "paragraphs": ["Scientific notation expresses very large or very small quantities in a compact form. Write a number so that exactly one non-zero digit is to the left of the decimal point, then count how many places the decimal moved. That number of places is the exponent of ten. A number smaller than 1 has a negative exponent; a number greater than 1 has a positive exponent."]
+      }
+    ]
+  },
+  "chemistry-03-lesson-3": {
+    "title": "Atomic Theory: Evidence, Models, and Dalton’s Postulates",
+    "summary": "Trace how observations and experiments led to the idea that matter is made of atoms, then review Dalton’s atomic theory.",
+    "focus": ["State the major ideas in Dalton’s theory in your own words.", "Explain how evidence such as microscopy supports atomic models.", "Separate the historical model from ideas later refined by modern chemistry."],
+    "sections": [
+      {
+        "heading": "Seeing and describing atoms",
+        "paragraphs": [
+          "Atoms cannot be seen with an ordinary light microscope, so scientific models are built from evidence. In 1981, researchers at IBM Zurich developed the scanning tunneling microscope (STM), which gave direct visual evidence of individual atoms on a suitable surface.",
+          "An STM uses an extremely fine metallic tip to scan a conductive surface. Changes in the tunneling current are converted into a three-dimensional topographical map. The image is not a photograph in the usual sense, but it gives evidence for tiny, discrete structures at the atomic scale."
+        ]
+      },
+      {
+        "heading": "Dalton’s atomic theory",
+        "paragraphs": [
+          "In 1803, John Dalton proposed the first modern atomic theory. His model pictured atoms as solid, hard spheres, sometimes called the billiard-ball model. Dalton did not know about subatomic particles, but his postulates explained several measured patterns in chemical reactions.",
+          "Dalton proposed that elements are made of extremely small particles called atoms. He also proposed that all atoms of one element are identical in size, mass, and chemical properties, and that they differ from atoms of other elements. Modern chemistry refines this statement because atoms of the same element can have different numbers of neutrons; these forms are called isotopes.",
+          "A compound contains atoms of more than one element combined in a simple whole-number ratio. Carbon and oxygen, for example, can form carbon monoxide, CO, or carbon dioxide, CO₂. This supports the law of definite proportions: a particular compound has a fixed composition.",
+          "During a chemical reaction, atoms are separated, combined, or rearranged. They are not created or destroyed in an ordinary chemical reaction. This idea explains the law of conservation of mass."
+        ]
+      },
+      {
+        "heading": "From solid spheres to subatomic particles",
+        "paragraphs": [
+          "J. J. Thomson used cathode-ray-tube experiments in 1897 to show that atoms contain negatively charged particles, now called electrons. He measured the charge-to-mass relationship of the particles and proposed the plum-pudding model: electrons embedded in a spread-out positive charge.",
+          "Ernest Rutherford’s 1911 gold-foil experiment changed that picture. Most alpha particles passed through the foil, but a few were deflected sharply. Rutherford concluded that most of an atom is empty space and that its positive charge and most of its mass are concentrated in a tiny, dense nucleus. The proton was later identified as a positively charged particle in the nucleus.",
+          "Niels Bohr proposed in 1913 that electrons occupy distinct, quantized energy levels around the nucleus. His planetary-style model helped explain why electrons do not simply fall into the nucleus, although modern chemistry uses a more detailed quantum model."
+        ]
+      },
+      {
+        "heading": "The neutron and the quantum model",
+        "paragraphs": [
+          "In 1932, James Chadwick bombarded beryllium with alpha particles and observed highly penetrating radiation with no electric charge. He concluded that the nucleus also contains neutrons, neutral particles with a mass close to that of a proton.",
+          "In 1926, Erwin Schrödinger developed the quantum-mechanical model. Electrons are described by wave behavior and probability rather than by fixed circular paths. An orbital is a three-dimensional region where an electron is likely to be found. Quantum numbers describe the allowed electron states and help account for the electron-cloud picture."
+        ]
+      },
+      {
+        "heading": "Subatomic-particle review",
+        "bullets": [
+          "Electron: identified through Thomson’s cathode-ray work in 1897; it has a negative charge and is found outside the nucleus.",
+          "Proton: associated with Rutherford’s nuclear work and identified in 1917; it has a positive charge and is found in the nucleus.",
+          "Neutron: discovered by Chadwick in 1932; it has no charge, has a mass close to a proton’s mass, and is found in the nucleus.",
+          "Atomic models are evidence-based explanations. Each new experiment can preserve useful parts of an earlier model while changing the details that no longer fit the evidence."
+        ]
+      }
+    ]
+  },
+  "chemistry-04-lesson-4": {
+    "title": "Atomic Models and Quantum Mechanical Theory",
+    "summary": "Compare the Bohr model with the modern quantum model and use quantum numbers to describe electrons and orbitals.",
+    "focus": ["Compare fixed Bohr energy levels with the probability-based quantum model.", "Know what the principal, angular momentum, magnetic, and spin quantum numbers describe.", "Relate orbitals, sublevels, and electron location to atomic structure."],
+    "sections": [
+      {
+        "heading": "Light, energy, and the Bohr model",
+        "paragraphs": [
+          "Max Planck proposed that energy is transferred in discrete packets, called quanta. For a photon, E = hf, where E is energy, f is frequency, and h is Planck’s constant. A higher frequency corresponds to a higher-energy photon; in visible light, frequency is associated with color.",
+          "Bohr’s 1913 model describes electrons in fixed energy levels around the nucleus. An electron absorbs energy to move from a lower level to a higher one. When it returns from a higher level to a lower level, it emits a photon whose energy equals the difference between the two states.",
+          "For hydrogen, the energy of a level can be represented by Eₙ = −Rᴴ/n², where Rᴴ is the Rydberg energy constant and n is the principal quantum number. The Bohr model explains the hydrogen emission spectrum well, but it does not fully explain spectra of more complicated atoms."
+        ]
+      },
+      {
+        "heading": "Emission spectra",
+        "paragraphs": [
+          "An emission spectrum is electromagnetic radiation emitted by an energized substance. A sample may be energized in a discharge tube; its emitted light can pass through a slit and prism so the separate wavelengths can be observed as colored lines.",
+          "A continuous spectrum contains smoothly blended visible wavelengths. A line spectrum contains only specific wavelengths as distinct colored lines. Each element has a characteristic line-emission spectrum because its electrons can make only particular energy-level transitions.",
+          "For hydrogen, each spectral line corresponds to a particular transition. The Lyman series ends at n = 1 and lies in the ultraviolet region. The Balmer series ends at n = 2 and includes visible light. The Paschen and Brackett series end at n = 3 and n = 4 respectively and are infrared."
+        ]
+      },
+      {
+        "heading": "Why the quantum model replaced fixed paths",
+        "paragraphs": [
+          "The modern quantum mechanical model developed in the 1920s. Louis de Broglie proposed that matter such as electrons has wave properties, and the Davisson–Germer experiment confirmed this with an electron diffraction pattern. Werner Heisenberg’s uncertainty principle says that an electron’s exact position and momentum cannot both be known at the same time.",
+          "Erwin Schrödinger used wave equations to describe the probability of finding an electron. In the quantum mechanical model, electrons still have allowed energy levels, but they do not travel on exact circular paths around the nucleus. Instead, the model estimates where an electron is likely to be found."
+        ]
+      },
+      {
+        "heading": "Orbitals and electron clouds",
+        "paragraphs": [
+          "An atomic orbital is a three-dimensional region in space in which there is a high probability of finding an electron. An electron cloud represents many probable positions: regions with greater electron density have a greater probability of containing the electron.",
+          "The s orbitals are spherical. A p sublevel has three dumbbell-shaped orbitals, commonly described as pₓ, pᵧ, and p_z. A d sublevel has five orbitals, mostly clover-shaped with one form that includes a ring; an f sublevel has seven, more complex orbitals."
+        ],
+        "bullets": [
+          "An energy level with principal quantum number n can hold a maximum of 2n² electrons.",
+          "Sublevel capacities are s = 2 electrons, p = 6 electrons, d = 10 electrons, and f = 14 electrons."
+        ]
+      },
+      {
+        "heading": "The four quantum numbers",
+        "paragraphs": [
+          "Four quantum numbers are used to describe an electron state. They specify the energy level, the sublevel shape, the orbital orientation, and the electron’s spin.",
+          "The principal quantum number, n = 1, 2, 3, and so on, identifies the main energy level. The angular-momentum or orbital quantum number, ℓ, identifies the sublevel shape and can range from 0 to n − 1. The mapping is ℓ = 0 for s, 1 for p, 2 for d, 3 for f, and 4 for g.",
+          "The magnetic quantum number, mℓ, gives the orientation of an orbital and has integral values from −ℓ to +ℓ. The number of allowed mℓ values is the number of orbitals in the sublevel. For ℓ = 2, the values −2, −1, 0, +1, and +2 identify the five d orbitals.",
+          "The spin quantum number, mₛ, has the values +½ or −½. It distinguishes the two possible spins for electrons sharing an orbital. For example, a 3d electron has n = 3, ℓ = 2, mℓ from −2 to +2, and mₛ of +½ or −½."
+        ]
+      },
+      {
+        "heading": "Electron configurations and orbital diagrams",
+        "paragraphs": [
+          "An electron configuration shows the arrangement and distribution of electrons around the nucleus. An orbital diagram uses boxes or lines for orbitals and arrows for electrons and their spins. The ground state is the lowest possible energy arrangement; an excited state has an electron in a higher energy level than the ground state.",
+          "Use the Aufbau principle to fill the available orbitals from lower energy to higher energy. The common order begins 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p. The diagonal filling pattern is a helpful organizer, but each configuration must still follow the other two rules.",
+          "The Pauli exclusion principle allows at most two electrons in one orbital, and those two must have opposite spins. Hund’s rule says that electrons occupy equal-energy orbitals singly, with parallel spins, before pairing. This is why a p or d orbital diagram first spreads electrons across separate boxes."
+        ],
+        "bullets": [
+          "For a neutral atom, begin with the atomic number because it equals the number of electrons.",
+          "Check that the superscripts add to the total electron count, then draw the orbital diagram if the question asks for individual electron placement.",
+          "Use the last electron in an orbital diagram when a task asks for one possible set of four quantum numbers."
+        ]
+      }
+    ]
+  },
+  "chemistry-05-lesson-5-6": {
+    "title": "Developing and Reading the Periodic Table",
+    "summary": "Follow the historical organization of elements and learn how groups, periods, families, and blocks make the periodic table useful.",
+    "focus": ["Recognize early classification ideas such as Döbereiner’s triads.", "Locate periods, groups, transition metals, lanthanides, and actinides.", "Use an element’s position to predict broad similarities with other elements."],
+    "sections": [
+      {
+        "heading": "Why chemists organized the elements",
+        "paragraphs": [
+          "The periodic table was not created all at once. In the nineteenth century, chemists had only an incomplete picture of atoms and molecules and did not yet know about electrons or protons. They therefore organized elements using the measurable information they had: especially atomic mass and observable properties.",
+          "Antoine Lavoisier published Elements of Chemistry in 1789. His list of ‘simple substances’ formed an early basis for the modern list of elements, although he could only divide substances broadly into metals and nonmetals. Later systems tried to make the repeating similarities between elements more useful."
+        ]
+      },
+      {
+        "heading": "Early patterns: triads and octaves",
+        "paragraphs": [
+          "Döbereiner grouped certain elements into triads—sets of three with similar properties. In a triad, the atomic mass of the middle element was approximately the arithmetic mean of the masses of the first and third. For lithium, sodium, and potassium, (6.94 + 39.10) ÷ 2 is about 23.02, close to sodium’s 22.99. Calcium, strontium, and barium give another example.",
+          "The triad idea showed a genuine pattern, but only five useful triads were identified and newly discovered elements did not fit well. John Newlands later arranged 62 elements by increasing atomic mass and proposed the Law of Octaves: every eighth element had similar properties. His pattern was an important step, but it did not work reliably for all known elements."
+        ],
+        "bullets": [
+          "A pattern is useful only when it can organize many elements while still leaving room for new discoveries.",
+          "Do not confuse an approximate mass pattern in a triad with the modern basis of the periodic table, which is atomic number."
+        ]
+      },
+      {
+        "heading": "Mendeleev, Meyer, and the periodic law",
+        "paragraphs": [
+          "Dmitri Mendeleev and Lothar Meyer independently proposed a periodic law: when atoms are arranged in increasing atomic mass, certain properties recur periodically. Meyer’s work showed recurring physical properties such as hardness, compressibility, and boiling point.",
+          "Mendeleev’s table was especially powerful because he left spaces for elements not yet discovered and predicted their properties. Later discoveries matched several of those predictions. His arrangement could not originally include the noble gases, because they had not yet been identified. After William Ramsay and others isolated argon, helium, neon, krypton, and xenon, the noble gases were added as their own group."
+        ]
+      },
+      {
+        "heading": "From atomic mass to atomic number",
+        "paragraphs": [
+          "The modern periodic table is arranged strictly by increasing atomic number, not atomic mass. Atomic number counts protons, so it gives each element its identity and resolves placements that were awkward in a mass-based table.",
+          "The table is arranged into horizontal periods and vertical groups. It separates the main-group elements, transition metals, lanthanides, and actinides. The lanthanides and actinides are usually drawn below the main body to keep the table compact, but they belong in periods 6 and 7. Modern work also extends the table: element 118, oganesson, was synthesized by bombarding a californium target with calcium ions. It is superheavy and highly unstable."
+        ]
+      },
+      {
+        "heading": "Reading position from electron configuration",
+        "paragraphs": [
+          "Electron configuration connects an element’s location to its electrons. The highest principal energy level in the configuration gives the period. The block—s, p, d, or f—is identified by the subshell being filled at the end of the configuration.",
+          "For main-group elements, similar outer-electron configurations explain why a vertical group has similar chemical behavior. Fluorine [He] 2s² 2p⁵, chlorine [Ne] 3s² 3p⁵, bromine [Ar] 4s² 3d¹⁰ 4p⁵, and iodine [Kr] 5s² 4d¹⁰ 5p⁵ all have seven valence electrons. They therefore belong to the same family, the halogens.",
+          "The board examples use this method: chlorine’s configuration ends in 3p⁵, so it is in period 3 and the p block; copper has its highest principal level in 4, while its differentiating electron is associated with the d block."
+        ],
+        "bullets": [
+          "Periods are rows; groups or families are columns.",
+          "s and p are the main-group blocks, d is the transition-metal block, and f contains the lanthanide and actinide series.",
+          "Members of a main-group family share a valence-electron pattern, not the same total number of electrons."
+        ]
+      },
+      {
+        "heading": "Periodic properties: ionic radius",
+        "paragraphs": [
+          "A periodic trend describes a property that changes in a recognizable pattern across a period or down a group. The notes emphasize ionic radius: the size of an atom after electrons have been lost or gained. It is different from atomic radius because an ion does not have the same electron arrangement as the neutral atom.",
+          "When an atom loses electrons and becomes a cation, its ionic radius decreases. When an atom gains electrons and becomes an anion, its ionic radius increases. These changes matter when comparing ions with their neutral atoms and when explaining why ions in a compound have different sizes."
+        ],
+        "bullets": [
+          "Cation: a positively charged ion formed by losing electron(s); smaller than its neutral atom in the comparison used here.",
+          "Anion: a negatively charged ion formed by gaining electron(s); larger than its neutral atom in the comparison used here.",
+          "Use the table position and electron configuration together: position suggests a pattern, while the configuration shows the valence structure behind it."
+        ]
+      }
+    ]
+  },
+  "chemistry-06-lesson-7": {
+    "title": "Atomic Number, Mass Number, and Isotopes",
+    "summary": "Use atomic notation to count subatomic particles and distinguish mass number from average atomic mass.",
+    "focus": ["Find protons, neutrons, and electrons from atomic number and mass number.", "Write and interpret standard isotope notation.", "Explain isotopes and calculate or interpret weighted average atomic mass."]
+  },
+  "chemistry-07-lesson-8": {
+    "title": "Molecular Geometry and Polarity",
+    "summary": "Use electron domains, bond angles, and lone pairs to explain molecular shape and overall polarity.",
+    "focus": ["Apply VSEPR to identify common molecular shapes.", "Show how lone pairs change geometry and bond angles.", "Decide whether bond dipoles cancel or create a polar molecule."]
+  },
+  "chemistry-08-lesson-9": {
+    "title": "Nomenclature of Acids",
+    "summary": "Learn the naming patterns for binary acids and oxyacids, including the link between anion endings and acid names.",
+    "focus": ["Distinguish binary acids from oxyacids using their formulas.", "Convert -ide, -ate, and -ite endings into the correct acid names.", "Recognize mono-, di-, and triprotic acids from the number of ionizable hydrogens."]
+  },
+  "chemistry-09-lesson-10": {
+    "title": "Chemical Bonding and VSEPR Geometry",
+    "summary": "Connect electron sharing and lone pairs to Lewis structures, molecular shapes, and the behavior of covalent substances.",
+    "focus": ["Read or draw Lewis structures before deciding on a shape.", "Count bonding pairs and lone pairs around the central atom.", "Compare related VSEPR shapes and explain the effect of lone pairs."]
+  },
+  "effcom-10-lesson-2": {
+    "title": "Visual Data, Evidence, and Objective Communication",
+    "summary": "Read visual information closely and communicate findings with evidence instead of unsupported assumptions.",
+    "focus": ["Read titles, labels, scales, and categories before interpreting a chart or infographic.", "Separate a direct observation from an inference or personal claim.", "Use accurate, objective wording when explaining data."]
+  },
+  "effcom-11-lesson-3": {
+    "title": "Visual Representations and Non-Linear Text",
+    "summary": "Transform linear information into charts, diagrams, and other visual forms that make relationships and key ideas easier to see.",
+    "focus": ["Explain when a visual representation communicates better than a long paragraph.", "Identify trends, comparisons, relationships, and key ideas in a visual.", "Turn a short sequence of information into an appropriate non-linear form."]
+  },
+  "effcom-12-lesson-4": {
+    "title": "Summarizing and Paraphrasing Technical Writing",
+    "summary": "Practice shortening technical material without losing its meaning and restating ideas without copying the original wording.",
+    "focus": ["Identify the central idea and the essential supporting details.", "Distinguish a summary from a paraphrase.", "Keep the original meaning while using your own structure and language."]
+  },
+  "effcom-13-term-2-lesson-1": {
+    "title": "Academic Communication: Term 2 Foundations",
+    "summary": "A term-opening Effective Communication resource for building clear, purposeful academic communication and group work habits.",
+    "focus": ["Use the opening activities to identify the communication skill being practiced.", "Keep audience, purpose, and clarity in mind when responding to tasks.", "Track group responsibilities and turn the source pages into your own study notes."]
+  },
+  "genmath-14-bearing-and-navigation-activity": {
+    "title": "Bearing and Navigation: Applied Triangle Problems",
+    "summary": "Use bearings with the sine rule, cosine rule, and triangle diagrams to solve navigation situations.",
+    "focus": ["Draw north lines and label bearings correctly.", "Choose the sine rule or cosine rule from the information given.", "Check whether the final direction is written as a bearing, not just an angle."]
+  },
+  "genmath-15-day-1-sept-28": {
+    "title": "Introduction to Trigonometric Ratios",
+    "summary": "Build the right-triangle meaning of sine, cosine, and tangent before using them in calculations.",
+    "focus": ["Label opposite, adjacent, and hypotenuse relative to the chosen angle.", "Choose sine, cosine, or tangent from the two sides involved.", "Use calculator mode and rounding appropriately."]
+  },
+  "genmath-16-more-problems-on-applications-of-trigonometry": {
+    "title": "Applications of Trigonometry: More Problems",
+    "summary": "Apply trigonometric ratios to contextual problems by translating words into a diagram and a solvable equation.",
+    "focus": ["Sketch the situation before selecting a trig ratio.", "Identify the requested measurement and the known sides or angles.", "Give a final answer with sensible units and precision."]
+  },
+  "genmath-17-piecewise-application-pptx": {
+    "title": "Piecewise Function Applications",
+    "summary": "Use piecewise rules to model situations whose formula changes across different input ranges.",
+    "focus": ["Match each interval with the correct rule.", "Evaluate a piecewise function at boundary values carefully.", "Interpret the function in the real situation it represents."]
+  },
+  "genmath-18-standard-deviation": {
+    "title": "Standard Deviation and Data Spread",
+    "summary": "Measure how far data values typically sit from the mean and compare the consistency of data sets.",
+    "focus": ["Find or verify the mean before measuring deviations.", "Interpret a smaller or larger standard deviation in context.", "Avoid confusing the center of data with its spread."]
+  },
+  "genmath-19-term-2-week-2-september-21-25-1": {
+    "title": "Types of Data and Measurement Scales",
+    "summary": "Classify data and recognize the measurement scale that determines which comparisons and calculations make sense.",
+    "focus": ["Distinguish qualitative from quantitative data.", "Identify nominal, ordinal, interval, and ratio scales.", "Choose examples that justify the scale, not just the topic."]
+  },
+  "genmath-20-term-week-2-mathematics-as-a-tool": {
+    "title": "Data Management and Statistics as a Tool",
+    "summary": "See how mathematics is used to organize, interpret, and communicate information from real situations.",
+    "focus": ["Identify the question a data set is meant to answer.", "Select a useful representation for the type of data.", "Explain a conclusion without overstating what the data proves."]
+  },
+  "genmath-21-week-1-term-2": {
+    "title": "Term 2 Mathematics: Week 1 Foundations",
+    "summary": "A Week 1 resource that sets up the concepts and problem-solving routines used in the term’s mathematics work.",
+    "focus": ["Follow definitions, examples, and worked solutions in order.", "Write down unfamiliar notation with its meaning.", "Use the source material as a reference while building your own examples."]
+  },
+  "genmath-22-week-3-day-3-and-4": {
+    "title": "Sine and Cosine Rules for Oblique Triangles",
+    "summary": "Solve triangles without a right angle by deciding whether the sine rule or cosine rule fits the known information.",
+    "focus": ["Recognize SSS, SAS, ASA, and SSA information patterns.", "Pair each angle with its opposite side in the sine rule.", "Use the cosine rule correctly when two sides and an included angle are known."]
+  },
+  "genmath-23-week-3-day-3": {
+    "title": "Sine Rule and Area of Oblique Triangles",
+    "summary": "Use the sine rule and included-angle area formula to solve non-right triangle problems.",
+    "focus": ["Keep opposite side-angle pairs aligned.", "Check the possible ambiguous case when using the sine rule.", "Use one-half ab sine C for the area of an oblique triangle."]
+  },
+  "genmath-24-week-4-day-2": {
+    "title": "Solving Right and Oblique Triangle Problems",
+    "summary": "Choose a reliable strategy for triangle problems and verify that the completed triangle is reasonable.",
+    "focus": ["Decide first whether the triangle is right or oblique.", "Choose a trigonometric ratio, sine rule, or cosine rule deliberately.", "Check that side and angle sizes agree with the diagram."]
+  },
+  "genmath-25-week-4-day-2": {
+    "title": "Practice: Right and Oblique Triangle Problems",
+    "summary": "A companion practice set for applying the appropriate triangle-solving method without skipping the diagram and checking stages.",
+    "focus": ["Organize given information before calculating.", "Show the formula substitution instead of only the calculator result.", "Compare your answer with the visual size of the triangle."]
+  },
+  "genmath-26-week-4-day-4": {
+    "title": "Angles of Elevation and Depression",
+    "summary": "Model line-of-sight situations with right triangles, horizontal reference lines, and trigonometric ratios.",
+    "focus": ["Draw the horizontal line before marking elevation or depression angles.", "Use the complementary angle only when the diagram requires it.", "State the final height or distance with units."]
+  },
+  "genmath-27-week-5-day-1-ver-1": {
+    "title": "Bearings and Navigation: Concepts and Conversions",
+    "summary": "Learn the notation and diagram conventions needed before solving bearing and navigation questions.",
+    "focus": ["Measure bearings clockwise from north.", "Write bearings as three-digit angles where required.", "Translate a direction phrase into a labelled sketch."]
+  },
+  "genmath-28-week-5-day-1": {
+    "title": "Bearings and Navigation: Guided Practice",
+    "summary": "Use navigation diagrams and bearings in structured practice problems.",
+    "focus": ["Mark north at every location when a route changes direction.", "Separate interior triangle angles from compass bearings.", "Use the correct triangle rule after the route diagram is complete."]
+  },
+  "genmath-29-week-5-day-2": {
+    "title": "Bearings and Navigation: Day 2 Practice",
+    "summary": "Continue applying bearing notation and triangle methods to multi-step travel and location problems.",
+    "focus": ["Keep a consistent scale or clear labels in route sketches.", "Track each leg of a journey separately.", "Give both distance and direction when the question asks for a location."]
+  },
+  "genmath-30-week-5-day-4": {
+    "title": "Perimeter: Everyday Measurement Problems",
+    "summary": "Use perimeter formulas and careful unit conversion to solve practical measurement questions.",
+    "focus": ["Identify which boundary lengths belong in the perimeter.", "Convert units before adding measurements.", "Explain what the total perimeter means in the situation."]
+  },
+  "gensci-31-lesson-1": {
+    "title": "Household Chemicals: Uses, Risks, and Safe Handling",
+    "summary": "Identify familiar chemical substances, connect their formulas to everyday uses, and consider their health and safety risks.",
+    "focus": ["Match a household substance with its common use.", "Read formulas and names accurately.", "Describe safe handling or storage choices based on the substance’s risk."]
+  },
+  "gensci-32-lesson-2": {
+    "title": "Mixtures and Methods of Separation",
+    "summary": "Separate mixtures by using differences in particle size, solubility, density, boiling point, or magnetism.",
+    "focus": ["Choose a separation method from the properties of the components.", "Plan the order of steps for a salt, sand, and water mixture.", "Explain what remains and what passes through at each step."]
+  },
+  "gensci-33-lesson-3": {
+    "title": "Osmosis, Tonicity, and Cell Water Balance",
+    "summary": "Explain water movement across cell membranes and predict what happens to cells in hypotonic, isotonic, and hypertonic solutions.",
+    "focus": ["State the direction water moves during osmosis.", "Compare hypertonic, hypotonic, and isotonic environments.", "Relate water movement to cell swelling, shrinking, or balance."]
+  },
+  "gensci-34-lesson-4": {
+    "title": "Body Systems and Interdependence",
+    "summary": "Explore how body systems work together and how an injury or change in one system can affect the rest of the body.",
+    "focus": ["Identify the systems involved in the situations from the notes.", "Explain one chain of effects from injury to body function.", "Connect prevention and healthy choices to system performance."]
+  },
+  "gensci-35-lesson-5": {
+    "title": "Respiratory Gas Exchange and Diffusion",
+    "summary": "Study how oxygen and carbon dioxide move between alveoli and blood through diffusion.",
+    "focus": ["Locate the alveoli and nearby capillaries in a diagram.", "Explain diffusion using concentration differences.", "Relate thin surfaces, moisture, and surface area to efficient gas exchange."]
+  },
+  "gensci-36-lesson-6": {
+    "title": "Nervous System: Organization and Control",
+    "summary": "Organize the nervous system into central and peripheral divisions and trace sensory and motor pathways.",
+    "focus": ["Differentiate the CNS from the PNS.", "Compare sensory and motor divisions.", "Separate somatic and autonomic responses using examples."]
+  },
+  "gensci-37-lesson-7": {
+    "title": "The Brain and Its Major Regions",
+    "summary": "Identify major brain structures and connect each region to the functions it helps control.",
+    "focus": ["Locate the cerebrum, cerebellum, and brain stem.", "Match a major region with its core function.", "Use a scenario to infer which brain area may be involved."]
+  },
+  "lcs-38-topic-1": {
+    "title": "Career Planning: Factors and Personal Fit",
+    "summary": "Plan career options by considering interests, values, skills, education, work culture, labour demand, and financial goals.",
+    "focus": ["Separate personal interests and values from outside job-market factors.", "Identify evidence that a career path fits your strengths.", "Compare career choices without treating salary as the only factor."]
+  },
+  "lcs-39-topic-2": {
+    "title": "Career Mapping: Skills, Interests, and Pathways",
+    "summary": "Map personal strengths and interests to possible careers, then identify the training and qualifications each path needs.",
+    "focus": ["List skills, interests, and talents with specific examples.", "Connect a possible career to its required education or training.", "Use a career map to identify a next realistic step."]
+  },
+  "lcs-40-topic-3": {
+    "title": "Culture, Values, and Career Choices",
+    "summary": "Examine how culture, family, community expectations, social prestige, and diversity can shape career decisions.",
+    "focus": ["Recognize cultural and social influences without stereotyping people.", "Compare individual priorities with collective or family expectations.", "Explain how gender and diversity considerations can affect opportunity."]
+  },
+  "lcs-41-topic-4": {
+    "title": "Researching Careers and Opportunities",
+    "summary": "Use reliable channels such as online platforms, career fairs, and professional networks to research work opportunities.",
+    "focus": ["Compare the strengths of different career-information sources.", "Check a source for credibility and current information.", "Record skills, qualifications, and opportunities that repeat across sources."]
+  },
+  "lcs-42-topic-5": {
+    "title": "Compensation, Benefits, and Rewards",
+    "summary": "Understand how base pay, benefits, incentives, and recognition form an employee’s total compensation.",
+    "focus": ["Distinguish wages or salary from non-cash benefits.", "Explain how merit pay and incentives work.", "Compare offers by looking at the full compensation package."]
+  },
+  "lcs-43-topic-6": {
+    "title": "Employee Rights and Workplace Protections",
+    "summary": "Learn why clear rights, protections, and fair workplace practices matter for employees and organizations.",
+    "focus": ["Identify the purpose of employee rights in a workplace.", "Recognize the difference between a policy and a basic protection.", "Use respectful steps for raising a workplace concern."]
+  },
+  "lcs-44-topic-7": {
+    "title": "Leave, Breaks, and Worker Well-Being",
+    "summary": "Evaluate how leave and break policies support health, fairness, productivity, and sustainable work.",
+    "focus": ["Explain why breaks and leave matter beyond convenience.", "Compare policy choices from both employee and employer perspectives.", "Relate reasonable work patterns to well-being and performance."]
+  },
+  "lcs-45-topic-8": {
+    "title": "Workplace Rules, Ethics, and Company Guidelines",
+    "summary": "Use workplace rules and ethical thinking to create a safe, fair, and accountable organization.",
+    "focus": ["Distinguish legal compliance from ethical responsibility.", "Explain why safety and fairness need clear guidelines.", "Apply a guideline to a realistic workplace situation."]
+  },
+  "lcs-46-topic-9": {
+    "title": "Creating Company Guidelines",
+    "summary": "Design practical company guidelines that are aligned, feasible, original, and ready to communicate to a team.",
+    "focus": ["Write a guideline with a clear purpose and audience.", "Check whether the rule can realistically be followed.", "Use the rubric to improve clarity, relevance, and completeness."]
+  },
+  "lcs-47-topic-10": {
+    "title": "Workplace Safety Training and Hazard Communication",
+    "summary": "Learn the parts of effective safety training, including orientations, refreshers, hazards, and communication systems.",
+    "focus": ["Recognize common hazard symbols and what they communicate.", "Explain why training must continue after an initial orientation.", "Describe how workers should receive and act on safety information."]
+  },
+  "lcs-48-topic-11": {
+    "title": "Employment Compliance and Workforce Rules",
+    "summary": "Review workplace compliance issues involving job classifications, probation, evaluation, and responsible management.",
+    "focus": ["Recognize why employment rules apply regardless of job title.", "Explain the purpose of a fair probation or evaluation process.", "Identify risks when workers are misclassified or managed inconsistently."]
+  },
+  "lcs-49-topic-12": {
+    "title": "Work-Life Balance and Healthy Workplaces",
+    "summary": "Study work-life balance as a workplace practice that supports health, focus, and long-term performance.",
+    "focus": ["Identify signs that work demands are becoming unsustainable.", "Suggest practical habits or policies that support balance.", "Explain why healthy workplaces benefit both workers and organizations."]
+  },
+  "lcs-50-topic-13": {
+    "title": "Workplace Improvement and Employee Engagement",
+    "summary": "Improve workplace culture through open communication, trust, inclusion, recognition, and useful feedback.",
+    "focus": ["Describe how feedback can improve a team when it is specific and respectful.", "Connect inclusion and trust to employee engagement.", "Choose an improvement strategy that fits the problem described."]
+  },
+  "lcs-51-topic-14": {
+    "title": "Professionalism and Workplace Etiquette",
+    "summary": "Practice the respectful, responsible, and clear behavior expected in professional settings.",
+    "focus": ["Use respectful communication in both formal and everyday work situations.", "Recognize accountability and reliability as professional habits.", "Explain how etiquette affects teamwork and trust."]
+  },
+  "lcs-52-topic-15": {
+    "title": "Professional Respect and Digital Netiquette",
+    "summary": "Apply professional respect to online messages, digital spaces, and workplace communication.",
+    "focus": ["Write messages with an appropriate tone and purpose.", "Recognize how online choices can affect professional relationships.", "Use netiquette to prevent misunderstandings and maintain respect."]
+  },
+  "mabkom-53-10-dalton-at-mendel": {
+    "title": "Multimodal Academic and Technical Communication",
+    "summary": "Use language, visuals, tone, and structure appropriately when communicating academic and technical ideas to an audience.",
+    "focus": ["Adjust tone and language to the audience and purpose.", "Explain how visuals and words work together in a multimodal text.", "Use context clues and strategies for unfamiliar vocabulary."]
+  },
+  "mabkom-54-11-pagtugon-sa-pangangailangan-ng-kurso": {
+    "title": "Project Proposal: Pagtugon sa Pangangailangan ng Kurso",
+    "summary": "Plan and communicate a project proposal that responds to a course need with clear goals, details, and documentation.",
+    "focus": ["Identify the need the proposal should answer.", "Organize a proposal into a logical and persuasive sequence.", "Use meeting notes, plans, and supporting details responsibly."]
+  },
+  "mabkom-55-mabisang-komunikasyon-budget-of-work-2nd-term": {
+    "title": "Mabisang Komunikasyon: Second-Term Course Guide",
+    "summary": "Use the second-term plan as a map of the course topics, tasks, and communication skills to develop.",
+    "focus": ["Track the order of lessons and major requirements.", "Connect planned activities to the communication skill they build.", "Turn the course guide into a personal study schedule."]
+  },
+  "pklp-56-term-2-note-collection": {
+    "title": "PKLP: Term 2 Note Collection",
+    "summary": "A source collection for the Term 2 Pag-aaral ng Kasaysayan at Lipunang Pilipino lessons. Read the pages in sequence and build a timeline as you review.",
+    "focus": ["Identify the people, places, dates, and terms that recur across the notes.", "Connect events to their causes, effects, and historical context.", "Use the original pages to verify names, sequences, and source-based claims."]
+  }
+}

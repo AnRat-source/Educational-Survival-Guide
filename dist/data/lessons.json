@@ -1,0 +1,842 @@
+[
+  {
+    "id": "chemistry-01-lesson-1",
+    "subject": "Chemistry",
+    "subjectLabel": "Chemistry",
+    "title": "Introduction to Chemistry: Branches and Careers",
+    "date": "2026-11-04",
+    "summary": "A guided introduction to what chemistry studies, the major branches of the field, and the work people do with chemistry.",
+    "focus": [
+      "Match organic, inorganic, physical, analytical, and biochemistry to what each one investigates.",
+      "Connect chemistry to real work in health, industry, food, the environment, and research.",
+      "Use the examples in the notes to explain why chemistry is part of everyday life."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "chemistry-02-lesson-2",
+    "subject": "Chemistry",
+    "subjectLabel": "Chemistry",
+    "title": "Laboratory Skills, Safety, and Separation Methods",
+    "date": "2026-11-04",
+    "summary": "Practice the careful laboratory habits behind measuring, heating, handling materials, and separating mixtures.",
+    "focus": [
+      "Name the equipment used to measure mass and handle small amounts of solids.",
+      "Choose filtration, decantation, evaporation, or another method from the properties of a mixture.",
+      "Review safe heating and reagent-handling habits before a practical activity."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "chemistry-03-lesson-3",
+    "subject": "Chemistry",
+    "subjectLabel": "Chemistry",
+    "title": "Atomic Theory: Evidence, Models, and Dalton’s Postulates",
+    "date": "2026-11-04",
+    "summary": "Trace how observations and experiments led to the idea that matter is made of atoms, then review Dalton’s atomic theory.",
+    "focus": [
+      "State the major ideas in Dalton’s theory in your own words.",
+      "Explain how evidence such as microscopy supports atomic models.",
+      "Separate the historical model from ideas later refined by modern chemistry."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "chemistry-04-lesson-4",
+    "subject": "Chemistry",
+    "subjectLabel": "Chemistry",
+    "title": "Atomic Models and Quantum Mechanical Theory",
+    "date": "2026-11-04",
+    "summary": "Compare the Bohr model with the modern quantum model and use quantum numbers to describe electrons and orbitals.",
+    "focus": [
+      "Compare fixed Bohr energy levels with the probability-based quantum model.",
+      "Know what the principal, angular momentum, magnetic, and spin quantum numbers describe.",
+      "Relate orbitals, sublevels, and electron location to atomic structure."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "chemistry-05-lesson-5-6",
+    "subject": "Chemistry",
+    "subjectLabel": "Chemistry",
+    "title": "Developing and Reading the Periodic Table",
+    "date": "2026-11-04",
+    "summary": "Follow the historical organization of elements and learn how groups, periods, families, and blocks make the periodic table useful.",
+    "focus": [
+      "Recognize early classification ideas such as Döbereiner’s triads.",
+      "Locate periods, groups, transition metals, lanthanides, and actinides.",
+      "Use an element’s position to predict broad similarities with other elements."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "chemistry-06-lesson-7",
+    "subject": "Chemistry",
+    "subjectLabel": "Chemistry",
+    "title": "Atomic Number, Mass Number, and Isotopes",
+    "date": "2026-11-04",
+    "summary": "Use atomic notation to count subatomic particles and distinguish mass number from average atomic mass.",
+    "focus": [
+      "Find protons, neutrons, and electrons from atomic number and mass number.",
+      "Write and interpret standard isotope notation.",
+      "Explain isotopes and calculate or interpret weighted average atomic mass."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "chemistry-07-lesson-8",
+    "subject": "Chemistry",
+    "subjectLabel": "Chemistry",
+    "title": "Molecular Geometry and Polarity",
+    "date": "2026-11-04",
+    "summary": "Use electron domains, bond angles, and lone pairs to explain molecular shape and overall polarity.",
+    "focus": [
+      "Apply VSEPR to identify common molecular shapes.",
+      "Show how lone pairs change geometry and bond angles.",
+      "Decide whether bond dipoles cancel or create a polar molecule."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "chemistry-08-lesson-9",
+    "subject": "Chemistry",
+    "subjectLabel": "Chemistry",
+    "title": "Nomenclature of Acids",
+    "date": "2026-11-04",
+    "summary": "Learn the naming patterns for binary acids and oxyacids, including the link between anion endings and acid names.",
+    "focus": [
+      "Distinguish binary acids from oxyacids using their formulas.",
+      "Convert -ide, -ate, and -ite endings into the correct acid names.",
+      "Recognize mono-, di-, and triprotic acids from the number of ionizable hydrogens."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "chemistry-09-lesson-10",
+    "subject": "Chemistry",
+    "subjectLabel": "Chemistry",
+    "title": "Chemical Bonding and VSEPR Geometry",
+    "date": "2026-11-04",
+    "summary": "Connect electron sharing and lone pairs to Lewis structures, molecular shapes, and the behavior of covalent substances.",
+    "focus": [
+      "Read or draw Lewis structures before deciding on a shape.",
+      "Count bonding pairs and lone pairs around the central atom.",
+      "Compare related VSEPR shapes and explain the effect of lone pairs."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "effcom-10-lesson-2",
+    "subject": "EffCom",
+    "subjectLabel": "Effective Communication",
+    "title": "Visual Data, Evidence, and Objective Communication",
+    "date": "2026-11-04",
+    "summary": "Read visual information closely and communicate findings with evidence instead of unsupported assumptions.",
+    "focus": [
+      "Read titles, labels, scales, and categories before interpreting a chart or infographic.",
+      "Separate a direct observation from an inference or personal claim.",
+      "Use accurate, objective wording when explaining data."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "effcom-11-lesson-3",
+    "subject": "EffCom",
+    "subjectLabel": "Effective Communication",
+    "title": "Visual Representations and Non-Linear Text",
+    "date": "2026-11-04",
+    "summary": "Transform linear information into charts, diagrams, and other visual forms that make relationships and key ideas easier to see.",
+    "focus": [
+      "Explain when a visual representation communicates better than a long paragraph.",
+      "Identify trends, comparisons, relationships, and key ideas in a visual.",
+      "Turn a short sequence of information into an appropriate non-linear form."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "effcom-12-lesson-4",
+    "subject": "EffCom",
+    "subjectLabel": "Effective Communication",
+    "title": "Summarizing and Paraphrasing Technical Writing",
+    "date": "2026-11-04",
+    "summary": "Practice shortening technical material without losing its meaning and restating ideas without copying the original wording.",
+    "focus": [
+      "Identify the central idea and the essential supporting details.",
+      "Distinguish a summary from a paraphrase.",
+      "Keep the original meaning while using your own structure and language."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "effcom-13-term-2-lesson-1",
+    "subject": "EffCom",
+    "subjectLabel": "Effective Communication",
+    "title": "Academic Communication: Term 2 Foundations",
+    "date": "2026-11-04",
+    "summary": "A term-opening Effective Communication resource for building clear, purposeful academic communication and group work habits.",
+    "focus": [
+      "Use the opening activities to identify the communication skill being practiced.",
+      "Keep audience, purpose, and clarity in mind when responding to tasks.",
+      "Track group responsibilities and turn the source pages into your own study notes."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-14-bearing-and-navigation-activity",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Bearing and Navigation: Applied Triangle Problems",
+    "date": "2026-11-04",
+    "summary": "Use bearings with the sine rule, cosine rule, and triangle diagrams to solve navigation situations.",
+    "focus": [
+      "Draw north lines and label bearings correctly.",
+      "Choose the sine rule or cosine rule from the information given.",
+      "Check whether the final direction is written as a bearing, not just an angle."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-15-day-1-sept-28",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Introduction to Trigonometric Ratios",
+    "date": "2026-11-04",
+    "summary": "Build the right-triangle meaning of sine, cosine, and tangent before using them in calculations.",
+    "focus": [
+      "Label opposite, adjacent, and hypotenuse relative to the chosen angle.",
+      "Choose sine, cosine, or tangent from the two sides involved.",
+      "Use calculator mode and rounding appropriately."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-16-more-problems-on-applications-of-trigonometry",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Applications of Trigonometry: More Problems",
+    "date": "2026-11-04",
+    "summary": "Apply trigonometric ratios to contextual problems by translating words into a diagram and a solvable equation.",
+    "focus": [
+      "Sketch the situation before selecting a trig ratio.",
+      "Identify the requested measurement and the known sides or angles.",
+      "Give a final answer with sensible units and precision."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-17-piecewise-application-pptx",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Piecewise Function Applications",
+    "date": "2026-11-04",
+    "summary": "Use piecewise rules to model situations whose formula changes across different input ranges.",
+    "focus": [
+      "Match each interval with the correct rule.",
+      "Evaluate a piecewise function at boundary values carefully.",
+      "Interpret the function in the real situation it represents."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-18-standard-deviation",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Standard Deviation and Data Spread",
+    "date": "2026-11-04",
+    "summary": "Measure how far data values typically sit from the mean and compare the consistency of data sets.",
+    "focus": [
+      "Find or verify the mean before measuring deviations.",
+      "Interpret a smaller or larger standard deviation in context.",
+      "Avoid confusing the center of data with its spread."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-19-term-2-week-2-september-21-25-1",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Types of Data and Measurement Scales",
+    "date": "2026-11-04",
+    "summary": "Classify data and recognize the measurement scale that determines which comparisons and calculations make sense.",
+    "focus": [
+      "Distinguish qualitative from quantitative data.",
+      "Identify nominal, ordinal, interval, and ratio scales.",
+      "Choose examples that justify the scale, not just the topic."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-20-term-week-2-mathematics-as-a-tool",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Data Management and Statistics as a Tool",
+    "date": "2026-11-04",
+    "summary": "See how mathematics is used to organize, interpret, and communicate information from real situations.",
+    "focus": [
+      "Identify the question a data set is meant to answer.",
+      "Select a useful representation for the type of data.",
+      "Explain a conclusion without overstating what the data proves."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-21-week-1-term-2",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Term 2 Mathematics: Week 1 Foundations",
+    "date": "2026-11-04",
+    "summary": "A Week 1 resource that sets up the concepts and problem-solving routines used in the term’s mathematics work.",
+    "focus": [
+      "Follow definitions, examples, and worked solutions in order.",
+      "Write down unfamiliar notation with its meaning.",
+      "Use the source material as a reference while building your own examples."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-22-week-3-day-3-and-4",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Sine and Cosine Rules for Oblique Triangles",
+    "date": "2026-11-04",
+    "summary": "Solve triangles without a right angle by deciding whether the sine rule or cosine rule fits the known information.",
+    "focus": [
+      "Recognize SSS, SAS, ASA, and SSA information patterns.",
+      "Pair each angle with its opposite side in the sine rule.",
+      "Use the cosine rule correctly when two sides and an included angle are known."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-23-week-3-day-3",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Sine Rule and Area of Oblique Triangles",
+    "date": "2026-11-04",
+    "summary": "Use the sine rule and included-angle area formula to solve non-right triangle problems.",
+    "focus": [
+      "Keep opposite side-angle pairs aligned.",
+      "Check the possible ambiguous case when using the sine rule.",
+      "Use one-half ab sine C for the area of an oblique triangle."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-24-week-4-day-2",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Solving Right and Oblique Triangle Problems",
+    "date": "2026-11-04",
+    "summary": "Choose a reliable strategy for triangle problems and verify that the completed triangle is reasonable.",
+    "focus": [
+      "Decide first whether the triangle is right or oblique.",
+      "Choose a trigonometric ratio, sine rule, or cosine rule deliberately.",
+      "Check that side and angle sizes agree with the diagram."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-25-week-4-day-2",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Practice: Right and Oblique Triangle Problems",
+    "date": "2026-11-04",
+    "summary": "A companion practice set for applying the appropriate triangle-solving method without skipping the diagram and checking stages.",
+    "focus": [
+      "Organize given information before calculating.",
+      "Show the formula substitution instead of only the calculator result.",
+      "Compare your answer with the visual size of the triangle."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-26-week-4-day-4",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Angles of Elevation and Depression",
+    "date": "2026-11-04",
+    "summary": "Model line-of-sight situations with right triangles, horizontal reference lines, and trigonometric ratios.",
+    "focus": [
+      "Draw the horizontal line before marking elevation or depression angles.",
+      "Use the complementary angle only when the diagram requires it.",
+      "State the final height or distance with units."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-27-week-5-day-1-ver-1",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Bearings and Navigation: Concepts and Conversions",
+    "date": "2026-11-04",
+    "summary": "Learn the notation and diagram conventions needed before solving bearing and navigation questions.",
+    "focus": [
+      "Measure bearings clockwise from north.",
+      "Write bearings as three-digit angles where required.",
+      "Translate a direction phrase into a labelled sketch."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-28-week-5-day-1",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Bearings and Navigation: Guided Practice",
+    "date": "2026-11-04",
+    "summary": "Use navigation diagrams and bearings in structured practice problems.",
+    "focus": [
+      "Mark north at every location when a route changes direction.",
+      "Separate interior triangle angles from compass bearings.",
+      "Use the correct triangle rule after the route diagram is complete."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-29-week-5-day-2",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Bearings and Navigation: Day 2 Practice",
+    "date": "2026-11-04",
+    "summary": "Continue applying bearing notation and triangle methods to multi-step travel and location problems.",
+    "focus": [
+      "Keep a consistent scale or clear labels in route sketches.",
+      "Track each leg of a journey separately.",
+      "Give both distance and direction when the question asks for a location."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "genmath-30-week-5-day-4",
+    "subject": "GenMath",
+    "subjectLabel": "General Mathematics",
+    "title": "Perimeter: Everyday Measurement Problems",
+    "date": "2026-11-04",
+    "summary": "Use perimeter formulas and careful unit conversion to solve practical measurement questions.",
+    "focus": [
+      "Identify which boundary lengths belong in the perimeter.",
+      "Convert units before adding measurements.",
+      "Explain what the total perimeter means in the situation."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "gensci-31-lesson-1",
+    "subject": "GenSci",
+    "subjectLabel": "General Science",
+    "title": "Household Chemicals: Uses, Risks, and Safe Handling",
+    "date": "2026-11-04",
+    "summary": "Identify familiar chemical substances, connect their formulas to everyday uses, and consider their health and safety risks.",
+    "focus": [
+      "Match a household substance with its common use.",
+      "Read formulas and names accurately.",
+      "Describe safe handling or storage choices based on the substance’s risk."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "gensci-32-lesson-2",
+    "subject": "GenSci",
+    "subjectLabel": "General Science",
+    "title": "Mixtures and Methods of Separation",
+    "date": "2026-11-04",
+    "summary": "Separate mixtures by using differences in particle size, solubility, density, boiling point, or magnetism.",
+    "focus": [
+      "Choose a separation method from the properties of the components.",
+      "Plan the order of steps for a salt, sand, and water mixture.",
+      "Explain what remains and what passes through at each step."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "gensci-33-lesson-3",
+    "subject": "GenSci",
+    "subjectLabel": "General Science",
+    "title": "Osmosis, Tonicity, and Cell Water Balance",
+    "date": "2026-11-04",
+    "summary": "Explain water movement across cell membranes and predict what happens to cells in hypotonic, isotonic, and hypertonic solutions.",
+    "focus": [
+      "State the direction water moves during osmosis.",
+      "Compare hypertonic, hypotonic, and isotonic environments.",
+      "Relate water movement to cell swelling, shrinking, or balance."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "gensci-34-lesson-4",
+    "subject": "GenSci",
+    "subjectLabel": "General Science",
+    "title": "Body Systems and Interdependence",
+    "date": "2026-11-04",
+    "summary": "Explore how body systems work together and how an injury or change in one system can affect the rest of the body.",
+    "focus": [
+      "Identify the systems involved in the situations from the notes.",
+      "Explain one chain of effects from injury to body function.",
+      "Connect prevention and healthy choices to system performance."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "gensci-35-lesson-5",
+    "subject": "GenSci",
+    "subjectLabel": "General Science",
+    "title": "Respiratory Gas Exchange and Diffusion",
+    "date": "2026-11-04",
+    "summary": "Study how oxygen and carbon dioxide move between alveoli and blood through diffusion.",
+    "focus": [
+      "Locate the alveoli and nearby capillaries in a diagram.",
+      "Explain diffusion using concentration differences.",
+      "Relate thin surfaces, moisture, and surface area to efficient gas exchange."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "gensci-36-lesson-6",
+    "subject": "GenSci",
+    "subjectLabel": "General Science",
+    "title": "Nervous System: Organization and Control",
+    "date": "2026-11-04",
+    "summary": "Organize the nervous system into central and peripheral divisions and trace sensory and motor pathways.",
+    "focus": [
+      "Differentiate the CNS from the PNS.",
+      "Compare sensory and motor divisions.",
+      "Separate somatic and autonomic responses using examples."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "gensci-37-lesson-7",
+    "subject": "GenSci",
+    "subjectLabel": "General Science",
+    "title": "The Brain and Its Major Regions",
+    "date": "2026-11-04",
+    "summary": "Identify major brain structures and connect each region to the functions it helps control.",
+    "focus": [
+      "Locate the cerebrum, cerebellum, and brain stem.",
+      "Match a major region with its core function.",
+      "Use a scenario to infer which brain area may be involved."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-38-topic-1",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Career Planning: Factors and Personal Fit",
+    "date": "2026-11-04",
+    "summary": "Plan career options by considering interests, values, skills, education, work culture, labour demand, and financial goals.",
+    "focus": [
+      "Separate personal interests and values from outside job-market factors.",
+      "Identify evidence that a career path fits your strengths.",
+      "Compare career choices without treating salary as the only factor."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-39-topic-2",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Career Mapping: Skills, Interests, and Pathways",
+    "date": "2026-11-04",
+    "summary": "Map personal strengths and interests to possible careers, then identify the training and qualifications each path needs.",
+    "focus": [
+      "List skills, interests, and talents with specific examples.",
+      "Connect a possible career to its required education or training.",
+      "Use a career map to identify a next realistic step."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-40-topic-3",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Culture, Values, and Career Choices",
+    "date": "2026-11-04",
+    "summary": "Examine how culture, family, community expectations, social prestige, and diversity can shape career decisions.",
+    "focus": [
+      "Recognize cultural and social influences without stereotyping people.",
+      "Compare individual priorities with collective or family expectations.",
+      "Explain how gender and diversity considerations can affect opportunity."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-41-topic-4",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Researching Careers and Opportunities",
+    "date": "2026-11-04",
+    "summary": "Use reliable channels such as online platforms, career fairs, and professional networks to research work opportunities.",
+    "focus": [
+      "Compare the strengths of different career-information sources.",
+      "Check a source for credibility and current information.",
+      "Record skills, qualifications, and opportunities that repeat across sources."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-42-topic-5",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Compensation, Benefits, and Rewards",
+    "date": "2026-11-04",
+    "summary": "Understand how base pay, benefits, incentives, and recognition form an employee’s total compensation.",
+    "focus": [
+      "Distinguish wages or salary from non-cash benefits.",
+      "Explain how merit pay and incentives work.",
+      "Compare offers by looking at the full compensation package."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-43-topic-6",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Employee Rights and Workplace Protections",
+    "date": "2026-11-04",
+    "summary": "Learn why clear rights, protections, and fair workplace practices matter for employees and organizations.",
+    "focus": [
+      "Identify the purpose of employee rights in a workplace.",
+      "Recognize the difference between a policy and a basic protection.",
+      "Use respectful steps for raising a workplace concern."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-44-topic-7",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Leave, Breaks, and Worker Well-Being",
+    "date": "2026-11-04",
+    "summary": "Evaluate how leave and break policies support health, fairness, productivity, and sustainable work.",
+    "focus": [
+      "Explain why breaks and leave matter beyond convenience.",
+      "Compare policy choices from both employee and employer perspectives.",
+      "Relate reasonable work patterns to well-being and performance."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-45-topic-8",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Workplace Rules, Ethics, and Company Guidelines",
+    "date": "2026-11-04",
+    "summary": "Use workplace rules and ethical thinking to create a safe, fair, and accountable organization.",
+    "focus": [
+      "Distinguish legal compliance from ethical responsibility.",
+      "Explain why safety and fairness need clear guidelines.",
+      "Apply a guideline to a realistic workplace situation."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-46-topic-9",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Creating Company Guidelines",
+    "date": "2026-11-04",
+    "summary": "Design practical company guidelines that are aligned, feasible, original, and ready to communicate to a team.",
+    "focus": [
+      "Write a guideline with a clear purpose and audience.",
+      "Check whether the rule can realistically be followed.",
+      "Use the rubric to improve clarity, relevance, and completeness."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-47-topic-10",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Workplace Safety Training and Hazard Communication",
+    "date": "2026-11-04",
+    "summary": "Learn the parts of effective safety training, including orientations, refreshers, hazards, and communication systems.",
+    "focus": [
+      "Recognize common hazard symbols and what they communicate.",
+      "Explain why training must continue after an initial orientation.",
+      "Describe how workers should receive and act on safety information."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-48-topic-11",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Employment Compliance and Workforce Rules",
+    "date": "2026-11-04",
+    "summary": "Review workplace compliance issues involving job classifications, probation, evaluation, and responsible management.",
+    "focus": [
+      "Recognize why employment rules apply regardless of job title.",
+      "Explain the purpose of a fair probation or evaluation process.",
+      "Identify risks when workers are misclassified or managed inconsistently."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-49-topic-12",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Work-Life Balance and Healthy Workplaces",
+    "date": "2026-11-04",
+    "summary": "Study work-life balance as a workplace practice that supports health, focus, and long-term performance.",
+    "focus": [
+      "Identify signs that work demands are becoming unsustainable.",
+      "Suggest practical habits or policies that support balance.",
+      "Explain why healthy workplaces benefit both workers and organizations."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-50-topic-13",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Workplace Improvement and Employee Engagement",
+    "date": "2026-11-04",
+    "summary": "Improve workplace culture through open communication, trust, inclusion, recognition, and useful feedback.",
+    "focus": [
+      "Describe how feedback can improve a team when it is specific and respectful.",
+      "Connect inclusion and trust to employee engagement.",
+      "Choose an improvement strategy that fits the problem described."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-51-topic-14",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Professionalism and Workplace Etiquette",
+    "date": "2026-11-04",
+    "summary": "Practice the respectful, responsible, and clear behavior expected in professional settings.",
+    "focus": [
+      "Use respectful communication in both formal and everyday work situations.",
+      "Recognize accountability and reliability as professional habits.",
+      "Explain how etiquette affects teamwork and trust."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "lcs-52-topic-15",
+    "subject": "LCS",
+    "subjectLabel": "Life and Career Skills",
+    "title": "Professional Respect and Digital Netiquette",
+    "date": "2026-11-04",
+    "summary": "Apply professional respect to online messages, digital spaces, and workplace communication.",
+    "focus": [
+      "Write messages with an appropriate tone and purpose.",
+      "Recognize how online choices can affect professional relationships.",
+      "Use netiquette to prevent misunderstandings and maintain respect."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "mabkom-53-10-dalton-at-mendel",
+    "subject": "MabKom",
+    "subjectLabel": "Mabisang Komunikasyon",
+    "title": "Multimodal Academic and Technical Communication",
+    "date": "2026-11-04",
+    "summary": "Use language, visuals, tone, and structure appropriately when communicating academic and technical ideas to an audience.",
+    "focus": [
+      "Adjust tone and language to the audience and purpose.",
+      "Explain how visuals and words work together in a multimodal text.",
+      "Use context clues and strategies for unfamiliar vocabulary."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "mabkom-54-11-pagtugon-sa-pangangailangan-ng-kurso",
+    "subject": "MabKom",
+    "subjectLabel": "Mabisang Komunikasyon",
+    "title": "Project Proposal: Pagtugon sa Pangangailangan ng Kurso",
+    "date": "2026-11-04",
+    "summary": "Plan and communicate a project proposal that responds to a course need with clear goals, details, and documentation.",
+    "focus": [
+      "Identify the need the proposal should answer.",
+      "Organize a proposal into a logical and persuasive sequence.",
+      "Use meeting notes, plans, and supporting details responsibly."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "mabkom-55-mabisang-komunikasyon-budget-of-work-2nd-term",
+    "subject": "MabKom",
+    "subjectLabel": "Mabisang Komunikasyon",
+    "title": "Mabisang Komunikasyon: Second-Term Course Guide",
+    "date": "2026-11-04",
+    "summary": "Use the second-term plan as a map of the course topics, tasks, and communication skills to develop.",
+    "focus": [
+      "Track the order of lessons and major requirements.",
+      "Connect planned activities to the communication skill they build.",
+      "Turn the course guide into a personal study schedule."
+    ],
+    "files": [],
+    "outline": []
+  },
+  {
+    "id": "pklp-56-term-2-note-collection",
+    "subject": "PKLP",
+    "subjectLabel": "Pag-aaral ng Kasaysayan at Lipunang Pilipino",
+    "title": "PKLP: Term 2 Note Collection",
+    "date": "2026-11-04",
+    "summary": "A source collection for the Term 2 Pag-aaral ng Kasaysayan at Lipunang Pilipino lessons. Read the pages in sequence and build a timeline as you review.",
+    "focus": [
+      "Identify the people, places, dates, and terms that recur across the notes.",
+      "Connect events to their causes, effects, and historical context.",
+      "Use the original pages to verify names, sequences, and source-based claims."
+    ],
+    "files": [],
+    "outline": []
+  }
+]
