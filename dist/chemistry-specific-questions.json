@@ -1,0 +1,1105 @@
+{
+  "title": "[Chemistry] T2 - Summative 2 (Specific)",
+  "questions": [
+    {
+      "id": "specific-001",
+      "prompt": "Which term best matches: electrons fill the lowest-energy orbitals first?",
+      "correct": "Aufbau principle",
+      "wrong": [
+        "Hund’s rule",
+        "paramagnetic substance",
+        "diamagnetic substance"
+      ],
+      "explanation": "Aufbau principle is electrons fill the lowest-energy orbitals first."
+    },
+    {
+      "id": "specific-002",
+      "prompt": "Which term best matches: equal-energy orbitals receive one electron each before pairing?",
+      "correct": "Hund’s rule",
+      "wrong": [
+        "Aufbau principle",
+        "paramagnetic substance",
+        "diamagnetic substance"
+      ],
+      "explanation": "Hund’s rule is equal-energy orbitals receive one electron each before pairing."
+    },
+    {
+      "id": "specific-003",
+      "prompt": "Which term best matches: a substance with at least one unpaired electron?",
+      "correct": "paramagnetic substance",
+      "wrong": [
+        "Aufbau principle",
+        "Hund’s rule",
+        "diamagnetic substance"
+      ],
+      "explanation": "paramagnetic substance is a substance with at least one unpaired electron."
+    },
+    {
+      "id": "specific-004",
+      "prompt": "Which term best matches: a substance whose electrons are all paired?",
+      "correct": "diamagnetic substance",
+      "wrong": [
+        "Aufbau principle",
+        "Hund’s rule",
+        "paramagnetic substance"
+      ],
+      "explanation": "diamagnetic substance is a substance whose electrons are all paired."
+    },
+    {
+      "id": "specific-005",
+      "prompt": "Which term best matches: the arrangement of electrons around an atom?",
+      "correct": "electron configuration",
+      "wrong": [
+        "Aufbau principle",
+        "Hund’s rule",
+        "paramagnetic substance"
+      ],
+      "explanation": "electron configuration is the arrangement of electrons around an atom."
+    },
+    {
+      "id": "specific-006",
+      "prompt": "Which term best matches: a region of high probability of finding an electron?",
+      "correct": "atomic orbital",
+      "wrong": [
+        "Aufbau principle",
+        "Hund’s rule",
+        "paramagnetic substance"
+      ],
+      "explanation": "atomic orbital is a region of high probability of finding an electron."
+    },
+    {
+      "id": "specific-007",
+      "prompt": "Which term best matches: the number that indicates the main energy level?",
+      "correct": "principal quantum number",
+      "wrong": [
+        "orbital quantum number",
+        "magnetic quantum number",
+        "spin quantum number"
+      ],
+      "explanation": "principal quantum number is the number that indicates the main energy level."
+    },
+    {
+      "id": "specific-008",
+      "prompt": "Which term best matches: the number that indicates an orbital sublevel shape?",
+      "correct": "orbital quantum number",
+      "wrong": [
+        "principal quantum number",
+        "magnetic quantum number",
+        "spin quantum number"
+      ],
+      "explanation": "orbital quantum number is the number that indicates an orbital sublevel shape."
+    },
+    {
+      "id": "specific-009",
+      "prompt": "Which term best matches: the number that indicates orbital orientation in space?",
+      "correct": "magnetic quantum number",
+      "wrong": [
+        "principal quantum number",
+        "orbital quantum number",
+        "spin quantum number"
+      ],
+      "explanation": "magnetic quantum number is the number that indicates orbital orientation in space."
+    },
+    {
+      "id": "specific-010",
+      "prompt": "Which term best matches: the number that indicates electron spin?",
+      "correct": "spin quantum number",
+      "wrong": [
+        "principal quantum number",
+        "orbital quantum number",
+        "magnetic quantum number"
+      ],
+      "explanation": "spin quantum number is the number that indicates electron spin."
+    },
+    {
+      "id": "specific-011",
+      "prompt": "Which term best matches: 2n²?",
+      "correct": "maximum electrons in a level",
+      "wrong": [
+        "principal quantum number",
+        "orbital quantum number",
+        "magnetic quantum number"
+      ],
+      "explanation": "maximum electrons in a level is 2n²."
+    },
+    {
+      "id": "specific-012",
+      "prompt": "Which term best matches: a horizontal row of the periodic table?",
+      "correct": "period",
+      "wrong": [
+        "group or family",
+        "alkali metals",
+        "alkaline earth metals"
+      ],
+      "explanation": "period is a horizontal row of the periodic table."
+    },
+    {
+      "id": "specific-013",
+      "prompt": "Which term best matches: a vertical column of the periodic table?",
+      "correct": "group or family",
+      "wrong": [
+        "period",
+        "alkali metals",
+        "alkaline earth metals"
+      ],
+      "explanation": "group or family is a vertical column of the periodic table."
+    },
+    {
+      "id": "specific-014",
+      "prompt": "Which term best matches: Group 1 metals that tend to lose one electron?",
+      "correct": "alkali metals",
+      "wrong": [
+        "period",
+        "group or family",
+        "alkaline earth metals"
+      ],
+      "explanation": "alkali metals is Group 1 metals that tend to lose one electron."
+    },
+    {
+      "id": "specific-015",
+      "prompt": "Which term best matches: Group 2 reactive metals?",
+      "correct": "alkaline earth metals",
+      "wrong": [
+        "period",
+        "group or family",
+        "alkali metals"
+      ],
+      "explanation": "alkaline earth metals is Group 2 reactive metals."
+    },
+    {
+      "id": "specific-016",
+      "prompt": "Which naming concept matches: a charged group of covalently bonded atoms that acts as a single ion?",
+      "correct": "Polyatomic ion",
+      "wrong": [
+        "Monatomic ion",
+        "Molecular compound",
+        "Isotope"
+      ],
+      "explanation": "Polyatomic ion is a charged group of covalently bonded atoms that acts as a single ion."
+    },
+    {
+      "id": "specific-017",
+      "prompt": "Which naming concept matches: the polyatomic ion OH⁻?",
+      "correct": "Hydroxide ion",
+      "wrong": [
+        "Nitrate ion",
+        "Sulfate ion",
+        "Carbonate ion"
+      ],
+      "explanation": "Hydroxide ion is the polyatomic ion OH⁻."
+    },
+    {
+      "id": "specific-018",
+      "prompt": "Which naming concept matches: the polyatomic ion NO₃⁻?",
+      "correct": "Nitrate ion",
+      "wrong": [
+        "Nitrite ion",
+        "Sulfate ion",
+        "Hydroxide ion"
+      ],
+      "explanation": "Nitrate ion is the polyatomic ion NO₃⁻."
+    },
+    {
+      "id": "specific-019",
+      "prompt": "Which naming concept matches: the polyatomic ion SO₄²⁻?",
+      "correct": "Sulfate ion",
+      "wrong": [
+        "Sulfite ion",
+        "Carbonate ion",
+        "Nitrate ion"
+      ],
+      "explanation": "Sulfate ion is the polyatomic ion SO₄²⁻."
+    },
+    {
+      "id": "specific-020",
+      "prompt": "Which naming concept matches: the polyatomic ion CO₃²⁻?",
+      "correct": "Carbonate ion",
+      "wrong": [
+        "Bicarbonate ion",
+        "Sulfate ion",
+        "Phosphate ion"
+      ],
+      "explanation": "Carbonate ion is the polyatomic ion CO₃²⁻."
+    },
+    {
+      "id": "specific-021",
+      "prompt": "Which naming concept matches: a compound containing water in its structure?",
+      "correct": "Hydrate",
+      "wrong": [
+        "Anhydrous compound",
+        "Binary acid",
+        "Oxyacid"
+      ],
+      "explanation": "Hydrate is a compound containing water in its structure."
+    },
+    {
+      "id": "specific-022",
+      "prompt": "Which naming concept matches: prefixes such as mono-, di-, tri-, and tetra- used to show atom counts?",
+      "correct": "Binary molecular prefixes",
+      "wrong": [
+        "Roman numerals",
+        "Ionic charges",
+        "Oxidation numbers"
+      ],
+      "explanation": "Binary molecular prefixes is prefixes such as mono-, di-, tri-, and tetra- used to show atom counts."
+    },
+    {
+      "id": "specific-023",
+      "prompt": "Which naming concept matches: a naming convention that states the charge of a variable-charge metal?",
+      "correct": "Roman numeral naming",
+      "wrong": [
+        "Binary acid naming",
+        "Hydrate naming",
+        "Molecular-prefix naming"
+      ],
+      "explanation": "Roman numeral naming is a naming convention that states the charge of a variable-charge metal."
+    },
+    {
+      "id": "specific-024",
+      "prompt": "Which naming concept matches: a method that swaps ionic charge magnitudes into subscripts and reduces the ratio?",
+      "correct": "Crisscross method",
+      "wrong": [
+        "Balancing method",
+        "Lewis-dot method",
+        "Filtration method"
+      ],
+      "explanation": "Crisscross method is a method that swaps ionic charge magnitudes into subscripts and reduces the ratio."
+    },
+    {
+      "id": "specific-025",
+      "prompt": "Which naming concept matches: the rule that changes -ate to -ic acid and -ite to -ous acid?",
+      "correct": "Oxyacid ending rule",
+      "wrong": [
+        "Binary-acid rule",
+        "Hydrate rule",
+        "Roman-numeral rule"
+      ],
+      "explanation": "Oxyacid ending rule is the rule that changes -ate to -ic acid and -ite to -ous acid."
+    },
+    {
+      "id": "specific-026",
+      "prompt": "Which term matches: the polyatomic cation NH₄⁺?",
+      "correct": "Ammonium ion",
+      "wrong": [
+        "Hydronium ion",
+        "Hydroxide ion",
+        "Nitrate ion"
+      ],
+      "explanation": "Ammonium ion is the polyatomic cation NH₄⁺."
+    },
+    {
+      "id": "specific-027",
+      "prompt": "Which term matches: the polyatomic ion PO₄³⁻?",
+      "correct": "Phosphate ion",
+      "wrong": [
+        "Sulfate ion",
+        "Carbonate ion",
+        "Nitrate ion"
+      ],
+      "explanation": "Phosphate ion is the polyatomic ion PO₄³⁻."
+    },
+    {
+      "id": "specific-028",
+      "prompt": "Which term matches: the polyatomic ion C₂H₃O₂⁻?",
+      "correct": "Acetate ion",
+      "wrong": [
+        "Nitrate ion",
+        "Chlorate ion",
+        "Sulfite ion"
+      ],
+      "explanation": "Acetate ion is the polyatomic ion C₂H₃O₂⁻."
+    },
+    {
+      "id": "specific-029",
+      "prompt": "Which term matches: the polyatomic ion ClO₃⁻?",
+      "correct": "Chlorate ion",
+      "wrong": [
+        "Chlorite ion",
+        "Chloride ion",
+        "Perchlorate ion"
+      ],
+      "explanation": "Chlorate ion is the polyatomic ion ClO₃⁻."
+    },
+    {
+      "id": "specific-030",
+      "prompt": "Which term matches: the polyatomic ion ClO₂⁻?",
+      "correct": "Chlorite ion",
+      "wrong": [
+        "Chlorate ion",
+        "Hypochlorite ion",
+        "Chloride ion"
+      ],
+      "explanation": "Chlorite ion is the polyatomic ion ClO₂⁻."
+    },
+    {
+      "id": "specific-031",
+      "prompt": "Which term matches: the polyatomic ion NO₂⁻?",
+      "correct": "Nitrite ion",
+      "wrong": [
+        "Nitrate ion",
+        "Nitride ion",
+        "Ammonium ion"
+      ],
+      "explanation": "Nitrite ion is the polyatomic ion NO₂⁻."
+    },
+    {
+      "id": "specific-032",
+      "prompt": "Which term matches: the polyatomic ion SO₃²⁻?",
+      "correct": "Sulfite ion",
+      "wrong": [
+        "Sulfate ion",
+        "Sulfide ion",
+        "Carbonate ion"
+      ],
+      "explanation": "Sulfite ion is the polyatomic ion SO₃²⁻."
+    },
+    {
+      "id": "specific-033",
+      "prompt": "Which term matches: the polyatomic ion MnO₄⁻?",
+      "correct": "Permanganate ion",
+      "wrong": [
+        "Manganate ion",
+        "Phosphate ion",
+        "Chromate ion"
+      ],
+      "explanation": "Permanganate ion is the polyatomic ion MnO₄⁻."
+    },
+    {
+      "id": "specific-034",
+      "prompt": "Which term matches: the polyatomic ion CN⁻?",
+      "correct": "Cyanide ion",
+      "wrong": [
+        "Cyanate ion",
+        "Carbonate ion",
+        "Chloride ion"
+      ],
+      "explanation": "Cyanide ion is the polyatomic ion CN⁻."
+    },
+    {
+      "id": "specific-035",
+      "prompt": "Which term matches: the polyatomic ion HCO₃⁻?",
+      "correct": "Bicarbonate ion",
+      "wrong": [
+        "Carbonate ion",
+        "Hydroxide ion",
+        "Acetate ion"
+      ],
+      "explanation": "Bicarbonate ion is the polyatomic ion HCO₃⁻."
+    },
+    {
+      "id": "specific-036",
+      "prompt": "Which term matches: the cation name followed by the anion name?",
+      "correct": "ionic-compound naming",
+      "wrong": [
+        "molecular-prefix naming",
+        "acid naming",
+        "hydrate naming"
+      ],
+      "explanation": "ionic-compound naming is the cation name followed by the anion name."
+    },
+    {
+      "id": "specific-037",
+      "prompt": "Which term matches: a system using prefixes to state the number of nonmetal atoms?",
+      "correct": "molecular-compound naming",
+      "wrong": [
+        "ionic-compound naming",
+        "Roman numeral naming",
+        "crisscross method"
+      ],
+      "explanation": "molecular-compound naming is a system using prefixes to state the number of nonmetal atoms."
+    },
+    {
+      "id": "specific-038",
+      "prompt": "Which term matches: the prefix used for naming binary acids in aqueous solution?",
+      "correct": "hydro- prefix",
+      "wrong": [
+        "mono- prefix",
+        "di- prefix",
+        "per- prefix"
+      ],
+      "explanation": "hydro- prefix is the prefix used for naming binary acids in aqueous solution."
+    },
+    {
+      "id": "specific-039",
+      "prompt": "Which term matches: the ending generally used for a monatomic anion in a binary ionic compound?",
+      "correct": "-ide ending",
+      "wrong": [
+        "-ate ending",
+        "-ite ending",
+        "-ic acid ending"
+      ],
+      "explanation": "-ide ending is the ending generally used for a monatomic anion in a binary ionic compound."
+    },
+    {
+      "id": "specific-040",
+      "prompt": "Which term matches: the oxyacid naming change used for an -ate ion?",
+      "correct": "-ate to -ic acid",
+      "wrong": [
+        "-ite to -ous acid",
+        "-ide to -ic acid",
+        "-ate to -ous acid"
+      ],
+      "explanation": "-ate to -ic acid is the oxyacid naming change used for an -ate ion."
+    },
+    {
+      "id": "specific-041",
+      "prompt": "Which term matches: the oxyacid naming change used for an -ite ion?",
+      "correct": "-ite to -ous acid",
+      "wrong": [
+        "-ate to -ic acid",
+        "-ide to -ous acid",
+        "-ite to -ic acid"
+      ],
+      "explanation": "-ite to -ous acid is the oxyacid naming change used for an -ite ion."
+    },
+    {
+      "id": "specific-042",
+      "prompt": "Which term matches: prefixes that name the number of waters in a hydrate?",
+      "correct": "hydrate prefixes",
+      "wrong": [
+        "molecular prefixes",
+        "Roman numerals",
+        "oxidation numbers"
+      ],
+      "explanation": "hydrate prefixes is prefixes that name the number of waters in a hydrate."
+    },
+    {
+      "id": "specific-043",
+      "prompt": "Which term matches: an iron ion with a 2+ charge?",
+      "correct": "iron(II)",
+      "wrong": [
+        "iron(III)",
+        "iron(I)",
+        "iron(IV)"
+      ],
+      "explanation": "iron(II) is an iron ion with a 2+ charge."
+    },
+    {
+      "id": "specific-044",
+      "prompt": "Which term matches: an iron ion with a 3+ charge?",
+      "correct": "iron(III)",
+      "wrong": [
+        "iron(II)",
+        "iron(I)",
+        "iron(IV)"
+      ],
+      "explanation": "iron(III) is an iron ion with a 3+ charge."
+    },
+    {
+      "id": "specific-045",
+      "prompt": "Which term matches: the ionic compound Na₂CO₃?",
+      "correct": "sodium carbonate",
+      "wrong": [
+        "sodium bicarbonate",
+        "sodium sulfate",
+        "sodium nitrate"
+      ],
+      "explanation": "sodium carbonate is the ionic compound Na₂CO₃."
+    },
+    {
+      "id": "specific-046",
+      "prompt": "Which option is the name and formula pairing for Ca₃(PO₄)₂?",
+      "correct": "calcium phosphate (Ca₃(PO₄)₂)",
+      "wrong": [
+        "calcium phosphite (Ca₃(PO₃)₂)",
+        "calcium sulfate (CaSO₄)",
+        "calcium phosphate (Ca₃(PO₃)₂)"
+      ],
+      "explanation": "The correct pairing is calcium phosphate (Ca₃(PO₄)₂)."
+    },
+    {
+      "id": "specific-047",
+      "prompt": "Which option is the name and formula pairing for (NH₄)₂SO₄?",
+      "correct": "ammonium sulfate ((NH₄)₂SO₄)",
+      "wrong": [
+        "ammonium sulfite ((NH₄)₂SO₃)",
+        "ammonium nitrate (NH₄NO₃)",
+        "ammonium sulfate (NH₄)SO₄"
+      ],
+      "explanation": "The correct pairing is ammonium sulfate ((NH₄)₂SO₄)."
+    },
+    {
+      "id": "specific-048",
+      "prompt": "Which option is the name and formula pairing for Cu(NO₃)₂?",
+      "correct": "copper(II) nitrate (Cu(NO₃)₂)",
+      "wrong": [
+        "copper(I) nitrate (CuNO₃)",
+        "copper(II) nitrite (Cu(NO₂)₂)",
+        "copper(III) nitrate (Cu(NO₃)₃)"
+      ],
+      "explanation": "The correct pairing is copper(II) nitrate (Cu(NO₃)₂)."
+    },
+    {
+      "id": "specific-049",
+      "prompt": "Which option is the molecular name and formula pairing for N₂O₄?",
+      "correct": "dinitrogen tetroxide (N₂O₄)",
+      "wrong": [
+        "dinitrogen trioxide (N₂O₃)",
+        "dinitrogen pentoxide (N₂O₅)",
+        "nitrogen tetroxide (NO₄)"
+      ],
+      "explanation": "The correct pairing is dinitrogen tetroxide (N₂O₄)."
+    },
+    {
+      "id": "specific-050",
+      "prompt": "Which option is the hydrate name and formula pairing for CuSO₄·5H₂O?",
+      "correct": "copper(II) sulfate pentahydrate (CuSO₄·5H₂O)",
+      "wrong": [
+        "copper(II) sulfate trihydrate (CuSO₄·3H₂O)",
+        "copper(II) sulfite pentahydrate (CuSO₃·5H₂O)",
+        "copper(III) sulfate pentahydrate (Cu₂(SO₄)₃·5H₂O)"
+      ],
+      "explanation": "The correct pairing is copper(II) sulfate pentahydrate (CuSO₄·5H₂O)."
+    },
+    {
+      "id": "specific-051",
+      "prompt": "Which answer best matches the monatomic anion formed by chlorine?",
+      "correct": "chloride ion (Cl⁻)",
+      "wrong": [
+        "chlorate ion",
+        "chlorite ion",
+        "hypochlorite ion"
+      ],
+      "explanation": "chloride ion (Cl⁻) is the monatomic anion formed by chlorine."
+    },
+    {
+      "id": "specific-052",
+      "prompt": "Which answer best matches the monatomic anion formed by bromine?",
+      "correct": "bromide ion (Br⁻)",
+      "wrong": [
+        "bromate ion",
+        "bromite ion",
+        "bromine"
+      ],
+      "explanation": "bromide ion (Br⁻) is the monatomic anion formed by bromine."
+    },
+    {
+      "id": "specific-053",
+      "prompt": "Which answer best matches the monatomic anion formed by oxygen?",
+      "correct": "oxide ion (O²⁻)",
+      "wrong": [
+        "peroxide ion",
+        "hydroxide ion",
+        "ozone"
+      ],
+      "explanation": "oxide ion (O²⁻) is the monatomic anion formed by oxygen."
+    },
+    {
+      "id": "specific-054",
+      "prompt": "Which answer best matches the monatomic anion formed by sulfur?",
+      "correct": "sulfide ion (S²⁻)",
+      "wrong": [
+        "sulfate ion",
+        "sulfite ion",
+        "sulfur dioxide"
+      ],
+      "explanation": "sulfide ion (S²⁻) is the monatomic anion formed by sulfur."
+    },
+    {
+      "id": "specific-055",
+      "prompt": "Which answer best matches the monatomic anion formed by nitrogen?",
+      "correct": "nitride ion (N³⁻)",
+      "wrong": [
+        "nitrite ion",
+        "nitrate ion",
+        "ammonium ion"
+      ],
+      "explanation": "nitride ion (N³⁻) is the monatomic anion formed by nitrogen."
+    },
+    {
+      "id": "specific-056",
+      "prompt": "Which answer best matches the monatomic anion formed by fluorine?",
+      "correct": "fluoride ion (F⁻)",
+      "wrong": [
+        "fluorate ion",
+        "fluorite ion",
+        "fluorine gas"
+      ],
+      "explanation": "fluoride ion (F⁻) is the monatomic anion formed by fluorine."
+    },
+    {
+      "id": "specific-057",
+      "prompt": "Which answer best matches the chlorine oxyanion with four oxygens?",
+      "correct": "perchlorate ion (ClO₄⁻)",
+      "wrong": [
+        "chlorate ion",
+        "chlorite ion",
+        "hypochlorite ion"
+      ],
+      "explanation": "perchlorate ion (ClO₄⁻) is the chlorine oxyanion with four oxygens."
+    },
+    {
+      "id": "specific-058",
+      "prompt": "Which answer best matches the chlorine oxyanion with one oxygen?",
+      "correct": "hypochlorite ion (ClO⁻)",
+      "wrong": [
+        "chlorite ion",
+        "chlorate ion",
+        "perchlorate ion"
+      ],
+      "explanation": "hypochlorite ion (ClO⁻) is the chlorine oxyanion with one oxygen."
+    },
+    {
+      "id": "specific-059",
+      "prompt": "Which answer best matches the chromium oxyanion with four oxygens?",
+      "correct": "chromate ion (CrO₄²⁻)",
+      "wrong": [
+        "dichromate ion",
+        "permanganate ion",
+        "carbonate ion"
+      ],
+      "explanation": "chromate ion (CrO₄²⁻) is the chromium oxyanion with four oxygens."
+    },
+    {
+      "id": "specific-060",
+      "prompt": "Which answer best matches the chromium oxyanion with two chromium atoms?",
+      "correct": "dichromate ion (Cr₂O₇²⁻)",
+      "wrong": [
+        "chromate ion",
+        "permanganate ion",
+        "phosphate ion"
+      ],
+      "explanation": "dichromate ion (Cr₂O₇²⁻) is the chromium oxyanion with two chromium atoms."
+    },
+    {
+      "id": "specific-061",
+      "prompt": "Which answer best matches the ionic compound formed from Na⁺ and Cl⁻?",
+      "correct": "sodium chloride (NaCl)",
+      "wrong": [
+        "sodium chlorate",
+        "sodium chlorite",
+        "sodium hypochlorite"
+      ],
+      "explanation": "sodium chloride (NaCl) is the ionic compound formed from Na⁺ and Cl⁻."
+    },
+    {
+      "id": "specific-062",
+      "prompt": "Which answer best matches the ionic compound formed from Mg²⁺ and O²⁻?",
+      "correct": "magnesium oxide (MgO)",
+      "wrong": [
+        "magnesium peroxide",
+        "magnesium hydroxide",
+        "magnesium sulfate"
+      ],
+      "explanation": "magnesium oxide (MgO) is the ionic compound formed from Mg²⁺ and O²⁻."
+    },
+    {
+      "id": "specific-063",
+      "prompt": "Which answer best matches the ionic compound formed from Al³⁺ and O²⁻?",
+      "correct": "aluminum oxide (Al₂O₃)",
+      "wrong": [
+        "aluminum hydroxide",
+        "aluminum sulfate",
+        "aluminum nitrate"
+      ],
+      "explanation": "aluminum oxide (Al₂O₃) is the ionic compound formed from Al³⁺ and O²⁻."
+    },
+    {
+      "id": "specific-064",
+      "prompt": "Which answer best matches the ionic compound formed from K⁺ and N³⁻?",
+      "correct": "potassium nitride (K₃N)",
+      "wrong": [
+        "potassium nitrite",
+        "potassium nitrate",
+        "potassium cyanide"
+      ],
+      "explanation": "potassium nitride (K₃N) is the ionic compound formed from K⁺ and N³⁻."
+    },
+    {
+      "id": "specific-065",
+      "prompt": "Which answer best matches the ionic compound formed from Ca²⁺ and Cl⁻?",
+      "correct": "calcium chloride (CaCl₂)",
+      "wrong": [
+        "calcium chlorate",
+        "calcium chlorite",
+        "calcium hypochlorite"
+      ],
+      "explanation": "calcium chloride (CaCl₂) is the ionic compound formed from Ca²⁺ and Cl⁻."
+    },
+    {
+      "id": "specific-066",
+      "prompt": "Which answer best matches the ionic compound containing sulfate and sodium?",
+      "correct": "sodium sulfate (Na₂SO₄)",
+      "wrong": [
+        "sodium sulfite",
+        "sodium sulfide",
+        "sodium bisulfate"
+      ],
+      "explanation": "sodium sulfate (Na₂SO₄) is the ionic compound containing sulfate and sodium."
+    },
+    {
+      "id": "specific-067",
+      "prompt": "Which answer best matches the ionic compound containing nitrate and potassium?",
+      "correct": "potassium nitrate (KNO₃)",
+      "wrong": [
+        "potassium nitrite",
+        "potassium nitride",
+        "potassium ammonium nitrate"
+      ],
+      "explanation": "potassium nitrate (KNO₃) is the ionic compound containing nitrate and potassium."
+    },
+    {
+      "id": "specific-068",
+      "prompt": "Which answer best matches the base containing Mg²⁺ and hydroxide?",
+      "correct": "magnesium hydroxide (Mg(OH)₂)",
+      "wrong": [
+        "magnesium oxide",
+        "magnesium hydride",
+        "magnesium sulfate"
+      ],
+      "explanation": "magnesium hydroxide (Mg(OH)₂) is the base containing Mg²⁺ and hydroxide."
+    },
+    {
+      "id": "specific-069",
+      "prompt": "Which answer best matches the base containing Al³⁺ and hydroxide?",
+      "correct": "aluminum hydroxide (Al(OH)₃)",
+      "wrong": [
+        "aluminum oxide",
+        "aluminum hydride",
+        "aluminum sulfate"
+      ],
+      "explanation": "aluminum hydroxide (Al(OH)₃) is the base containing Al³⁺ and hydroxide."
+    },
+    {
+      "id": "specific-070",
+      "prompt": "Which answer best matches the chloride compound containing Fe²⁺?",
+      "correct": "iron(II) chloride (FeCl₂)",
+      "wrong": [
+        "iron(III) chloride",
+        "iron(I) chloride",
+        "iron(II) chlorate"
+      ],
+      "explanation": "iron(II) chloride (FeCl₂) is the chloride compound containing Fe²⁺."
+    },
+    {
+      "id": "specific-071",
+      "prompt": "Which answer best matches the chloride compound containing Fe³⁺?",
+      "correct": "iron(III) chloride (FeCl₃)",
+      "wrong": [
+        "iron(II) chloride",
+        "iron(III) chlorite",
+        "iron(III) chlorate"
+      ],
+      "explanation": "iron(III) chloride (FeCl₃) is the chloride compound containing Fe³⁺."
+    },
+    {
+      "id": "specific-072",
+      "prompt": "Which answer best matches the sulfate compound containing Cu²⁺?",
+      "correct": "copper(II) sulfate (CuSO₄)",
+      "wrong": [
+        "copper(I) sulfate",
+        "copper(II) sulfite",
+        "copper(II) nitrate"
+      ],
+      "explanation": "copper(II) sulfate (CuSO₄) is the sulfate compound containing Cu²⁺."
+    },
+    {
+      "id": "specific-073",
+      "prompt": "Which answer best matches the ionic compound with ammonium and chloride?",
+      "correct": "ammonium chloride (NH₄Cl)",
+      "wrong": [
+        "ammonium chlorate",
+        "ammonium chlorite",
+        "ammonium nitrate"
+      ],
+      "explanation": "ammonium chloride (NH₄Cl) is the ionic compound with ammonium and chloride."
+    },
+    {
+      "id": "specific-074",
+      "prompt": "Which answer best matches the ionic compound with calcium and carbonate?",
+      "correct": "calcium carbonate (CaCO₃)",
+      "wrong": [
+        "calcium bicarbonate",
+        "calcium sulfate",
+        "calcium nitrate"
+      ],
+      "explanation": "calcium carbonate (CaCO₃) is the ionic compound with calcium and carbonate."
+    },
+    {
+      "id": "specific-075",
+      "prompt": "Which answer best matches the ionic compound with sodium and hydrogen carbonate?",
+      "correct": "sodium bicarbonate (NaHCO₃)",
+      "wrong": [
+        "sodium carbonate",
+        "sodium sulfate",
+        "sodium nitrate"
+      ],
+      "explanation": "sodium bicarbonate (NaHCO₃) is the ionic compound with sodium and hydrogen carbonate."
+    },
+    {
+      "id": "specific-076",
+      "prompt": "Which answer best matches the oxyacid derived from nitrate?",
+      "correct": "nitric acid (HNO₃)",
+      "wrong": [
+        "nitrous acid",
+        "hydrochloric acid",
+        "sulfuric acid"
+      ],
+      "explanation": "nitric acid (HNO₃) is the oxyacid derived from nitrate."
+    },
+    {
+      "id": "specific-077",
+      "prompt": "Which answer best matches the oxyacid derived from nitrite?",
+      "correct": "nitrous acid (HNO₂)",
+      "wrong": [
+        "nitric acid",
+        "hydrofluoric acid",
+        "sulfurous acid"
+      ],
+      "explanation": "nitrous acid (HNO₂) is the oxyacid derived from nitrite."
+    },
+    {
+      "id": "specific-078",
+      "prompt": "Which answer best matches the oxyacid derived from sulfate?",
+      "correct": "sulfuric acid (H₂SO₄)",
+      "wrong": [
+        "sulfurous acid",
+        "hydrosulfuric acid",
+        "nitric acid"
+      ],
+      "explanation": "sulfuric acid (H₂SO₄) is the oxyacid derived from sulfate."
+    },
+    {
+      "id": "specific-079",
+      "prompt": "Which answer best matches the oxyacid derived from sulfite?",
+      "correct": "sulfurous acid (H₂SO₃)",
+      "wrong": [
+        "sulfuric acid",
+        "nitrous acid",
+        "phosphoric acid"
+      ],
+      "explanation": "sulfurous acid (H₂SO₃) is the oxyacid derived from sulfite."
+    },
+    {
+      "id": "specific-080",
+      "prompt": "Which answer best matches the oxyacid derived from phosphate?",
+      "correct": "phosphoric acid (H₃PO₄)",
+      "wrong": [
+        "phosphorous acid",
+        "nitric acid",
+        "sulfuric acid"
+      ],
+      "explanation": "phosphoric acid (H₃PO₄) is the oxyacid derived from phosphate."
+    },
+    {
+      "id": "specific-081",
+      "prompt": "Which answer best matches the binary acid containing hydrogen and chlorine?",
+      "correct": "hydrochloric acid (HCl)",
+      "wrong": [
+        "chloric acid",
+        "chlorous acid",
+        "perchloric acid"
+      ],
+      "explanation": "hydrochloric acid (HCl) is the binary acid containing hydrogen and chlorine."
+    },
+    {
+      "id": "specific-082",
+      "prompt": "Which answer best matches the binary acid containing hydrogen and fluorine?",
+      "correct": "hydrofluoric acid (HF)",
+      "wrong": [
+        "fluoric acid",
+        "hydrochloric acid",
+        "nitric acid"
+      ],
+      "explanation": "hydrofluoric acid (HF) is the binary acid containing hydrogen and fluorine."
+    },
+    {
+      "id": "specific-083",
+      "prompt": "Which answer best matches the molecular compound with one oxygen atom?",
+      "correct": "carbon monoxide (CO)",
+      "wrong": [
+        "carbon dioxide",
+        "carbon trioxide",
+        "dicarbon monoxide"
+      ],
+      "explanation": "carbon monoxide (CO) is the molecular compound with one oxygen atom."
+    },
+    {
+      "id": "specific-084",
+      "prompt": "Which answer best matches the molecular compound with two oxygen atoms?",
+      "correct": "carbon dioxide (CO₂)",
+      "wrong": [
+        "carbon monoxide",
+        "carbon trioxide",
+        "dicarbon dioxide"
+      ],
+      "explanation": "carbon dioxide (CO₂) is the molecular compound with two oxygen atoms."
+    },
+    {
+      "id": "specific-085",
+      "prompt": "Which answer best matches the molecular compound with two oxygen atoms?",
+      "correct": "sulfur dioxide (SO₂)",
+      "wrong": [
+        "sulfur trioxide",
+        "sulfur monoxide",
+        "disulfur dioxide"
+      ],
+      "explanation": "sulfur dioxide (SO₂) is the molecular compound with two oxygen atoms."
+    },
+    {
+      "id": "specific-086",
+      "prompt": "Which answer best matches the molecular compound with three oxygen atoms?",
+      "correct": "sulfur trioxide (SO₃)",
+      "wrong": [
+        "sulfur dioxide",
+        "sulfur monoxide",
+        "disulfur trioxide"
+      ],
+      "explanation": "sulfur trioxide (SO₃) is the molecular compound with three oxygen atoms."
+    },
+    {
+      "id": "specific-087",
+      "prompt": "Which answer best matches the molecular compound with two nitrogen atoms and one oxygen?",
+      "correct": "dinitrogen monoxide (N₂O)",
+      "wrong": [
+        "dinitrogen dioxide",
+        "dinitrogen trioxide",
+        "nitrogen monoxide"
+      ],
+      "explanation": "dinitrogen monoxide (N₂O) is the molecular compound with two nitrogen atoms and one oxygen."
+    },
+    {
+      "id": "specific-088",
+      "prompt": "Which answer best matches the molecular compound with two nitrogen atoms and three oxygens?",
+      "correct": "dinitrogen trioxide (N₂O₃)",
+      "wrong": [
+        "dinitrogen tetroxide",
+        "dinitrogen pentoxide",
+        "nitrogen trioxide"
+      ],
+      "explanation": "dinitrogen trioxide (N₂O₃) is the molecular compound with two nitrogen atoms and three oxygens."
+    },
+    {
+      "id": "specific-089",
+      "prompt": "Which answer best matches the molecular compound with two nitrogen atoms and five oxygens?",
+      "correct": "dinitrogen pentoxide (N₂O₅)",
+      "wrong": [
+        "dinitrogen tetroxide",
+        "dinitrogen trioxide",
+        "nitrogen pentoxide"
+      ],
+      "explanation": "dinitrogen pentoxide (N₂O₅) is the molecular compound with two nitrogen atoms and five oxygens."
+    },
+    {
+      "id": "specific-090",
+      "prompt": "Which answer best matches the molecular compound with three chlorine atoms?",
+      "correct": "phosphorus trichloride (PCl₃)",
+      "wrong": [
+        "phosphorus pentachloride",
+        "phosphorus dichloride",
+        "diphosphorus trichloride"
+      ],
+      "explanation": "phosphorus trichloride (PCl₃) is the molecular compound with three chlorine atoms."
+    },
+    {
+      "id": "specific-091",
+      "prompt": "Which answer best matches the molecular compound with five chlorine atoms?",
+      "correct": "phosphorus pentachloride (PCl₅)",
+      "wrong": [
+        "phosphorus trichloride",
+        "phosphorus tetrachloride",
+        "diphosphorus pentachloride"
+      ],
+      "explanation": "phosphorus pentachloride (PCl₅) is the molecular compound with five chlorine atoms."
+    },
+    {
+      "id": "specific-092",
+      "prompt": "Which answer best matches the molecular compound with six fluorine atoms?",
+      "correct": "sulfur hexafluoride (SF₆)",
+      "wrong": [
+        "sulfur tetrafluoride",
+        "sulfur pentafluoride",
+        "disulfur hexafluoride"
+      ],
+      "explanation": "sulfur hexafluoride (SF₆) is the molecular compound with six fluorine atoms."
+    },
+    {
+      "id": "specific-093",
+      "prompt": "Which answer best matches the nitrate compound with Co²⁺?",
+      "correct": "cobalt(II) nitrate (Co(NO₃)₂)",
+      "wrong": [
+        "cobalt(III) nitrate",
+        "cobalt(II) nitrite",
+        "cobalt(I) nitrate"
+      ],
+      "explanation": "cobalt(II) nitrate (Co(NO₃)₂) is the nitrate compound with Co²⁺."
+    },
+    {
+      "id": "specific-094",
+      "prompt": "Which answer best matches the oxide compound with Pb⁴⁺?",
+      "correct": "lead(IV) oxide (PbO₂)",
+      "wrong": [
+        "lead(II) oxide",
+        "lead(IV) hydroxide",
+        "lead(IV) peroxide"
+      ],
+      "explanation": "lead(IV) oxide (PbO₂) is the oxide compound with Pb⁴⁺."
+    },
+    {
+      "id": "specific-095",
+      "prompt": "Which answer best matches the hydrate containing two waters?",
+      "correct": "barium chloride dihydrate (BaCl₂·2H₂O)",
+      "wrong": [
+        "barium chloride monohydrate",
+        "barium chloride trihydrate",
+        "barium chlorate dihydrate"
+      ],
+      "explanation": "barium chloride dihydrate (BaCl₂·2H₂O) is the hydrate containing two waters."
+    },
+    {
+      "id": "specific-096",
+      "prompt": "Which answer best matches the hydrate containing ten waters?",
+      "correct": "sodium carbonate decahydrate (Na₂CO₃·10H₂O)",
+      "wrong": [
+        "sodium carbonate pentahydrate",
+        "sodium bicarbonate decahydrate",
+        "sodium sulfate decahydrate"
+      ],
+      "explanation": "sodium carbonate decahydrate (Na₂CO₃·10H₂O) is the hydrate containing ten waters."
+    },
+    {
+      "id": "specific-097",
+      "prompt": "Which answer best matches the hydrate with Cu²⁺, chloride, and two waters?",
+      "correct": "copper(II) chloride dihydrate (CuCl₂·2H₂O)",
+      "wrong": [
+        "copper(I) chloride dihydrate",
+        "copper(II) chlorate dihydrate",
+        "copper(II) chloride trihydrate"
+      ],
+      "explanation": "copper(II) chloride dihydrate (CuCl₂·2H₂O) is the hydrate with Cu²⁺, chloride, and two waters."
+    },
+    {
+      "id": "specific-098",
+      "prompt": "Which answer best matches the simplest whole-number ratio of atoms in a compound?",
+      "correct": "empirical formula",
+      "wrong": [
+        "molecular formula",
+        "structural formula",
+        "condensed formula"
+      ],
+      "explanation": "empirical formula is the simplest whole-number ratio of atoms in a compound."
+    },
+    {
+      "id": "specific-099",
+      "prompt": "Which answer best matches the actual number of each kind of atom in a molecule?",
+      "correct": "molecular formula",
+      "wrong": [
+        "empirical formula",
+        "structural formula",
+        "skeletal formula"
+      ],
+      "explanation": "molecular formula is the actual number of each kind of atom in a molecule."
+    },
+    {
+      "id": "specific-100",
+      "prompt": "Which answer best matches a formula that shows how atoms are bonded?",
+      "correct": "structural formula",
+      "wrong": [
+        "empirical formula",
+        "molecular formula",
+        "ionic formula"
+      ],
+      "explanation": "structural formula is a formula that shows how atoms are bonded."
+    }
+  ]
+}

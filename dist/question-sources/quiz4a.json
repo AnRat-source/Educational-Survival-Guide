@@ -1,0 +1,384 @@
+{
+  "questions": [
+    {
+      "id": "4a-01",
+      "en": "What was the basis for the Spaniards to consider Filipinos as the lowest class?",
+      "tl": "Ano ang naging batayan ng mga Kastila upang ituring ang mga Pilipino bilang pinakamababang uri?",
+      "correct": "Race",
+      "correctTl": "Lahi",
+      "wrong": [
+        "Galing sa parola",
+        "Taas et tayo",
+        "Edad o gulang"
+      ],
+      "wrongTl": [
+        "Galing sa pagsasalita",
+        "Taas at tayo",
+        "Edad o gulang"
+      ],
+      "ex": "The division of Spanish society is based on race.",
+      "exTl": "Ang pagkakahati-hati ng lipunan ng Kastila ay batay sa lahi."
+    },
+    {
+      "id": "4a-02",
+      "en": "What did the Spaniards want to promote in their rule?",
+      "tl": "Ano ang nais isulong ng mga Kastila sa kanilang pamamahala?",
+      "correct": "Ensuring and maintaining their power and rule",
+      "correctTl": "Paniniguro at pagpapanatili ng kanilang kapangyarihan at pamamahala",
+      "wrong": [
+        "Filipino self-government",
+        "Pilipino translation",
+        "American translation"
+      ],
+      "wrongTl": [
+        "Pamahalaang pansarili ng Pilipino",
+        "Pagsasalin sa Pilipino",
+        "Pagsasalin sa Amerikano"
+      ],
+      "ex": "This established Spanish power and rule.",
+      "exTl": "Pinatatag nito ang kapangyarihan at pamamahala ng Kastila."
+    },
+    {
+      "id": "4a-03",
+      "en": "How did the Spaniards use the treatment of Filipinos for their own benefit?",
+      "tl": "Paano ginamit ng mga Kastila ang pagtrato sa mga Pilipino para sa sariling kapakanan?",
+      "correct": "They implemented repressive policies such as forced labor, tribute, and taxes",
+      "correctTl": "Pinairal nila ang mapaniil na patakaran tulad ng sapilitang paggawa, tributo, at buwis",
+      "wrong": [
+        "Free expression",
+        "Fair treatment",
+        "Just laws"
+      ],
+      "wrongTl": [
+        "Malayang pagpapahayag",
+        "Patas na pagtrato",
+        "Makatarungang batas"
+      ],
+      "ex": "Forced labor, tribute, and taxes are mentioned in the source.",
+      "exTl": "Binanggit sa source ang sapilitang paggawa, tributo, at buwis."
+    },
+    {
+      "id": "4a-04",
+      "en": "Which forced labor was imposed on Filipino men ages 16 to 60?",
+      "tl": "Aling sapilitang paggawa ang ipinataw sa mga lalaking Pilipino edad 16 hanggang 60?",
+      "correct": "Polo y Servicio",
+      "correctTl": "Polo y Servicio",
+      "wrong": [
+        "Tributo",
+        "Encomienda",
+        "Co-education"
+      ],
+      "wrongTl": [
+        "Tributo",
+        "Encomienda",
+        "Co-education"
+      ],
+      "ex": "This group was forced to work in colonial projects.",
+      "exTl": "Sapilitang pinagtrabaho ang pangkat na ito sa mga proyektong kolonyal."
+    },
+    {
+      "id": "4a-05",
+      "en": "How did the Spanish finance bridges, roads, and churches?",
+      "tl": "Paano pinondohan ng mga Kastila ang mga tulay, kalsada, at simbahan?",
+      "correct": "Collection of tributes and taxes",
+      "correctTl": "Pangongolekta ng tributo at buwis",
+      "wrong": [
+        "Limós and donations",
+        "Bail in civil cases",
+        "Sale of agricultural products"
+      ],
+      "wrongTl": [
+        "Limós at donasyon",
+        "Piyansa sa kasong sibil",
+        "Pagbebenta ng produktong agraryo"
+      ],
+      "ex": "Tributes and taxes were used in colonial projects.",
+      "exTl": "Ginamit ang tributo at buwis sa mga proyektong kolonyal."
+    },
+    {
+      "id": "4a-06",
+      "en": "What methods did the friars use to support themselves?",
+      "tl": "Anong pamamaraan ang ginamit ng mga prayle upang maitaguyod ang kanilang sarili?",
+      "correct": "Excessive charges on religious rituals",
+      "correctTl": "Labis na singil sa mga relihiyosong ritwal",
+      "wrong": [
+        "Free distribution of land",
+        "Animal husbandry",
+        "No tax collection"
+      ],
+      "wrongTl": [
+        "Libreng pamamahagi ng lupa",
+        "Pag-aalaga ng hayop",
+        "Walang koleksiyon ng buwis"
+      ],
+      "ex": "Reviewer refers to excessive ritual charges as abuse.",
+      "exTl": "Tinutukoy ng reviewer ang labis na singil sa ritwal bilang pang-aabuso."
+    },
+    {
+      "id": "4a-07",
+      "en": "Why are the Filipinos called Indio?",
+      "tl": "Bakit tinawag na Indio ang mga Pilipino?",
+      "correct": "They are natives of pure local race with no Spanish or foreign admixture",
+      "correctTl": "Sila ay mga katutubong may purong lahing lokal na walang halong Kastila o banyaga",
+      "wrong": [
+        "Can't speak Spanish",
+        "Low in height",
+        "Highly educated"
+      ],
+      "wrongTl": [
+        "Hindi marunong magsalita ng Kastila",
+        "Mababa ang taas",
+        "Mataas ang pinag-aralan"
+      ],
+      "ex": "Indio is the name given to native Filipinos in the colonial hierarchy.",
+      "exTl": "Ang Indio ay tawag sa mga katutubong Pilipino sa kolonyal na hierarchy."
+    },
+    {
+      "id": "4a-08",
+      "en": "What was the main effect of the Spaniards' treatment of the Filipinos?",
+      "tl": "Ano ang naging pangunahing epekto ng pagtrato ng mga Kastila sa mga Pilipino?",
+      "correct": "It became the basis of being the lowest level in society",
+      "correctTl": "Naging batayan ito ng pagiging pinakamababang antas sa lipunan",
+      "wrong": [
+        "Equal level",
+        "Progressed livelihood",
+        "Good treatment"
+      ],
+      "wrongTl": [
+        "Pantay na antas",
+        "Maunlad na kabuhayan",
+        "Maayos na pakikitungo"
+      ],
+      "ex": "Discrimination placed the Filipino at the lowest level.",
+      "exTl": "Inilagay ng diskriminasyon ang Pilipino sa pinakamababang antas."
+    },
+    {
+      "id": "4a-09",
+      "en": "What could be awakened if the oppression of the Spaniards continued?",
+      "tl": "Ano ang maaaring magising kung nagpatuloy ang pang-aapi ng mga Kastila?",
+      "correct": "Patriotism and nationalism",
+      "correctTl": "Patriotismo at nasyonalismo",
+      "wrong": [
+        "Equal level in society",
+        "Automatic independence",
+        "National wealth"
+      ],
+      "wrongTl": [
+        "Pantay na antas sa lipunan",
+        "Awtomatikong kasarinlan",
+        "Yamang pambansa"
+      ],
+      "ex": "Oppression helped awaken nationalism.",
+      "exTl": "Nakatulong ang pang-aapi sa pagkagising ng nasyonalismo."
+    },
+    {
+      "id": "4a-10",
+      "en": "What is the reason for the Spaniards' improper treatment of the Filipinos?",
+      "tl": "Ano ang dahilan ng hindi maayos na pagtrato ng Kastila sa mga Pilipino?",
+      "correct": "Societal division based on race",
+      "correctTl": "Pagkakahati-hati ng lipunan batay sa lahi",
+      "wrong": [
+        "Democracy",
+        "Pilipino Autonomy",
+        "Fair laws"
+      ],
+      "wrongTl": [
+        "Demokrasya",
+        "Autonomy ng Pilipino",
+        "Patas na batas"
+      ],
+      "ex": "Racial hierarchy caused unequal treatment.",
+      "exTl": "Ang racial hierarchy ang nagdulot ng hindi pantay na pagtrato."
+    },
+    {
+      "id": "4a-11",
+      "en": "Which statement about Peninsulares, Insulares, and Indio is correct?",
+      "tl": "Aling pahayag tungkol sa Peninsulares, Insulares, at Indio ang tama?",
+      "correct": "Peninsulares and Insulares are at the top; Indio is at the bottom",
+      "correctTl": "Nasa pinakamataas ang Peninsulares at Insulares; nasa pinakamababa ang Indio",
+      "wrong": [
+        "Indio is in the middle",
+        "Chinese is higher",
+        "All are equal"
+      ],
+      "wrongTl": [
+        "Nasa gitna ang Indio",
+        "Mas mataas ang Intsik",
+        "Pantay-pantay ang lahat"
+      ],
+      "ex": "The second statement is wrong because Indians are not in the middle level.",
+      "exTl": "Mali ang ikalawang pahayag dahil wala sa gitnang antas ang mga Indio."
+    },
+    {
+      "id": "4a-12",
+      "en": "What did the Spanish desire to appear uplifting?",
+      "tl": "Ano ang idinulot ng pagnanais ng Kastila na magmukhang nakakaangat?",
+      "correct": "Abuse or exaggeration of power",
+      "correctTl": "Pang-aabuso o pagmamalabis sa kapangyarihan",
+      "wrong": [
+        "Good governance",
+        "Independence",
+        "Clear agreement"
+      ],
+      "wrongTl": [
+        "Maayos na pamamahala",
+        "Kasarinlan",
+        "Malinaw na kasunduan"
+      ],
+      "ex": "An unequal system led to abuse.",
+      "exTl": "Nagdulot ng pang-aabuso ang hindi pantay na sistema."
+    },
+    {
+      "id": "4a-13",
+      "en": "Which belief favors men in family and society?",
+      "tl": "Aling paniniwala ang kumikiling sa kalalakihan sa pamilya at lipunan?",
+      "correct": "Patriyarka",
+      "correctTl": "Patriyarka",
+      "wrong": [
+        "Matriyarka",
+        "Monarkiya",
+        "Oligarkiya"
+      ],
+      "wrongTl": [
+        "Matriyarka",
+        "Monarkiya",
+        "Oligarkiya"
+      ],
+      "ex": "Patriarchy favors men in society and family.",
+      "exTl": "Kinakampihan ng patriyarka ang kalalakihan sa lipunan at pamilya."
+    },
+    {
+      "id": "4a-14",
+      "en": "What are the characteristics of the ideal Maria Clara woman?",
+      "tl": "Alin ang katangian ng ideyal na babaeng Maria Clara?",
+      "correct": "Modest, humble, and calm",
+      "correctTl": "Mahinhin, mapagpakumbaba, at mahinahon",
+      "wrong": [
+        "Aggressive, wealthy, and assertive",
+        "Military, political, and public",
+        "Arrogant, loud, and ambitious"
+      ],
+      "wrongTl": [
+        "Agresibo, mayaman, at mapilit",
+        "Militar, politikal, at pampubliko",
+        "Mayabang, maingay, at ambisyoso"
+      ],
+      "ex": "Choose I, II, and III from the sheet and exclude the enthusiastic one.",
+      "exTl": "Pinili sa sheet ang I, II, at III at hindi isinama ang masigasig."
+    },
+    {
+      "id": "4a-15",
+      "en": "Where is the focus of women's education according to the Spanish?",
+      "tl": "Saan lamang nakatuon ang pag-aaral ng kababaihan ayon sa Kastila?",
+      "correct": "Domestic work, religion, and faith",
+      "correctTl": "Gawaing pantahanan, relihiyon, at pananampalataya",
+      "wrong": [
+        "Warfare and law",
+        "Engineering and politics",
+        "Trade and navigation"
+      ],
+      "wrongTl": [
+        "Pakikidigma at batas",
+        "Inhinyeriya at politika",
+        "Kalakalan at paglalayag"
+      ],
+      "ex": "I, III, and IV are in the source; war is not included.",
+      "exTl": "I, III, at IV ang nasa source; hindi kasama ang pakikidigma."
+    },
+    {
+      "id": "4a-16",
+      "en": "What did the loss of Maria Clara's image cause in the American era?",
+      "tl": "Ano ang idinulot ng pagkawala ng imaheng Maria Clara sa panahon ng Amerikano?",
+      "correct": "Nationalism, intellectual discourse, and an active role in society",
+      "correctTl": "Nasyonalismo, intelektwal na diskurso, at aktibong papel sa lipunan",
+      "wrong": [
+        "Arranged marriage",
+        "Concealment",
+        "Make a house only"
+      ],
+      "wrongTl": [
+        "Itinakdang kasalan",
+        "Pagkukubli",
+        "Gawaing bahay lamang"
+      ],
+      "ex": "II, III, and IV are the right combination.",
+      "exTl": "II, III, at IV ang tamang kombinasyon."
+    },
+    {
+      "id": "4a-17",
+      "en": "What did women establish to promote equality in the American era?",
+      "tl": "Ano ang itinatag ng kababaihan upang itaguyod ang pagkakapantay-pantay sa panahon ng Amerikano?",
+      "correct": "Organizations promoting the welfare of women",
+      "correctTl": "Mga samahang nagsusulong ng kapakanan ng kababaihan",
+      "wrong": [
+        "Pamahaang Indio",
+        "Kumbento lang",
+        "Samahang panghinina"
+      ],
+      "wrongTl": [
+        "Pamahalaang Indio",
+        "Kumbento lamang",
+        "Samahang pangkahinhinan"
+      ],
+      "ex": "Organizations promoted the welfare and equality of women.",
+      "exTl": "Isinulong ng mga samahan ang kapakanan at pagkakapantay-pantay ng kababaihan."
+    },
+    {
+      "id": "4a-18",
+      "en": "What opportunity did the freer view of women give?",
+      "tl": "Anong pagkakataon ang ibinigay ng mas malayang pagtingin sa kababaihan?",
+      "correct": "Office work, teaching, and other professions",
+      "correctTl": "Pagtatrabaho sa opisina, pagtuturo, at iba pang propesyon",
+      "wrong": [
+        "Domestic work only",
+        "No education",
+        "No public work"
+      ],
+      "wrongTl": [
+        "Gawaing bahay lamang",
+        "Walang edukasyon",
+        "Walang trabaho sa publiko"
+      ],
+      "ex": "Office, teaching, and professions are explicitly mentioned on the sheet.",
+      "exTl": "Tahasan na binanggit sa sheet ang opisina, pagtuturo, at propesyon."
+    },
+    {
+      "id": "4a-19",
+      "en": "What is co-education?",
+      "tl": "Ano ang co-education?",
+      "correct": "Co-education of boys and girls",
+      "correctTl": "Magkasamang pag-aaral ng lalaki at babae",
+      "wrong": [
+        "Separate education of boys and girls",
+        "Classes for girls only",
+        "Religious training"
+      ],
+      "wrongTl": [
+        "Hiwalay na pag-aaral ng lalaki at babae",
+        "Klase para sa babae lamang",
+        "Pagsasanay na panrelihiyon"
+      ],
+      "ex": "The statement that it separates boys and girls is false.",
+      "exTl": "Mali ang pahayag na ibinubukod nito ang lalaki at babae."
+    },
+    {
+      "id": "4a-20",
+      "en": "What does the promotion of co-education prove?",
+      "tl": "Ano ang pinatutunayan ng pagsusulong ng co-education?",
+      "correct": "The condition of women was more free and active during the American colonialism period",
+      "correctTl": "Mas malaya at aktibo ang kalagayan ng kababaihan sa panahon ng kolonyalismong Amerikano",
+      "wrong": [
+        "Women were freer during the Spanish period",
+        "Women were controlled",
+        "Men and women were separated"
+      ],
+      "wrongTl": [
+        "Mas malaya ang kababaihan noong Kastila",
+        "Kontrolado ang kababaihan",
+        "Pinaghiwalay ang lalaki at babae"
+      ],
+      "ex": "The item refers to the period of American colonialism.",
+      "exTl": "Tumutukoy ang item sa panahon ng kolonyalismong Amerikano."
+    }
+  ]
+}

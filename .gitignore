@@ -1,0 +1,20 @@
+# Local dependencies and review inputs
+node_modules/
+.codex-attachments/
+drive-download-*/
+backups/
+*.zip
+
+# Local runtime and generated helper artifacts
+eng.traineddata
+*.log
+__pycache__/
+
+# One-off bank-generation utilities are not required to run the site
+add-*.js
+build-*.js
+dedupe-*.js
+refine-*.js
+reviewer-watchdog.cmd
+reviewer-watchdog.ps1
+serve.js

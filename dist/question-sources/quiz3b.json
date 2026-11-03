@@ -1,0 +1,384 @@
+{
+  "questions": [
+    {
+      "id": "q3b-01",
+      "en": "Why did Remedios Gomez-Paraiso continue fighting the Japanese?",
+      "tl": "Bakit ipinagpatuloy ni Remedios Gomez-Paraiso ang pakikipaglaban sa mga Hapones?",
+      "correct": "Because the Japanese killed his father",
+      "correctTl": "Dahil sa pagpatay ng mga Hapon sa kanyang ama",
+      "wrong": [
+        "American bribery",
+        "Reward to every soldier",
+        "Japanese wealth"
+      ],
+      "wrongTl": [
+        "Panunuhol ng Amerikano",
+        "Pabuya sa bawat sundalo",
+        "Yaman ng mga Hapones"
+      ],
+      "ex": "The killing of his father was his reason.",
+      "exTl": "Ang pagpatay sa kanyang ama ang kanyang dahilan."
+    },
+    {
+      "id": "q3b-02",
+      "en": "What value did Remedios take to heart when she decided to fight?",
+      "tl": "Anong pagpapahalaga ang isinapuso ni Remedios nang magdesisyong lumaban?",
+      "correct": "Love for family or family",
+      "correctTl": "Pagmamahal sa pamilya o mag-anak",
+      "wrong": [
+        "Love for wealth",
+        "Love for freedom",
+        "Love for faith"
+      ],
+      "wrongTl": [
+        "Pagmamahal sa yaman",
+        "Pagmamahal sa kalayaan",
+        "Pagmamahal sa pananampalataya"
+      ],
+      "ex": "The question relates her decision to love for family.",
+      "exTl": "Iniuugnay ng tanong ang kanyang pasya sa pagmamahal sa pamilya."
+    },
+    {
+      "id": "q3b-03",
+      "en": "How can a student apply Remedios' values?",
+      "tl": "Paano mailalapat ng mag-aaral ang pagpapahalaga ni Remedios?",
+      "correct": "Uphold parental love by studying hard",
+      "correctTl": "Mapanindigan ang pagmamahal sa magulang sa pamamagitan ng pag-aaral nang mabuti",
+      "wrong": [
+        "Put girlfriend first",
+        "Balance studying with gadget",
+        "Give up territory"
+      ],
+      "wrongTl": [
+        "Unahin ang kasintahan",
+        "Ibalanse ang pag-aaral sa gadget",
+        "Isuko ang teritoryo"
+      ],
+      "ex": "The reviewer considers good studies as respecting parents.",
+      "exTl": "Itinuturing ng reviewer ang mabuting pag-aaral bilang paggalang sa magulang."
+    },
+    {
+      "id": "q3b-04",
+      "en": "How did the Japanese maintain their rule over the Filipinos?",
+      "tl": "Paano pinanatili ng mga Hapones ang kanilang pamamahala sa mga Pilipino?",
+      "correct": "Through violence and intimidation",
+      "correctTl": "Sa pamamagitan ng dahas at pananakot",
+      "wrong": [
+        "Respectful request",
+        "Local leaders",
+        "Dayalogo only"
+      ],
+      "wrongTl": [
+        "Magalang na pakiusap",
+        "Mga lokal na pinuno",
+        "Dayalogo lamang"
+      ],
+      "ex": "The source specified violence and intimidation.",
+      "exTl": "Dahas at pananakot ang tinukoy ng source."
+    },
+    {
+      "id": "q3b-05",
+      "en": "What methods did the Japanese use to suppress the uprising?",
+      "tl": "Anong paraan ang ginamit ng Hapones upang pigilin ang pag-aalsa?",
+      "correct": "Excessiveness and brutality",
+      "correctTl": "Pagmamalabis at kalupitan",
+      "wrong": [
+        "Respecting human rights",
+        "Cooperating with religion",
+        "Granting forgiveness"
+      ],
+      "wrongTl": [
+        "Paggalang sa karapatang pantao",
+        "Pakikipagtulungan sa relihiyon",
+        "Paggawad ng kapatawaran"
+      ],
+      "ex": "The reviewer describes repression through brutality.",
+      "exTl": "Inilalarawan ng reviewer ang panunupil sa pamamagitan ng kalupitan."
+    },
+    {
+      "id": "q3b-06",
+      "en": "What type of fighting made the guerrillas difficult to capture?",
+      "tl": "Anong uri ng pakikipaglaban ang nagpahirap mahuli ang mga gerilya?",
+      "correct": "Hit-and-run tactics",
+      "correctTl": "Taktikang salakay-at-takas",
+      "wrong": [
+        "Unpiloted aircraft",
+        "Constant concealment",
+        "Frontal combat"
+      ],
+      "wrongTl": [
+        "Sasakyang walang piloto",
+        "Palaging pagtatago",
+        "Harapang labanan"
+      ],
+      "ex": "Hit-and-run tactics were used by the guerrillas.",
+      "exTl": "Salakay-at-takas ang ginamit ng gerilya."
+    },
+    {
+      "id": "q3b-07",
+      "en": "Which Igorot advantage is using a method to surprise the enemy?",
+      "tl": "Aling kalamangan ng Igorot ang gumagamit ng paraan upang biglain ang kaaway?",
+      "correct": "Great at making traps",
+      "correctTl": "Galing sa paggawa ng mga patibong",
+      "wrong": [
+        "Decapitation",
+        "Hunting skills",
+        "Knowledge of the terrain"
+      ],
+      "wrongTl": [
+        "Pamumugot-ng-ulo",
+        "Kasanayan sa pangangaso",
+        "Kaalaman sa kalupaan"
+      ],
+      "ex": "Used the trap to disrupt the enemy's concentration and organization.",
+      "exTl": "Ginamit ang patibong upang guluhin ang konsentrasyon at organisasyon ng kaaway."
+    },
+    {
+      "id": "q3b-08",
+      "en": "What was the main consequence of the Igorot advantage over the Japanese?",
+      "tl": "Ano ang pangunahing kinahinatnan ng kalamangan ng Igorot laban sa Hapones?",
+      "correct": "Japanese defeat and retreat",
+      "correctTl": "Pagkatalo at pag-atras ng mga Hapones",
+      "wrong": [
+        "Prolongation of the war",
+        "Japanese victory",
+        "American withdrawal"
+      ],
+      "wrongTl": [
+        "Paghaba ng digmaan",
+        "Tagumpay ng Hapones",
+        "Pag-alis ng Amerikano"
+      ],
+      "ex": "Their combined advantage helped the Japanese retreat.",
+      "exTl": "Nakatulong ang kanilang pinagsanib na kalamangan sa pag-atras ng Hapones."
+    },
+    {
+      "id": "q3b-09",
+      "en": "What would have happened if the Igorot had not joined the Americans?",
+      "tl": "Ano ang mangyayari kung hindi nakiisa ang Igorot sa mga Amerikano?",
+      "correct": "Prolonged fighting and increased American casualties",
+      "correctTl": "Paghaba ng labanan at pagdami ng nasawing sundalong Amerikano",
+      "wrong": [
+        "Faster liberation",
+        "Easier movement in the mountains",
+        "Sudden surrender"
+      ],
+      "wrongTl": [
+        "Mas mabilis na pagpapalaya",
+        "Mas madaling pagkilos sa bundok",
+        "Biglaang pagsuko"
+      ],
+      "ex": "The reviewer shows that their cooperation helped to keep the fighting from going on.",
+      "exTl": "Ipinapakita ng reviewer na nakatulong ang kanilang pakikiisa upang hindi humaba ang labanan."
+    },
+    {
+      "id": "q3b-10",
+      "en": "What was the unique role of Filipino women during the war?",
+      "tl": "Ano ang bukod-tanging papel ng kababaihang Pilipino noong digmaan?",
+      "correct": "They became poets against the Japanese soldiers",
+      "correctTl": "Naging manunudla sila laban sa mga sundalong Hapones",
+      "wrong": [
+        "Nurse only",
+        "Teacher only",
+        "Cook only"
+      ],
+      "wrongTl": [
+        "Nars lamang",
+        "Guro lamang",
+        "Tagaluto lamang"
+      ],
+      "ex": "The reviewer identifies the poets.",
+      "exTl": "Tinutukoy ng reviewer ang kababaihang manunudla."
+    },
+    {
+      "id": "q3b-11",
+      "en": "Which statement about the female guerrilla leader is correct?",
+      "tl": "Aling pahayag tungkol sa babaeng pinuno ng gerilya ang tama?",
+      "correct": "Both training and gaining the trust of the soldiers are necessary",
+      "correctTl": "Parehong kailangan ang pagsasanay at pagkamit ng tiwala ng mga sundalo",
+      "wrong": [
+        "Only the first is correct",
+        "Only the second is correct",
+        "Both are false"
+      ],
+      "wrongTl": [
+        "Una lamang ang tama",
+        "Ikalawa lamang ang tama",
+        "Parehong mali"
+      ],
+      "ex": "Both statements are correct.",
+      "exTl": "Parehong tama ang dalawang pahayag."
+    },
+    {
+      "id": "q3b-12",
+      "en": "What should soldiers see in a female leader?",
+      "tl": "Ano ang dapat makita ng mga sundalo sa babaeng pinuno?",
+      "correct": "That she is a worthy leader without fear or doubt",
+      "correctTl": "Na siya ay karapat-dapat na pinuno na walang pagkatakot o pag-aalinlangan",
+      "wrong": [
+        "Insisting on position",
+        "Always showing off",
+        "Always showing weakness"
+      ],
+      "wrongTl": [
+        "Ipinipilit ang posisyon",
+        "Laging nagpapasikat",
+        "Laging nagpapakita ng kahinaan"
+      ],
+      "ex": "Leadership is gained through proven ability.",
+      "exTl": "Nakukuha ang pamumuno sa pamamagitan ng napatunayang kakayahan."
+    },
+    {
+      "id": "q3b-13",
+      "en": "Who formed the Hunters ROTC Guerrillas?",
+      "tl": "Sino ang bumuo sa Hunters ROTC Guerrillas?",
+      "correct": "Young cadets and students",
+      "correctTl": "Mga kabataang kadete at estudyante",
+      "wrong": [
+        "Farmers and workers",
+        "Office workers",
+        "Natives from all regions"
+      ],
+      "wrongTl": [
+        "Magsasaka at manggagawa",
+        "Mga trabahador sa opisina",
+        "Katutubo mula sa lahat ng rehiyon"
+      ],
+      "ex": "The group of young cadets and students is formed.",
+      "exTl": "Binubuo ang grupo ng mga kabataang kadete at estudyante."
+    },
+    {
+      "id": "q3b-14",
+      "en": "Which three men from PMA started the Hunters ROTC Guerrillas?",
+      "tl": "Aling tatlong tauhan mula PMA ang nagsimula sa Hunters ROTC Guerrillas?",
+      "correct": "Emmanuel de Ocampo, Eleuterio Adevoso, and Miguel Ver",
+      "correctTl": "Emmanuel de Ocampo, Eleuterio Adevoso, at Miguel Ver",
+      "wrong": [
+        "Adevoso, Ver, and Felipa Culala",
+        "Ocampo, Culala, and Ver",
+        "Ocampo, Adevoso, and Culala"
+      ],
+      "wrongTl": [
+        "Adevoso, Ver, at Felipa Culala",
+        "Ocampo, Culala, at Ver",
+        "Ocampo, Adevoso, at Culala"
+      ],
+      "ex": "Felipa Culala is not among those mentioned who started from PMA.",
+      "exTl": "Hindi kabilang si Felipa Culala sa mga binanggit na nagpasimula mula PMA."
+    },
+    {
+      "id": "q3b-15",
+      "en": "Where do most of the youth who join Hunters ROTC come from?",
+      "tl": "Saan nagmula ang karamihan sa kabataang sumapi sa Hunters ROTC?",
+      "correct": "PMA, college, and university",
+      "correctTl": "PMA, kolehiyo, at pamantasan",
+      "wrong": [
+        "Elementary",
+        "PMA only",
+        "University only"
+      ],
+      "wrongTl": [
+        "Elementarya",
+        "PMA lamang",
+        "Pamantasan lamang"
+      ],
+      "ex": "Source mentions PMA, college, and university.",
+      "exTl": "Binanggit ng source ang PMA, kolehiyo, at pamantasan."
+    },
+    {
+      "id": "q3b-16",
+      "en": "What did the Igorot defend in the Battle of the Pockets?",
+      "tl": "Ano ang ipinagtanggol ng Igorot sa Labanang Pockets?",
+      "correct": "Freedom, culture, and territory",
+      "correctTl": "Kalayaan, kultura, at teritoryo",
+      "wrong": [
+        "Ocean, culture, territory",
+        "Territory only",
+        "Freedom only"
+      ],
+      "wrongTl": [
+        "Karagatan, kultura, teritoryo",
+        "Teritoryo lamang",
+        "Kalayaan lamang"
+      ],
+      "ex": "Ocean not included; including freedom, culture, and territory.",
+      "exTl": "Hindi kasama ang karagatan; kasama ang kalayaan, kultura, at teritoryo."
+    },
+    {
+      "id": "q3b-17",
+      "en": "What is the goal of the Igorot in the fight against the Japanese?",
+      "tl": "Ano ang layunin ng Igorot sa paglaban sa Hapones?",
+      "correct": "Defend the ancestral land, maintain freedom, and resist the occupation",
+      "correctTl": "Ipagtanggol ang lupain ng ninuno, panatilihin ang kalayaan, at labanan ang pananakop",
+      "wrong": [
+        "Establish an autonomous government",
+        "Collect a reward",
+        "Return the beheading"
+      ],
+      "wrongTl": [
+        "Magtatag ng autonomous government",
+        "Mangolekta ng gantimpala",
+        "Ibalik ang pamumugot-ng-ulo"
+      ],
+      "ex": "Their goal is centered on the ancestral land, freedom, and resistance.",
+      "exTl": "Nakasentro ang kanilang layunin sa lupaing ninuno, kalayaan, at paglaban."
+    },
+    {
+      "id": "q3b-18",
+      "en": "What inspired the formation of the guerrilla group in Northern Luzon?",
+      "tl": "Ano ang naging inspirasyon sa pagbuo ng pangkat-gerilya sa Hilagang Luzon?",
+      "correct": "Strong unity and stability of the Igorot",
+      "correctTl": "Matinding pagkakaisa at katatagan ng Igorot",
+      "wrong": [
+        "Peaceful negotiations",
+        "His own actions",
+        "Hunting on the plains"
+      ],
+      "wrongTl": [
+        "Mapayapang negosasyon",
+        "Kanya-kanyang pagkilos",
+        "Pangangaso sa kapatagan"
+      ],
+      "ex": "Unity and stability were taught by the item.",
+      "exTl": "Pagkakaisa at katatagan ang itinuro ng item."
+    },
+    {
+      "id": "q3b-19",
+      "en": "Statement I: The main symbol of communism is the hammer and sickle.\n\nStatement II: The hammer represents farmers, while the sickle represents workers.\n\nWhich statement evaluation is correct?",
+      "tl": "Pahayag I: Ang pangunahing simbolo ng komunismo ay ang martilyo at kumpay.\n\nPahayag II: Ang martilyo ay sumasagisag sa mga magsasaka at ang kumpay ay kumakatawan sa mga manggagawa.\n\nAlin ang tamang pagsusuri?",
+      "correct": "The first statement is true and the second is false",
+      "correctTl": "Tama ang unang pahayag at mali ang ikalawa",
+      "wrong": [
+        "The first is false and the second is correct",
+        "Both are true",
+        "Both are false"
+      ],
+      "wrongTl": [
+        "Mali ang una at tama ang ikalawa",
+        "Parehong tama",
+        "Parehong mali"
+      ],
+      "ex": "The hammer is a worker and the farmer is the fodder; the second statement is reversed.",
+      "exTl": "Manggagawa ang martilyo at magsasaka ang kumpay; baligtad ang ikalawang pahayag."
+    },
+    {
+      "id": "q3b-20",
+      "en": "Statement I: The five points of the red star represent the five continents and the worldwide unity of wealthy people.\n\nStatement II: The five points also represent five social groups that lead society toward communism.\n\nWhich statement evaluation is correct?",
+      "tl": "Pahayag I: Ang limang sulok ng pulang bituin ay sumasagisag sa limang kontinente at pandaigdigang pagkakaisa ng mga mayayaman.\n\nPahayag II: Ang limang sulok nito ay sumasagisag din sa limang panlipunang pangkat na naghahatid sa lipunan patungo sa komunismo.\n\nAlin ang tamang pagsusuri?",
+      "correct": "The first statement is false and the second is correct",
+      "correctTl": "Mali ang unang pahayag at tama ang ikalawa",
+      "wrong": [
+        "The first is true and the second is false",
+        "Both are true",
+        "Both are false"
+      ],
+      "wrongTl": [
+        "Tama ang una at mali ang ikalawa",
+        "Parehong tama",
+        "Parehong mali"
+      ],
+      "ex": "The red star does not refer to the rich; it symbolizes the five social groups.",
+      "exTl": "Hindi mayayaman ang tinutukoy ng pulang bituin; sinasagisag nito ang limang panlipunang pangkat."
+    }
+  ]
+}

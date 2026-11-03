@@ -1,0 +1,384 @@
+{
+  "questions": [
+    {
+      "id": "q3c-01",
+      "en": "How did the Japanese maintain influence over the Filipinos?",
+      "tl": "Paano pinanatili ng Hapones ang impluwensiya sa mga Pilipino?",
+      "correct": "Through violence and intimidation",
+      "correctTl": "Sa pamamagitan ng dahas at pananakot",
+      "wrong": [
+        "Peaceful pleas",
+        "Halalang lokal",
+        "Dayalogo"
+      ],
+      "wrongTl": [
+        "Mapayapang pakiusap",
+        "Halalang lokal",
+        "Dayalogo"
+      ],
+      "ex": "The answer is violence and intimidation.",
+      "exTl": "Dahas at pananakot ang sagot."
+    },
+    {
+      "id": "q3c-02",
+      "en": "What did the Japanese use to suppress the uprising?",
+      "tl": "Ano ang ginamit ng Hapones upang supilin ang pag-aalsa?",
+      "correct": "Excessiveness and brutality",
+      "correctTl": "Pagmamalabis at kalupitan",
+      "wrong": [
+        "Respect for rights",
+        "Religious relations",
+        "Political forgiveness"
+      ],
+      "wrongTl": [
+        "Paggalang sa karapatan",
+        "Pakikipag-ugnayan sa relihiyon",
+        "Kapatawarang politikal"
+      ],
+      "ex": "Brutality was used to suppress the resistance.",
+      "exTl": "Kalupitan ang ginamit upang supilin ang paglaban."
+    },
+    {
+      "id": "q3c-03",
+      "en": "Which guerilla method avoids capture?",
+      "tl": "Aling paraan ng gerilya ang umiiwas sa pagkahuli?",
+      "correct": "Hit-and-run tactics",
+      "correctTl": "Taktikang salakay-at-takas",
+      "wrong": [
+        "Frontal combat",
+        "Permanent concealment",
+        "Air attack"
+      ],
+      "wrongTl": [
+        "Harapang labanan",
+        "Permanenteng pagtatago",
+        "Pag-atakeng panghimpapawid"
+      ],
+      "ex": "Hit-and-run was used by the guerrilla.",
+      "exTl": "Salakay-at-takas ang ginamit ng gerilya."
+    },
+    {
+      "id": "q3c-04",
+      "en": "What strategy did the Filipinos use against the Japanese occupation?",
+      "tl": "Anong estratehiya ang ginamit ng Pilipino laban sa pananakop ng Hapon?",
+      "correct": "Guerrilla tactics",
+      "correctTl": "Taktikang gerilya",
+      "wrong": [
+        "Alliance with Japan",
+        "Alliance led by Japan",
+        "Party collaborator"
+      ],
+      "wrongTl": [
+        "Pakikipagsanib sa Hapon",
+        "Alyansiyang pinamumunuan ng Hapon",
+        "Partidong kolaborador"
+      ],
+      "ex": "Guerrilla warfare was used against the occupation.",
+      "exTl": "Ginamit ang pakikidigmang gerilya laban sa pananakop."
+    },
+    {
+      "id": "q3c-05",
+      "en": "How can the unarmed people best help?",
+      "tl": "Paano pinakamahusay na tumulong ang mamamayang hindi armado?",
+      "correct": "Provide food and information about the enemy to the guerrillas",
+      "correctTl": "Magbigay ng pagkain at kaalaman tungkol sa kalaban sa mga gerilya",
+      "wrong": [
+        "Join the Japanese commission",
+        "Learn Nihonggo",
+        "Work together to make choices"
+      ],
+      "wrongTl": [
+        "Sumali sa komisyon ng Hapon",
+        "Mag-aral ng Nihonggo",
+        "Makipagtulungan sa Makapili"
+      ],
+      "ex": "Food and information about the enemy is civilian support.",
+      "exTl": "Pagkain at kaalaman tungkol sa kalaban ang suporta ng sibilyan."
+    },
+    {
+      "id": "q3c-06",
+      "en": "What other means of resistance did the Filipinos organize?",
+      "tl": "Ano pang paraan ng paglaban ang inorganisa ng mga Pilipino?",
+      "correct": "Secret movements supporting the guerilla",
+      "correctTl": "Mga lihim na kilusang sumusuporta sa gerilya",
+      "wrong": [
+        "Radio stations",
+        "Repression of civilians",
+        "Alyansa sa Europe"
+      ],
+      "wrongTl": [
+        "Estasyon ng radyo",
+        "Paninindak sa sibilyan",
+        "Alyansa sa Europa"
+      ],
+      "ex": "The secret movement provided support to the towns and cities.",
+      "exTl": "Nagbigay ng suporta ang lihim na kilusan sa bayan at lungsod."
+    },
+    {
+      "id": "q3c-07",
+      "en": "Why did Remedios Gomez-Paraiso fight?",
+      "tl": "Bakit lumaban si Remedios Gomez-Paraiso?",
+      "correct": "The Japanese killed her father",
+      "correctTl": "Pinatay ng mga Hapon ang kanyang ama",
+      "wrong": [
+        "American incitement",
+        "Payback",
+        "Japanese Property"
+      ],
+      "wrongTl": [
+        "Pag-uudyok ng Amerikano",
+        "Pabuya",
+        "Ari-arian ng Hapon"
+      ],
+      "ex": "The death of her father motivated her.",
+      "exTl": "Ang pagkamatay ng kanyang ama ang nag-udyok sa kanya."
+    },
+    {
+      "id": "q3c-08",
+      "en": "What did Remedios take to heart when she fought?",
+      "tl": "Ano ang isinapuso ni Remedios nang lumaban?",
+      "correct": "Love for family or family",
+      "correctTl": "Pagmamahal sa pamilya o mag-anak",
+      "wrong": [
+        "Yaman",
+        "Freedom",
+        "Faith"
+      ],
+      "wrongTl": [
+        "Yaman",
+        "Kalayaan",
+        "Pananampalataya"
+      ],
+      "ex": "Love for family is the answer.",
+      "exTl": "Pagmamahal sa pamilya ang sagot."
+    },
+    {
+      "id": "q3c-09",
+      "en": "What should the student do to apply Remedios' example?",
+      "tl": "Ano ang dapat gawin ng mag-aaral upang mailapat ang halimbawa ni Remedios?",
+      "correct": "Study hard to show love to parents",
+      "correctTl": "Mag-aral nang mabuti upang ipakita ang pagmamahal sa magulang",
+      "wrong": [
+        "Put boyfriend first",
+        "Play while studying",
+        "Give up the right"
+      ],
+      "wrongTl": [
+        "Unahin ang kasintahan",
+        "Maglaro habang nag-aaral",
+        "Isuko ang karapatan"
+      ],
+      "ex": "Good study source application.",
+      "exTl": "Mabuting pag-aaral ang aplikasyon sa source."
+    },
+    {
+      "id": "q3c-10",
+      "en": "What is the main reason for the guerrillas to continue fighting?",
+      "tl": "Ano ang pangunahing dahilan ng pagpapatuloy ng gerilya sa pakikipaglaban?",
+      "correct": "Love for the homeland and Japanese brutality",
+      "correctTl": "Pag-ibig sa tinubuang lupa at kalupitan ng Hapones",
+      "wrong": [
+        "American bribery",
+        "Pabuya",
+        "Samsam"
+      ],
+      "wrongTl": [
+        "Panunuhol ng Amerikano",
+        "Pabuya",
+        "Samsam"
+      ],
+      "ex": "Love for the country and brutality motivated the resistance.",
+      "exTl": "Pag-ibig sa bayan at kalupitan ang nag-udyok sa paglaban."
+    },
+    {
+      "id": "q3c-11",
+      "en": "What does the Filipino guerrilla want to promote?",
+      "tl": "Ano ang nais isulong ng gerilyang Pilipino?",
+      "correct": "Overthrew the foreign occupier and achieve freedom",
+      "correctTl": "Pagpapatalsik sa dayuhang mananakop at pagkamit ng kalayaan",
+      "wrong": [
+        "Rule with the American",
+        "Test the weapon",
+        "Repeat Aguinaldo's government"
+      ],
+      "wrongTl": [
+        "Mamuno kasama ang Amerikano",
+        "Subukan ang armas",
+        "Ulitin ang pamahalaan ni Aguinaldo"
+      ],
+      "ex": "Goal to be free from the occupier.",
+      "exTl": "Layunin ang paglaya mula sa mananakop."
+    },
+    {
+      "id": "q3c-12",
+      "en": "How can the guerilla principle be applied today in Philippine territory?",
+      "tl": "Paano mailalapat ngayon ang prinsipyo ng gerilya sa teritoryo ng Pilipinas?",
+      "correct": "Defend rights and integrity peacefully according to international law",
+      "correctTl": "Ipagtanggol ang karapatan at integridad sa mapayapang paraan ayon sa pandaigdigang batas",
+      "wrong": [
+        "Rely on America",
+        "Ignore interference",
+        "Give up the claim"
+      ],
+      "wrongTl": [
+        "Umasa sa Amerika",
+        "Balewalain ang panghihimasok",
+        "Isuko ang paghahabol"
+      ],
+      "ex": "Peaceful and lawful defense.",
+      "exTl": "Mapayapa at naaayon sa batas ang pagtatanggol."
+    },
+    {
+      "id": "q3c-13",
+      "en": "What is the unique role of women guerrillas?",
+      "tl": "Ano ang bukod-tanging papel ng kababaihang gerilya?",
+      "correct": "They became poets",
+      "correctTl": "Naging manunudla sila",
+      "wrong": [
+        "Nurses only",
+        "Teachers only",
+        "Cooks only"
+      ],
+      "wrongTl": [
+        "Nars lamang",
+        "Guro lamang",
+        "Tagaluto lamang"
+      ],
+      "ex": "Women fought as poets in the first row.",
+      "exTl": "Lumaban ang kababaihan bilang manunudla sa unang hanay."
+    },
+    {
+      "id": "q3c-14",
+      "en": "Statement I: A woman leader in an army of men goes through training and experience.\n\nStatement II: She must earn the confidence and trust of the soldiers she leads; this is not achieved immediately.\n\nWhich statement evaluation is correct?",
+      "tl": "Pahayag I: Ang babaeng pinuno sa hukbo ng mga kalalakihan ay dumaraan sa pagsasanay at karanasan.\n\nPahayag II: Kailangan niyang makuha ang kumpiyansa at tiwala ng mga sundalong kanyang pinamumunuan at hindi ito agad nakakamit.\n\nAlin ang tamang pagsusuri?",
+      "correct": "Both statements are true",
+      "correctTl": "Parehong tama ang unang at ikalawang pahayag",
+      "wrong": [
+        "The first statement is true and the second is false",
+        "The first statement is false and the second is true",
+        "Both statements are false"
+      ],
+      "wrongTl": [
+        "Tama ang una at mali ang ikalawa",
+        "Mali ang una at tama ang ikalawa",
+        "Parehong mali ang unang at ikalawang pahayag"
+      ],
+      "ex": "Leadership requires experience and confidence.",
+      "exTl": "Kailangan ang karanasan at tiwala sa pamumuno."
+    },
+    {
+      "id": "q3c-15",
+      "en": "What should a soldier look for in a female leader?",
+      "tl": "Ano ang dapat makita ng sundalo sa babaeng pinuno?",
+      "correct": "Competent leadership without fear or doubt",
+      "correctTl": "Karapat-dapat na pamumuno na walang takot o pag-aalinlangan",
+      "wrong": [
+        "Coercive authority",
+        "Popularity",
+        "Many vulnerabilities"
+      ],
+      "wrongTl": [
+        "Sapilitang awtoridad",
+        "Pagpapasikat",
+        "Maraming kahinaan"
+      ],
+      "ex": "Competence breeds trust.",
+      "exTl": "Kakayahan ang nagdudulot ng tiwala."
+    },
+    {
+      "id": "q3c-16",
+      "en": "Which advantage does the Igorot derive from knowledge of mountain tunnels?",
+      "tl": "Aling kalamangan ng Igorot ang mula sa kaalaman sa lagusan ng bundok?",
+      "correct": "Knowledge of the terrain",
+      "correctTl": "Kaalaman ng kalupaan",
+      "wrong": [
+        "Headhunting",
+        "Hunting",
+        "Trap making"
+      ],
+      "wrongTl": [
+        "Pamumugot-ng-ulo",
+        "Pangangaso",
+        "Paggawa ng patibong"
+      ],
+      "ex": "Knowledge of mountain and forest terrain is important.",
+      "exTl": "Mahalaga ang kaalaman sa kalupaan ng bundok at gubat."
+    },
+    {
+      "id": "q3c-17",
+      "en": "What was the result of the Igorot advantage?",
+      "tl": "Ano ang naging resulta ng kalamangan ng Igorot?",
+      "correct": "Japanese defeat and retreat",
+      "correctTl": "Pagkatalo at pag-atras ng mga Hapones",
+      "wrong": [
+        "Prolongation of the war",
+        "Japanese victory",
+        "American withdrawal"
+      ],
+      "wrongTl": [
+        "Paghaba ng digmaan",
+        "Tagumpay ng Hapon",
+        "Pag-alis ng Amerikano"
+      ],
+      "ex": "Their strength helped the Japanese retreat.",
+      "exTl": "Nakatulong ang kanilang lakas sa pag-atras ng Hapones."
+    },
+    {
+      "id": "q3c-18",
+      "en": "What would have happened if the Igorot had not joined the Americans?",
+      "tl": "Ano ang mangyayari kung hindi nakiisa ang Igorot sa mga Amerikano?",
+      "correct": "The battle would be longer and the American soldiers would die more",
+      "correctTl": "Hahaba ang labanan at dadami ang nasawing sundalong Amerikano",
+      "wrong": [
+        "Faster victory",
+        "Easier action",
+        "Sudden Japanese surrender"
+      ],
+      "wrongTl": [
+        "Mas mabilis na tagumpay",
+        "Mas madaling pagkilos",
+        "Biglaang pagsuko ng Hapon"
+      ],
+      "ex": "Their support was important to shorten the war.",
+      "exTl": "Mahalaga ang kanilang suporta upang mapaikli ang labanan."
+    },
+    {
+      "id": "q3c-19",
+      "en": "Statement I: The five points of the red star represent the five continents and the worldwide unity of wealthy people.\n\nStatement II: The five points also represent five social groups that lead society toward communism.\n\nWhich statement evaluation is correct?",
+      "tl": "Pahayag I: Ang limang sulok ng pulang bituin ay sumasagisag sa limang kontinente at pandaigdigang pagkakaisa ng mga mayayaman.\n\nPahayag II: Ang limang sulok nito ay sumasagisag din sa limang panlipunang pangkat na naghahatid sa lipunan patungo sa komunismo.\n\nAlin ang tamang pagsusuri?",
+      "correct": "The first is wrong and the second is right",
+      "correctTl": "Mali ang una at tama ang ikalawa",
+      "wrong": [
+        "The first is right, the second is wrong",
+        "Both are right",
+        "Both are wrong"
+      ],
+      "wrongTl": [
+        "Tama ang una, mali ang ikalawa",
+        "Parehong tama",
+        "Parehong mali"
+      ],
+      "ex": "It symbolizes the unity of the workers and the five groups, not the rich.",
+      "exTl": "Sinasagisag nito ang pagkakaisa ng manggagawa at limang pangkat, hindi mayayaman."
+    },
+    {
+      "id": "q3c-20",
+      "en": "Statement I: Kumander Liwayway saved her troops and defeated Japanese forces in the Battle of Mandili in Candaba, Pampanga.\n\nStatement II: The Battle of Mandili proved that a woman leader can lead successfully.\n\nWhich statement evaluation is correct?",
+      "tl": "Pahayag I: Nasagip ni Kumander Liwayway ang kanyang mga tauhan at nagapi ang puwersa ng mga Hapon sa Labanan sa Mandili, Candaba, Pampanga.\n\nPahayag II: Napatunayan sa Labanan sa Mandili na kayang mamuno nang matagumpay ang babaeng pinuno.\n\nAlin ang tamang pagsusuri?",
+      "correct": "The first is wrong and the second is right",
+      "correctTl": "Mali ang una at tama ang ikalawa",
+      "wrong": [
+        "The first is right, the second is wrong",
+        "Both are right",
+        "Both are wrong"
+      ],
+      "wrongTl": [
+        "Tama ang una, mali ang ikalawa",
+        "Parehong tama",
+        "Parehong mali"
+      ],
+      "ex": "Felipa Culala, not Kumander Liwayway, ruled Mandili; it still proves successful female leadership.",
+      "exTl": "Si Felipa Culala, hindi si Kumander Liwayway, ang namuno sa Mandili; pinatunayan pa rin nito ang matagumpay na babaeng pamumuno."
+    }
+  ]
+}
