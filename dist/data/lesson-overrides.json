@@ -260,42 +260,371 @@
   "chemistry-06-lesson-7": {
     "title": "Atomic Number, Mass Number, and Isotopes",
     "summary": "Use atomic notation to count subatomic particles and distinguish mass number from average atomic mass.",
-    "focus": ["Find protons, neutrons, and electrons from atomic number and mass number.", "Write and interpret standard isotope notation.", "Explain isotopes and calculate or interpret weighted average atomic mass."]
+    "focus": ["Find protons, neutrons, and electrons from atomic number and mass number.", "Write and interpret standard isotope notation.", "Explain isotopes and calculate or interpret weighted average atomic mass."],
+    "sections": [
+      {
+        "heading": "What a periodic-table entry tells you",
+        "paragraphs": [
+          "An element box shows the chemical symbol, atomic number, element name, and a relative atomic mass. For helium, the symbol is He, the atomic number is 2, and the listed atomic mass is about 4.003. The atomic number identifies the element; it is not simply a label that can change in an ordinary chemical reaction.",
+          "The atom is made of protons, neutrons, and electrons. Protons and neutrons are in the nucleus. Protons have relative charge +1 and relative mass 1 amu; neutrons have charge 0 and relative mass 1 amu. Electrons are outside the nucleus, have charge −1, and have a much smaller relative mass, about 1/1840 amu."
+        ]
+      },
+      {
+        "heading": "Atomic number, mass number, and neutral atoms",
+        "paragraphs": [
+          "Atomic number, written Z, is the number of protons in an atom. Since a neutral atom has no overall charge, its number of electrons equals its number of protons. Thus a neutral atom with Z = 11 has 11 protons and 11 electrons.",
+          "Mass number, written A, is the total number of protons and neutrons in one specific atom: A = p + n. Because Z equals the proton count, the neutron count can be found using n = A − Z. These are whole-number counts, unlike the decimal relative atomic mass on a periodic table."
+        ],
+        "bullets": [
+          "Helium-4: 2 protons, 2 electrons if neutral, 2 neutrons; A = 4 and Z = 2.",
+          "Lithium-7: 3 protons, 3 electrons if neutral, 4 neutrons; A = 7 and Z = 3.",
+          "Beryllium-9: 4 protons, 4 electrons if neutral, 5 neutrons; A = 9 and Z = 4.",
+          "Carbon-12: 6 protons, 6 electrons if neutral, 6 neutrons; A = 12 and Z = 6."
+        ]
+      },
+      {
+        "heading": "Ions: account for the charge",
+        "paragraphs": [
+          "An ion has gained or lost electrons, so its electron count is not necessarily equal to Z. In the notation with a charge at the upper right, X is the chemical symbol, A is the mass number at the upper left, Z is the atomic number at the lower left, and the superscript charge shows the ion’s net charge.",
+          "Use protons − electrons = charge. A −1 ion has one more electron than protons; a +2 ion has two fewer electrons than protons. The class table gives useful checks: an atom with 11 protons and a −1 charge has 12 electrons; one with 36 protons and a +2 charge has 34 electrons. Neutrons are still A − Z because changing electron count does not change the nucleus."
+        ]
+      },
+      {
+        "heading": "Standard atomic (Berzelius) notation",
+        "paragraphs": [
+          "Standard atomic notation, also called Berzelius notation, writes an element as A/Z X: the mass number A is at the upper left of the symbol and the atomic number Z is at the lower left. If relevant, the ion charge is written at the upper right.",
+          "For zinc with atomic number 30 and mass number 65, the notation is ⁶⁵₃₀Zn. It can also be named zinc-65 or Zn-65 when only the mass number is displayed. Reading the notation immediately gives 30 protons and 35 neutrons; a neutral zinc-65 atom also has 30 electrons."
+        ]
+      },
+      {
+        "heading": "Isotopes and relative atomic mass",
+        "paragraphs": [
+          "Isotopes are atoms of the same element, so they have the same number of protons and the same atomic number, but they have different numbers of neutrons and therefore different mass numbers. This is why the claim ‘atoms of the same element are identical’ is not fully correct: their chemical identity is the same, but their neutron count may differ.",
+          "The relative atomic mass listed in a periodic-table box is a weighted average of the naturally occurring isotopes. Zinc, for example, has naturally occurring isotopes including zinc-64 (about 49%), zinc-66 (about 28%), zinc-67 (about 4%), zinc-68 (about 18%), and zinc-70 (about 1%). The more abundant isotopes affect the average more strongly."
+        ],
+        "bullets": [
+          "Convert a percentage to a decimal before multiplying: 49% becomes 0.49.",
+          "Weighted-average pattern: relative atomic mass = Σ(isotope mass × fractional abundance).",
+          "The average is usually not a whole number because it represents a mixture of isotopes."
+        ]
+      },
+      {
+        "heading": "Radioisotopes",
+        "paragraphs": [
+          "Radioisotopes are unstable versions of an element that emit radiation as they decay toward a more stable form. Their predictable decay rates and detectable emissions make them useful beyond the classroom.",
+          "The notes connect radioisotopes to medical imaging, cancer therapy, industrial quality control, and archaeological dating. Their usefulness comes with the need for careful handling and appropriate safety controls, since ionizing radiation can affect living tissue."
+        ]
+      }
+    ]
   },
   "chemistry-07-lesson-8": {
     "title": "Molecular Geometry and Polarity",
     "summary": "Use electron domains, bond angles, and lone pairs to explain molecular shape and overall polarity.",
-    "focus": ["Apply VSEPR to identify common molecular shapes.", "Show how lone pairs change geometry and bond angles.", "Decide whether bond dipoles cancel or create a polar molecule."]
+    "focus": ["Apply VSEPR to identify common molecular shapes.", "Show how lone pairs change geometry and bond angles.", "Decide whether bond dipoles cancel or create a polar molecule."],
+    "sections": [
+      {
+        "heading": "Chemical formulas and bonding",
+        "paragraphs": [
+          "A chemical formula uses element symbols and subscripts to represent a substance and its composition. The notes distinguish molecular, empirical, structural, condensed structural, and skeletal formulas. Each form communicates a different level of information about the atoms and their connections.",
+          "Ionic bonding is formed between metal cations and nonmetal anions after electron transfer. Oppositely charged ions attract. Covalent bonding forms when atoms share valence electrons, commonly to reach a filled valence shell. A shared pair of electrons is a single covalent bond; a double bond shares two pairs (four electrons), and a triple bond shares three pairs (six electrons)."
+        ]
+      },
+      {
+        "heading": "Comparing ionic and covalent compounds",
+        "paragraphs": [
+          "Ionic compounds have strong attractions in a repeating three-dimensional crystal lattice. They usually have high melting and boiling points and are hard but brittle: shifting the lattice can force like charges close together, causing repulsion and the crystal to break.",
+          "Ionic solids do not conduct electricity because their ions are fixed in place. When molten or dissolved in water, ions can move and carry charge. Water’s polarity allows it to surround and separate many ions, so ionic substances are often soluble in water and generally insoluble in nonpolar solvents.",
+          "Many covalent compounds have weaker intermolecular forces, so they often have lower melting and boiling points and can be gases, liquids, or soft solids at room temperature. They are poor electrical conductors because they lack mobile ions or electrons. Many nonpolar covalent compounds dissolve better in nonpolar solvents, while polar covalent substances such as sugar may dissolve in water."
+        ]
+      },
+      {
+        "heading": "Lewis structures and the valence-shell rule",
+        "paragraphs": [
+          "Lewis electron-dot diagrams show valence electrons, bonding pairs, and lone pairs. Begin by identifying the valence electrons and arranging the atoms so a central atom can be connected to the surrounding atoms. A useful classroom rule is that atoms tend toward a filled valence shell: ‘2 will do, but 8 is great.’ Hydrogen is stable with two electrons; many main-group atoms are often represented with eight around them.",
+          "The notes use common bonding capacities as a starting point: H generally makes one bond, O two, F one, N three, Cl one, and C four. These are planning tools for drawing a Lewis structure; verify the final structure by checking valence electrons, bonds, lone pairs, and the overall charge if the species is an ion."
+        ]
+      },
+      {
+        "heading": "VSEPR and the five shapes to memorize",
+        "paragraphs": [
+          "VSEPR (valence-shell electron-pair repulsion) explains molecular shape by treating bonds and lone pairs around a central atom as electron domains that repel. Draw the Lewis structure first, then count bonding pairs and lone pairs on the central atom. Lone pairs occupy more space than bonding pairs and can compress bond angles.",
+          "The lesson highlights five common shapes: linear, trigonal planar, tetrahedral, trigonal pyramidal, and bent. A trigonal planar molecule has three bonding regions and no lone pairs on the center. A tetrahedral molecule has four bonding regions and no lone pairs. A bent molecule has two bonded atoms with one or two lone pairs on the center, so it is not linear.",
+          "The geometries are not simply flat drawings. Wedge and dashed bonds show bonds coming out of and going behind the page, especially for tetrahedral structures. Molecular geometry comes from the arrangement of electron pairs in three dimensions."
+        ],
+        "bullets": [
+          "Linear: two bonding regions; example arrangement AX₂.",
+          "Trigonal planar: three bonding regions and zero lone pairs; AX₃.",
+          "Tetrahedral: four bonding regions and zero lone pairs; AX₄.",
+          "Trigonal pyramidal: three bonds and one lone pair; AX₃E.",
+          "Bent: two bonds and one or two lone pairs; AX₂E or AX₂E₂."
+        ]
+      },
+      {
+        "heading": "Bond polarity and molecular polarity",
+        "paragraphs": [
+          "Bond polarity comes from unequal sharing of electrons. The more electronegative atom pulls the shared electron density toward itself; the slide calls this the ‘tractor pull.’ The closer the electronegativity difference is to 2.0, the greater the polar or ionic character described in the lesson; a difference closer to 0.20 is more nonpolar in character.",
+          "Molecular polarity is not decided from one bond alone. Bond dipoles must be considered together with the molecule’s geometry. A molecule can contain polar bonds but still be nonpolar when a symmetrical arrangement makes the pulls cancel—for example, symmetrical examples such as BF₃, CCl₄, and CH₃Cl-type comparisons were used to show how geometry changes the result. A bent or trigonal-pyramidal shape commonly leaves a net dipole because the arrangement is not fully symmetrical."
+        ],
+        "bullets": [
+          "Draw the Lewis structure before deciding polarity.",
+          "Check whether the atoms around the central atom are the same and symmetrically arranged.",
+          "If bond dipoles cancel, the molecule is nonpolar; if a net pull remains, it is polar."
+        ]
+      },
+      {
+        "heading": "A reliable problem-solving workflow",
+        "paragraphs": [
+          "For a molecule or ion: (1) count total valence electrons, adjusting for charge; (2) draw a Lewis structure; (3) complete outer shells and form multiple bonds if needed; (4) count electron domains at the central atom; (5) name the molecular shape; and (6) use bond polarity and symmetry to decide the overall polarity.",
+          "This order prevents a common mistake: calling a molecule polar merely because it contains a polar bond. Shape is the final check that tells whether the individual bond pulls add up or cancel."
+        ]
+      }
+    ]
   },
   "chemistry-08-lesson-9": {
-    "title": "Nomenclature of Acids",
-    "summary": "Learn the naming patterns for binary acids and oxyacids, including the link between anion endings and acid names.",
-    "focus": ["Distinguish binary acids from oxyacids using their formulas.", "Convert -ide, -ate, and -ite endings into the correct acid names.", "Recognize mono-, di-, and triprotic acids from the number of ionizable hydrogens."]
+    "title": "Nomenclature: Ions, Acids, and Bases",
+    "summary": "Name ionic compounds, acids, and bases by tracing each formula to its ions, anion ending, and metal charge.",
+    "focus": ["Name binary and polyatomic ionic compounds, including metals with more than one possible charge.", "Convert -ide, -ate, and -ite endings into the correct acid names.", "Recognize bases and classify acids by their ionizable hydrogen ions."],
+    "sections": [
+      {
+        "heading": "Ions are the starting point for naming",
+        "paragraphs": [
+          "A compound name should reflect the particles in its formula. A positively charged ion is a cation; a negatively charged ion is an anion. In an ionic compound, the total positive charge and total negative charge balance to zero.",
+          "For a binary ionic compound, name the cation first with its periodic-table name. Name the nonmetal anion second by changing its ending to -ide. The formula NaCl is sodium chloride and CaO is calcium oxide. The subscript tells how many of each ion are needed for a neutral compound; it is not read aloud in the name."
+        ],
+        "bullets": [
+          "metal cation + nonmetal anion: sodium chloride, calcium oxide, hydrogen sulfide",
+          "polyatomic ions keep their established ion names: CO₃²⁻ is carbonate, SO₄²⁻ is sulfate, and NO₃⁻ is nitrate",
+          "parentheses in a formula group a polyatomic ion when more than one of that ion is present, as in Ca(OH)₂"
+        ]
+      },
+      {
+        "heading": "Metals with variable charge need an extra clue",
+        "paragraphs": [
+          "Some metals can form more than one cation, so the formula must tell you which charge is present. The Stock system writes the metal charge as a Roman numeral in parentheses after the metal name. FeCl₂ is iron(II) chloride because two Cl⁻ ions require Fe²⁺; FeCl₃ is iron(III) chloride because three Cl⁻ ions require Fe³⁺.",
+          "The classical system uses -ous for the lower charge and -ic for the higher charge. Thus FeCl₂ is ferrous chloride and FeCl₃ is ferric chloride. Modern exercises commonly prefer the Stock system because its Roman numeral states the oxidation state directly."
+        ],
+        "bullets": [
+          "CoCO₃: carbonate is 2−, so the cobalt is 2+ → cobalt(II) carbonate",
+          "Co₂(CO₃)₃: three carbonate ions total 6−, so the two cobalt ions total 6+ → cobalt(III) carbonate",
+          "work backward from the anion charges before choosing a Roman numeral"
+        ]
+      },
+      {
+        "heading": "Binary acids: hydro- + root + -ic acid",
+        "paragraphs": [
+          "A binary acid contains hydrogen and one other nonmetal and has no oxygen. Its acid name follows hydro- + the nonmetal root + -ic acid. For example, HF is hydrofluoric acid, HCl is hydrochloric acid, HBr is hydrobromic acid, and H₂S is hydrosulfuric acid.",
+          "This pattern is for the acid context. The same element combination can be named as an ionic or molecular compound in another context; use the formula type and the question's context to decide which naming system it expects."
+        ],
+        "bullets": [
+          "fluoride → hydrofluoric acid",
+          "bromide → hydrobromic acid",
+          "sulfide → hydrosulfuric acid",
+          "binary acid check: hydrogen + one nonmetal, with no oxygen present"
+        ]
+      },
+      {
+        "heading": "Oxyacids take their names from polyatomic ions",
+        "paragraphs": [
+          "An oxyacid contains hydrogen, oxygen, and usually a nonmetal. Its name is based on the oxygen-containing anion. Change an anion ending -ate to -ic acid and -ite to -ous acid. Sulfate, SO₄²⁻, gives sulfuric acid, H₂SO₄; sulfite, SO₃²⁻, gives sulfurous acid. Nitrate gives nitric acid, while nitrite gives nitrous acid.",
+          "Prefixes remain visible in the acid name. The chlorine oxyanion sequence is especially useful: hypochlorite gives hypochlorous acid, chlorite gives chlorous acid, chlorate gives chloric acid, and perchlorate gives perchloric acid."
+        ],
+        "bullets": [
+          "HNO₃: nitrate → nitric acid",
+          "HClO₂: chlorite → chlorous acid",
+          "HClO₃: chlorate → chloric acid",
+          "HClO₄: perchlorate → perchloric acid"
+        ]
+      },
+      {
+        "heading": "Protic acids and ionizable hydrogen",
+        "paragraphs": [
+          "Acids may be described by how many hydrogen ions they can donate. A monoprotic acid has one ionizable hydrogen, a diprotic acid has two, and a triprotic acid has three. Common examples are HCl or HF (monoprotic), H₂SO₄ and H₂S (diprotic), and H₃PO₄ (triprotic).",
+          "The number of H symbols in a formula is a useful first check, but the actual structure matters for detailed ionization questions. For naming, first identify whether the formula is a binary acid or an oxyacid; use the protic label when the question asks about how many hydrogen ions can be released."
+        ],
+        "bullets": [
+          "monoprotic: one ionizable H⁺",
+          "diprotic: two ionizable H⁺ ions",
+          "triprotic: three ionizable H⁺ ions"
+        ]
+      },
+      {
+        "heading": "Bases are named as ionic hydroxides",
+        "paragraphs": [
+          "The bases in this lesson are ionic compounds containing the hydroxide ion, OH⁻. Name the metal cation first and then say hydroxide. NaOH is sodium hydroxide and Ca(OH)₂ is calcium hydroxide. The subscript 2 means two hydroxide ions are needed to balance Ca²⁺.",
+          "If the metal has variable charge, include the Roman numeral just as you would for another ionic compound. Fe(OH)₃ is iron(III) hydroxide because three OH⁻ ions have a total charge of 3−."
+        ],
+        "bullets": [
+          "NaOH → sodium hydroxide",
+          "Ca(OH)₂ → calcium hydroxide",
+          "Fe(OH)₃ → iron(III) hydroxide"
+        ]
+      },
+      {
+        "heading": "A reliable naming workflow",
+        "paragraphs": [
+          "First scan the formula. Does it begin with H and contain no oxygen? Use the binary-acid pattern. Does it begin with H and include an oxygen-containing ion? Trace it to the oxyanion and use the -ate/-ite pattern. Does it contain OH⁻? It is a hydroxide base. Otherwise, identify the cation and anion and name it as an ionic compound.",
+          "Finally, check charge. A transition-metal cation may require a Roman numeral, while a familiar fixed-charge metal does not. This last check prevents many look-alike names from being wrong."
+        ],
+        "bullets": [
+          "binary acid: hydro- + root + -ic acid",
+          "oxyacid: -ate → -ic acid; -ite → -ous acid",
+          "base: metal name + hydroxide",
+          "ionic compound: cation first, then anion; add a Roman numeral when the metal charge is variable"
+        ]
+      }
+    ]
   },
   "chemistry-09-lesson-10": {
     "title": "Chemical Bonding and VSEPR Geometry",
     "summary": "Connect electron sharing and lone pairs to Lewis structures, molecular shapes, and the behavior of covalent substances.",
-    "focus": ["Read or draw Lewis structures before deciding on a shape.", "Count bonding pairs and lone pairs around the central atom.", "Compare related VSEPR shapes and explain the effect of lone pairs."]
+    "focus": ["Read or draw Lewis structures before deciding on a shape.", "Count bonding pairs and lone pairs around the central atom.", "Compare related VSEPR shapes and explain the effect of lone pairs."],
+    "sections": [
+      {
+        "heading": "Molecular geometry is a three-dimensional arrangement",
+        "paragraphs": [
+          "Molecular geometry describes the three-dimensional arrangement of atoms in a molecule. This arrangement affects physical and chemical properties, including molecular polarity and how a molecule interacts with other substances.",
+          "To predict a geometry, focus on the central atom and the electron groups around it. The source lesson uses the VSEPR model: electron pairs repel one another and arrange themselves as far apart as possible."
+        ],
+        "bullets": [
+          "bonding pairs are electron pairs shared in bonds to surrounding atoms",
+          "lone pairs belong to the central atom but are not shared in a bond",
+          "electron-pair arrangement counts both bonding pairs and lone pairs; molecular geometry names the arrangement of atoms"
+        ]
+      },
+      {
+        "heading": "Use the ABₓEᵧ notation",
+        "paragraphs": [
+          "The lesson writes VSEPR classes as ABₓEᵧ. A is the central atom, B represents atoms attached to that central atom, and E represents lone pairs on the central atom. The value of x is the number of attached atoms and y is the number of lone pairs.",
+          "For example, AB₃ has three bonding groups and no lone pairs on the central atom. AB₃E has three bonding groups and one lone pair. Reading the class prevents a common mistake: confusing electron-pair arrangement with the visible shape made only by the atoms."
+        ],
+        "bullets": [
+          "AB₂: two bonded atoms, no lone pair",
+          "AB₃E: three bonded atoms and one lone pair",
+          "AB₂E₂: two bonded atoms and two lone pairs",
+          "AB₄E: four bonded atoms and one lone pair"
+        ]
+      },
+      {
+        "heading": "Count electron groups, not bond lines",
+        "paragraphs": [
+          "In VSEPR, a single bond, a double bond, and a triple bond each count as one electron group around the central atom. A multiple bond contains more electrons, but it still points in one direction from the central atom when determining the basic geometry.",
+          "First draw or read the Lewis structure. Then count each direction of bonding as one bonding group and add the lone pairs on the central atom. The total is the steric number, or total number of electron groups. Lone pairs repel more strongly than bonding pairs, so they can compress the angles between bonds."
+        ],
+        "bullets": [
+          "2 electron groups → linear arrangement, about 180°",
+          "3 electron groups → trigonal planar arrangement, about 120°",
+          "4 electron groups → tetrahedral arrangement, about 109.5°",
+          "5 electron groups → trigonal bipyramidal; 6 electron groups → octahedral"
+        ]
+      },
+      {
+        "heading": "Shapes with no lone pairs on the central atom",
+        "paragraphs": [
+          "When there are no lone pairs on the central atom, the electron-pair arrangement and molecular geometry have the same name. AB₂ is linear, AB₃ is trigonal planar, AB₄ is tetrahedral, AB₅ is trigonal bipyramidal, and AB₆ is octahedral.",
+          "The examples shown in the source are BeCl₂ (linear), BF₃ (trigonal planar), CH₄ (tetrahedral), PCl₅ (trigonal bipyramidal), and SF₆ (octahedral). In PCl₅, the five bonding groups arrange with three equatorial positions and two axial positions, giving 120° and 90° angles."
+        ],
+        "bullets": [
+          "AB₂ → linear → BeCl₂",
+          "AB₃ → trigonal planar → BF₃",
+          "AB₄ → tetrahedral → CH₄",
+          "AB₅ → trigonal bipyramidal → PCl₅; AB₆ → octahedral → SF₆"
+        ]
+      },
+      {
+        "heading": "Lone pairs change the molecular geometry",
+        "paragraphs": [
+          "Lone pairs are included when determining the electron-pair arrangement, but they are omitted from the molecular-geometry name because they are not atoms. Their stronger repulsion pushes bonding pairs closer together and changes the shape seen from the atoms.",
+          "For three electron groups, AB₂E has a trigonal-planar electron arrangement but a bent geometry, as shown for SO₂. For four groups, AB₃E is trigonal pyramidal (NH₃) and AB₂E₂ is bent (H₂O). The board work in the source counts water as two bonding pairs plus two lone pairs: four electron groups total, tetrahedral electron arrangement, but bent molecular geometry."
+        ],
+        "bullets": [
+          "AB₂E → bent; trigonal-planar electron arrangement; example SO₂",
+          "AB₃E → trigonal pyramidal; tetrahedral electron arrangement; example NH₃",
+          "AB₂E₂ → bent; tetrahedral electron arrangement; example H₂O",
+          "PCl₃ is another AB₃E example: trigonal pyramidal molecular geometry"
+        ]
+      },
+      {
+        "heading": "Five and six electron groups with lone pairs",
+        "paragraphs": [
+          "With five electron groups, the electron-pair arrangement is trigonal bipyramidal. AB₄E has one lone pair and becomes seesaw, as in SF₄. AB₃E₂ becomes T-shaped, as in ClF₃, and AB₂E₃ becomes linear, as in I₃⁻. The geometry name changes because lone pairs occupy positions without appearing as atoms in the final shape.",
+          "With six electron groups, the electron-pair arrangement is octahedral. AB₅E is square pyramidal (BrF₅) and AB₄E₂ is square planar (XeF₄). These classes are useful to memorize as a pattern rather than as disconnected diagrams."
+        ],
+        "bullets": [
+          "AB₄E → seesaw → SF₄",
+          "AB₃E₂ → T-shaped → ClF₃; AB₂E₃ → linear → I₃⁻",
+          "AB₅E → square pyramidal → BrF₅",
+          "AB₄E₂ → square planar → XeF₄"
+        ]
+      },
+      {
+        "heading": "A VSEPR solving routine",
+        "paragraphs": [
+          "Draw the Lewis structure, identify the central atom, and count the bonding groups plus lone pairs on that atom. Use the total to find the electron-pair arrangement, then ignore lone pairs when naming the molecular geometry. Finally, sketch the atoms in their correct three-dimensional positions and check whether lone-pair repulsion should make the bond angles smaller than the ideal values.",
+          "Keep the two questions separate: ‘How are all electron groups arranged?’ asks for the electron-pair arrangement. ‘What shape do the atoms make?’ asks for the molecular geometry."
+        ],
+        "bullets": [
+          "1. Lewis structure", "2. Count bonding groups and lone pairs", "3. Determine electron-pair arrangement", "4. Name molecular geometry from the positions occupied by atoms"
+        ]
+      }
+    ]
   },
   "effcom-10-lesson-2": {
-    "title": "Visual Data, Evidence, and Objective Communication",
-    "summary": "Read visual information closely and communicate findings with evidence instead of unsupported assumptions.",
-    "focus": ["Read titles, labels, scales, and categories before interpreting a chart or infographic.", "Separate a direct observation from an inference or personal claim.", "Use accurate, objective wording when explaining data."]
+    "title": "Data Decoded: Reading Beyond the Numbers",
+    "summary": "Read tables, graphs, diagrams, and figures with accuracy. Find what the data shows, explain the pattern carefully, and avoid conclusions that the evidence cannot support.",
+    "focus": ["Decode the title, labels, categories, units, scale, and source before making a claim.", "Tell observations, reasonable interpretations, and unsupported assumptions apart.", "Use data comparisons and exact evidence in academic statements."],
+    "sections": [
+      {"heading":"Why visual representations matter","body":"Visual representations help readers identify trends, compare information, summarize large amounts of data, and communicate findings clearly. A <strong>chart</strong> compares categories, a <strong>table</strong> organizes exact numerical information, a <strong>graph</strong> shows patterns or changes, a <strong>diagram</strong> explains a process or relationship, and a <strong>figure</strong> can include images, models, maps, or illustrations."},
+      {"heading":"Linear and non-linear text","body":"<strong>Linear text</strong> presents information in sentences and paragraphs. <strong>Non-linear text</strong> presents information visually, such as in a flowchart, concept map, diagram, table, graph, or infographic. Converting a paragraph into a visual can make the key idea, connected details, and sequence easier to see at a glance."},
+      {"heading":"Turning a paragraph into a visual","body":"Use a deliberate process: <strong>1. Identify the main idea</strong>, the central message. <strong>2. Identify supporting details</strong>, the points that explain it. <strong>3. Look for relationships</strong>, such as sequence, comparison, hierarchy, cause and effect, or parts of a whole. <strong>4. Choose a visual format</strong> that fits that relationship. <strong>5. Arrange information logically</strong> so the main idea and details are easy to follow."},
+      {"heading":"Academic communication in one map","body":"Academic communication is purposeful, organized, evidence-based, objective, formal, and audience-focused. It has a clear goal; it arranges ideas logically; it uses reliable support; it avoids personal feelings when facts are required; it uses appropriate academic language; and it considers what the reader needs to understand the message."},
+      {"heading":"The DATA reading strategy","body":"Use <strong>D-A-T-A-C</strong> when reading a visual source. <strong>Decode:</strong> identify the title, labels, categories, units, legend or key, and source. <strong>Analyze:</strong> find the highest, lowest, increasing, decreasing, similar, different, or repeated pattern. <strong>Trace the relationship:</strong> compare pieces of information with precise language such as higher than, lower than, increased from ___ to ___, or decreased by ___. <strong>Articulate:</strong> turn the observation into an academic statement. <strong>Check:</strong> ask whether the data truly supports that statement."},
+      {"heading":"Observation, interpretation, and assumption","body":"An <strong>observation</strong> reports a direct fact from the data: “Thirty-four students reported studying for two to three hours.” An <strong>interpretation</strong> makes a logical, limited statement from combined facts: “Two to three hours was the most common study duration among the respondents.” An <strong>assumption</strong> goes beyond the evidence: “Students who study two to three hours will definitely get higher grades.” Good academic communication respects the limits of the evidence."},
+      {"heading":"A careful reading routine","body":"First, look and observe: identify the title, what information appears, the categories, and what each axis or label means. Next, find the evidence: locate the highest and lowest values, and calculate only comparisons the visual supports. Then think: identify a pattern and state what can reasonably be concluded. Finish by checking what the graph does <em>not</em> prove. For example, a graph that shows 42% preferred online learning supports that exact statement, but it does not prove why they preferred it."},
+      {"heading":"Practice with different visual forms","body":"For a table on study time, identify the most common duration without assuming anything about grades. For a bar graph on reviewing methods, name the most frequently preferred method and compare it with another category. For a line graph, describe the change over time. For a pie chart, identify the largest share. For a process diagram, state the sequence, such as <em>identify the problem, gather information, analyze data, formulate findings, and communicate results</em>. In every case, write at least one sentence beginning, “According to the data…”"}
+    ]
   },
   "effcom-11-lesson-3": {
     "title": "Visual Representations and Non-Linear Text",
-    "summary": "Transform linear information into charts, diagrams, and other visual forms that make relationships and key ideas easier to see.",
-    "focus": ["Explain when a visual representation communicates better than a long paragraph.", "Identify trends, comparisons, relationships, and key ideas in a visual.", "Turn a short sequence of information into an appropriate non-linear form."]
+    "summary": "Transform a paragraph into a visual representation that makes key ideas, connections, and sequence easier for the reader to understand.",
+    "focus": ["Match a chart, table, graph, diagram, or figure to the information it needs to show.", "Identify the main idea, supporting details, and relationship before designing a visual.", "Use visual organization to make a complex message clearer and easier to remember."],
+    "sections": [
+      {"heading":"What visual representations do","body":"A visual representation can reveal a trend, compare information, condense a large amount of data, and communicate findings clearly. For example, club participation rising from 120 to 150 to 180 students can be written in a sentence, but a graph makes the upward pattern immediately visible."},
+      {"heading":"Five common forms","body":"A <strong>chart</strong> displays comparisons among categories. A <strong>table</strong> organizes exact numerical information. A <strong>graph</strong> shows patterns, changes, or relationships. A <strong>diagram</strong> illustrates a process, connection, or structure. A <strong>figure</strong> is a broader visual that may include images, models, maps, or illustrations. Choose the form based on what the reader needs to see."},
+      {"heading":"Linear versus non-linear text","body":"<strong>Linear text</strong> presents information through sentences and paragraphs. <strong>Non-linear text</strong> presents information visually. The same research sequence can appear as a paragraph, a table, a flowchart, a concept map, a diagram, or an infographic. The words may stay the same, but the visual makes sequence and relationships easier to scan."},
+      {"heading":"A five-step conversion process","body":"<strong>1. Identify the main idea.</strong> Find the general topic or central message. <strong>2. Identify supporting details.</strong> List the points that explain or support it. <strong>3. Look for relationships.</strong> Decide how the details connect to the main idea. <strong>4. Choose an appropriate visual format.</strong> Use a mind map, flowchart, concept map, hierarchy, or another form that suits the connection. <strong>5. Arrange information logically.</strong> Place the main idea and details clearly and neatly."},
+      {"heading":"Example: effective communication","body":"The statement “Effective communication requires understanding the audience, organizing ideas, selecting appropriate language, and delivering the message clearly” can become a simple hierarchy. Put <strong>Effective Communication</strong> as the main idea, then place <strong>Audience</strong>, <strong>Organization</strong>, <strong>Language</strong>, and <strong>Clarity</strong> as connected parts. The diagram lets the reader see the whole-and-parts relationship at once."},
+      {"heading":"Example: the research process","body":"A sequence works well as a flowchart: <strong>identify the problem, review related literature, collect data, analyze findings, then draw conclusions</strong>. The arrows show order. A concept map would suit this less well if the main purpose is to show which step comes first and what follows it."},
+      {"heading":"Why conversion helps","body":"Visual formats make information easier to understand quickly, highlight relationships among ideas, support memory, bring key ideas forward, and simplify complex information. A good visual does not remove essential meaning. It reorganizes the information so the reader can see its structure with less effort."}
+    ]
   },
   "effcom-12-lesson-4": {
-    "title": "Summarizing and Paraphrasing Technical Writing",
-    "summary": "Practice shortening technical material without losing its meaning and restating ideas without copying the original wording.",
-    "focus": ["Identify the central idea and the essential supporting details.", "Distinguish a summary from a paraphrase.", "Keep the original meaning while using your own structure and language."]
+    "title": "Summarizing, Paraphrasing, and Technical Synopsis Writing",
+    "summary": "Use active reading to condense, restate, and organize complex material accurately while preserving its original meaning and evaluating information critically.",
+    "focus": ["Choose skimming or scanning based on the reading goal.", "Distinguish summaries, paraphrases, direct quotations, and synopses.", "Write concise technical overviews without changing the source's meaning."],
+    "sections": [
+      {"heading":"Read strategically: skim or scan","body":"When there is a lot to read, choose a method that matches the task. <strong>Skimming</strong> is a quick look through a text to get its general idea: notice the title, headings, opening and closing sentences, repeated words, and key statements. <strong>Scanning</strong> is a focused search for a specific detail such as a name, date, number, definition, or answer. Skim first when you need the big picture; scan when you already know what detail you need to find.","points":["Skimming answers: What is this text mainly about?","Scanning answers: Where is the exact fact or term I need?","Both methods save time, but neither replaces careful reading when full understanding is required."]},
+      {"heading":"Four related but different writing moves","body":"A <strong>summary</strong> is a shortened version that brings together only the most important ideas. A <strong>paraphrase</strong> restates a source idea fully in different wording and structure. A <strong>synopsis</strong> is a concise, coherent overview of an entire work, such as an article, story, film, or research paper, showing its central development in logical order. A <strong>direct quotation</strong> uses the source's exact words and therefore needs quotation marks and proper citation. Each method keeps the source meaning, but each has a different amount of detail and a different purpose.","points":["Summary: the main points, made much shorter.","Paraphrase: the whole idea, restated in your own sentence pattern and language.","Synopsis: the essential content or storyline of a complete work, without minor details.","Quotation: the original wording, used exactly and credited clearly."]},
+      {"heading":"How to write an accurate summary","body":"Start by reading the original selection carefully, then reread it so its central idea and essential supporting points are clear. Decide what the text is mostly saying before writing. Create one connected piece of writing using fewer words, generally preserving the source's logical order. Finally, compare the summary against the original and revise anything that adds an opinion, misses an essential point, or includes an unnecessary detail.","points":["Read and reread before trying to shorten the material.","Keep the central idea and only the details needed to support it.","Write a unified whole rather than a list of copied sentences.","Use fewer words, then check for omissions, additions, and accuracy."]},
+      {"heading":"Paraphrase without copying or distorting","body":"A strong paraphrase shows that the writer understands the material well enough to explain it in a new form. Read until the exact meaning is clear, set the original aside, and restate the complete idea using your own vocabulary and sentence structure. Do not insert personal reactions or change the claim. Compare your version with the source, revise it for meaning and grammar, and still acknowledge the source when required. Replacing a few words with synonyms is not enough if the wording and structure remain too close to the original.","points":["Keep every essential idea, but change both the phrasing and the structure.","Do not add personal opinions to a paraphrase of technical material.","Compare with the original to make sure the meaning has not shifted.","Paraphrasing helps explain complex information, adapt it for an audience, and avoid plagiarism when sources are credited."]},
+      {"heading":"What makes a synopsis effective","body":"A synopsis gives a reader a clear overview of a complete work. It identifies the central idea, storyline, argument, or development; includes the most important events, findings, or claims; and presents them in a logical sequence. It leaves out side details, long descriptions, repeated examples, and anything that does not help a reader understand the whole. Use your own words while preserving the original meaning and emphasis.","points":["Cover the work's essential content, not every detail in it.","Keep the sequence logical so the reader can follow the development.","Include major events, arguments, or findings; remove minor illustrations and lengthy descriptions.","Make the overview concise, coherent, and faithful to the source."]},
+      {"heading":"A research-style technical synopsis","body":"For a technical paper or research proposal, a synopsis can follow a standard structure. Begin with a clear, specific title that reflects the topic, variables, or phenomenon. Give brief background that establishes the context and any problem or gap being addressed. State the objective, research question, or hypothesis in one focused sentence. Then describe the methodology: design, participants or sample, setting, data-gathering tools, and method of analysis. End with the expected results for a proposal, or the key findings for a completed study.","points":["Title: specific and connected to the study's subject or variables.","Background: brief context and the reason the inquiry matters.","Objective or problem: the core question, aim, or hypothesis.","Methodology: design, sample, setting, tools, and analysis method.","Outcomes: anticipated evidence for a proposal, or the main actual findings for a completed study."]},
+      {"heading":"Move from memorizing to active reading","body":"Memorizing sentences may help a learner repeat information, but it does not always prove understanding. Active reading asks the learner to identify the main idea, mark important details, ask questions about unfamiliar parts, and explain the information in a new form. If a student cannot explain a passage in clear words, rereading with a purpose and making a short summary or paraphrase can reveal what still needs to be understood.","points":["Ask: What is the author's main point? What evidence supports it?","Mark terms and details that are essential, not every sentence.","Use a summary to check the big idea and a paraphrase to check full understanding.","Revise your notes when they do not accurately represent the source."]},
+      {"heading":"Learn critically in digital spaces","body":"Online libraries, videos, platforms, and articles make information easier to reach, but easy access does not automatically mean reliable learning. Before accepting a digital claim, consider who produced it, what evidence it gives, when it was published, whether it has a clear purpose or possible bias, and whether trustworthy sources agree. Good digital readers compare perspectives and distinguish supported claims from information that merely looks convincing.","points":["Check the author, source, date, evidence, and stated purpose.","Separate an observation or fact from an interpretation or unsupported assertion.","Compare important claims with credible sources instead of relying on one attractive post or video.","Use summaries and paraphrases to communicate verified information clearly and responsibly."]}
+    ]
   },
   "effcom-13-term-2-lesson-1": {
-    "title": "Academic Communication: Term 2 Foundations",
-    "summary": "A term-opening Effective Communication resource for building clear, purposeful academic communication and group work habits.",
-    "focus": ["Use the opening activities to identify the communication skill being practiced.", "Keep audience, purpose, and clarity in mind when responding to tasks.", "Track group responsibilities and turn the source pages into your own study notes."]
+    "title": "Academic Communication: Building and Defending an Argument",
+    "summary": "Learn the structure of an academic debate: take a clear position, support it with dependable evidence, explain the reasoning, and answer opposing arguments with precision.",
+    "focus": ["Separate a claim, its evidence, and the reasoning that connects them.", "Practice the different jobs in a formal eight-member debate team.", "Challenge arguments fairly by testing the quality and relevance of their evidence."],
+    "sections": [
+      {"heading":"Academic communication through debate","body":"The lesson uses a structured debate called <strong>Rhetoric Rumble</strong>. A debate is not simply trying to speak the most: each team must defend an assigned position through claims, evidence, reasoning, counterarguments, and rebuttals. The goal is to build an argument, listen critically to another argument, test its reasoning, and respond using evidence."},
+      {"heading":"The three parts of a defensible argument","body":"<strong>Claim:</strong> the position or conclusion the team wants the audience to accept. <strong>Evidence:</strong> research findings, statistics, examples, or expert information that supports the claim. <strong>Reasoning:</strong> the explanation of <em>why</em> that evidence supports the claim. Evidence without reasoning leaves the listener asking, “So what does this prove?”"},
+      {"heading":"Team roles: opening to reasoning","body":"A full team can divide the work so each speaker has a clear purpose. <strong>Member 1 — Opening:</strong> states the position, defines important terms, and gives the central claim. <strong>Member 2 — Evidence:</strong> presents research-based support. <strong>Member 3 — Reasoning:</strong> explains how the evidence proves the team’s point. <strong>Member 4 — Counterargument:</strong> identifies the strongest likely opposition and begins to answer it."},
+      {"heading":"Team roles: answering the opposition","body":"The remaining speakers protect and complete the case. <strong>Member 5 — Rebuttal:</strong> directly challenges an opposing argument. <strong>Member 6 — Evidence Challenger:</strong> asks whether the other team’s evidence is relevant, reliable, sufficient, and interpreted correctly. <strong>Member 7 — Response:</strong> defends the team’s position after challenges and reconnects the rebuttal to the main claim. <strong>Member 8 — Closing:</strong> synthesizes the strongest arguments and delivers the team’s final position."},
+      {"heading":"A clear debate flow","body":"Start by making the position and key claim unmistakable. Then present evidence, naming its source and explaining its relevance. Follow with reasoning: connect the evidence to the claim in a logical chain. After the opposing case is heard, introduce a counterargument, give a rebuttal, and respond to challenges before closing with the most persuasive points."},
+      {"heading":"How to test evidence","body":"When challenging evidence, do not only say that it is “wrong.” Ask specific questions: Is the source credible? Is the evidence actually connected to the claim? Is there enough evidence to support such a broad conclusion? Has a statistic, quotation, or example been interpreted fairly? A strong challenge identifies the weak link; a strong response repairs it with clearer explanation or better support."},
+      {"heading":"Preparation checklist","body":"Before presenting, make sure the team can state its claim in one clear sentence, define any key terms, label each piece of evidence with its source, explain the reasoning after every important piece of evidence, predict the strongest opposition, and assign the opening, evidence, reasoning, counterargument, rebuttal, evidence challenge, response, and closing roles. The aim is a connected case—not eight unrelated speeches."}
+    ]
   },
   "genmath-14-bearing-and-navigation-activity": {
     "title": "Bearing and Navigation: Applied Triangle Problems",
@@ -385,37 +714,569 @@
   "gensci-31-lesson-1": {
     "title": "Household Chemicals: Uses, Risks, and Safe Handling",
     "summary": "Identify familiar chemical substances, connect their formulas to everyday uses, and consider their health and safety risks.",
-    "focus": ["Match a household substance with its common use.", "Read formulas and names accurately.", "Describe safe handling or storage choices based on the substance’s risk."]
+    "focus": ["Match a household substance with its common use.", "Read formulas and names accurately.", "Describe safe handling or storage choices based on the substance’s risk."],
+    "sections": [
+      {
+        "heading": "A formula, a use, and a risk belong together",
+        "paragraphs": [
+          "Household chemicals are not automatically ‘good’ or ‘bad.’ Their usefulness and risk depend on the substance, its concentration, the amount of exposure, and how it is handled. This lesson links a chemical formula to a common name, familiar products or uses, and a possible health-related risk.",
+          "Read each formula carefully: capital letters begin element symbols, and subscripts show how many atoms occur in one formula unit or molecule. A product label, directions, and safety warnings are the practical information to follow; this page is a study guide, not a substitute for the label."
+        ],
+        "bullets": [
+          "concentration matters: dilute vinegar and concentrated acid do not have the same hazard",
+          "exposure route matters: a substance may irritate skin, eyes, lungs, or the digestive system in different ways",
+          "use only products as directed and keep them in their original labelled containers"
+        ]
+      },
+      {
+        "heading": "Common food and personal-care substances",
+        "paragraphs": [
+          "The source begins with substances encountered in food and ordinary personal-care products. Sodium chloride, NaCl, is table salt and a food seasoning; excessive dietary sodium may contribute to high blood pressure in susceptible people. Sodium bicarbonate, NaHCO₃, is baking soda, used in some baked goods and toothpaste; normal use is generally low risk, while excessive ingestion can disturb electrolytes.",
+          "Acetic acid, CH₃COOH, occurs in vinegar and food preservatives. Dilute household vinegar is generally safe, but concentrated acid can irritate or burn skin and eyes. Citric acid, C₆H₈O₇, is used in soft drinks, candies, cosmetics, and cleaning products; high concentrations can irritate the mouth, skin, or eyes, and frequent acidic exposure can contribute to dental erosion. Lactic acid, C₃H₆O₃, occurs in fermented foods and may be used in cosmetics or skin-care products; concentrated preparations can irritate skin."
+        ],
+        "bullets": [
+          "NaCl — sodium chloride — seasoning and processed foods",
+          "NaHCO₃ — sodium bicarbonate — baking soda, toothpaste, baked products",
+          "CH₃COOH — acetic acid — vinegar and preservatives",
+          "C₆H₈O₇ — citric acid; C₃H₆O₃ — lactic acid"
+        ]
+      },
+      {
+        "heading": "More everyday chemicals: products are safer at intended amounts",
+        "paragraphs": [
+          "Glycerol or glycerin, C₃H₈O₃, is found in soaps, toothpaste, lotions, and cosmetics and is generally low risk when used as intended, though heavy exposure can irritate some people. Hydrogen peroxide, H₂O₂, may be present in some disinfectants, hair-bleaching products, and oral-care products. Concentrated solutions can damage skin, eyes, and tissue and should not be swallowed.",
+          "Sodium fluoride, NaF, is used in toothpaste and some dental products. At an appropriate amount it helps prevent tooth decay, but excessive ingestion can cause fluoride toxicity. Silicon dioxide, SiO₂, appears in toothpaste abrasives, food additives, and powders; fine dust can irritate the respiratory system. Calcium carbonate, CaCO₃, is used in toothpaste, antacids, and food additives; excessive intake can cause constipation or contribute to kidney stones in susceptible people."
+        ],
+        "bullets": [
+          "C₃H₈O₃ — glycerol (glycerin)",
+          "H₂O₂ — hydrogen peroxide — use at its labelled concentration only",
+          "NaF — sodium fluoride — useful in toothpaste, not for swallowing",
+          "SiO₂ — silicon dioxide; CaCO₃ — calcium carbonate"
+        ]
+      },
+      {
+        "heading": "Surfactants, cleaners, solvents, and medicines",
+        "paragraphs": [
+          "Sodium lauryl sulfate (SLS, C₁₂H₂₅SO₄Na) is used in shampoos, soaps, toothpaste, and detergents; it can cause skin or eye irritation, especially with prolonged exposure or in sensitive people. Stearic acid, C₁₈H₃₆O₂, appears in soaps, cosmetics, and creams. Palmitic acid, C₁₆H₃₂O₂, appears in soaps, cosmetics, and food products; the lesson notes that excessive dietary saturated-fat intake is associated with cardiovascular risk.",
+          "Sodium hydroxide, NaOH, is used in some drain cleaners and soap-making processes. It is corrosive, and concentrated solutions can cause serious burns. Sodium carbonate, Na₂CO₃, occurs in laundry detergents and cleaning products and can irritate the skin, eyes, and respiratory tract, especially as dust or a concentrated solution."
+        ],
+        "bullets": [
+          "NaOH — sodium hydroxide — corrosive drain-cleaner ingredient; never handle it casually",
+          "Na₂CO₃ — sodium carbonate — detergent/cleaning chemical that can irritate",
+          "C₂H₅OH — ethanol — in hand sanitizers, cosmetics, and some food/beverage products; flammable and concentrated solutions may dry or irritate skin",
+          "C₃H₈O — isopropyl alcohol (2-propanol) — rubbing alcohol/disinfectant; flammable and harmful if ingested"
+        ]
+      },
+      {
+        "heading": "Never mix cleaners at random",
+        "paragraphs": [
+          "Sodium hypochlorite, NaClO, is a household bleach and disinfectant. It can irritate the skin, eyes, and respiratory system. The warning in the source is essential: never mix bleach with acids or ammonia-containing products, because dangerous gases can form.",
+          "Ammonia, NH₃, is present in some glass and household cleaners. Its strong fumes can irritate eyes and the respiratory tract, and concentrated solutions can damage skin. Handle bleach and ammonia products separately, with ventilation and the directions on the label."
+        ],
+        "bullets": [
+          "NaClO — sodium hypochlorite — bleach/disinfectant",
+          "NH₃ — ammonia — some glass and household cleaners",
+          "do not combine bleach with acids", "do not combine bleach with ammonia-containing cleaners"
+        ]
+      },
+      {
+        "heading": "Food additives in processed meat",
+        "paragraphs": [
+          "The food-chemistry part of the source identifies several additives and their jobs. Sodium nitrite, NaNO₂, is a curing agent that helps maintain the characteristic pink/red color and inhibits certain harmful bacteria. Sodium nitrate, NaNO₃, is a curing or preservative salt that can be converted to nitrite during processing or storage. Their use is controlled because excessive exposure and some cooking conditions can increase nitrosamine formation.",
+          "Other listed additives are sodium chloride, NaCl, for flavor and preservation; potassium sorbate, C₆H₇KO₂, to inhibit molds and yeasts; disodium phosphate, Na₂HPO₄, as an acidity regulator, stabilizer, and emulsifying salt; sodium ascorbate, C₆H₇NaO₆, and ascorbic acid (vitamin C), C₆H₈O₆, as antioxidants that help control nitrosation. At permitted levels these additives are generally considered safe, but the lesson emphasizes that excess intake or individual sensitivity still matters."
+        ],
+        "bullets": [
+          "NaNO₂ — sodium nitrite — curing, color, and bacterial inhibition",
+          "NaNO₃ — sodium nitrate — preservative that can convert to nitrite",
+          "C₆H₇KO₂ — potassium sorbate — mold and yeast control",
+          "C₆H₇NaO₆ / C₆H₈O₆ — sodium ascorbate / ascorbic acid — antioxidants"
+        ]
+      },
+      {
+        "heading": "Safe-use checklist",
+        "paragraphs": [
+          "Use the formula and name to identify the substance, then use the label to decide what precautions apply. Never taste or intentionally inhale a household chemical. Avoid skin and eye contact where warnings require it, keep products away from children, and ask an adult or a health professional for help if an exposure occurs.",
+          "For medicines such as acetaminophen (paracetamol), C₈H₉NO₂, dosage instructions are part of safe chemistry. It is used in over-the-counter pain and fever medicines, but excessive doses can cause serious liver damage. Use only according to the product label or healthcare guidance."
+        ],
+        "bullets": [
+          "read the label before use", "do not mix cleaning products", "use ventilation when fumes are possible", "follow labelled dosage for medicines"
+        ]
+      }
+    ]
   },
   "gensci-32-lesson-2": {
     "title": "Mixtures and Methods of Separation",
     "summary": "Separate mixtures by using differences in particle size, solubility, density, boiling point, or magnetism.",
-    "focus": ["Choose a separation method from the properties of the components.", "Plan the order of steps for a salt, sand, and water mixture.", "Explain what remains and what passes through at each step."]
+    "focus": ["Choose a separation method from the properties of the components.", "Plan the order of steps for a salt, sand, and water mixture.", "Explain what remains and what passes through at each step."],
+    "sections": [
+      {
+        "heading": "Start by classifying the material",
+        "paragraphs": [
+          "Matter can be grouped into pure substances and mixtures. Pure substances include elements, such as hydrogen, iron, and carbon, and compounds, such as water (H₂O), carbon dioxide (CO₂), and acetone (C₃H₆O). A mixture contains more than one substance together without making a new pure substance.",
+          "Mixtures are either homogeneous or heterogeneous. A homogeneous mixture has a uniform composition throughout, while a heterogeneous mixture has visibly different parts or regions. This distinction helps choose a separation method because components in a heterogeneous mixture can often be physically separated more directly."
+        ],
+        "bullets": [
+          "homogeneous examples from the source: air, sugar water, carbonated soda, brass, bronze, solder",
+          "heterogeneous examples from the source: iron sludge, quicksand, liquid concrete, oil/water, milk, mayonnaise, iron ore, granite, marble, cigarette smoke, water spray, car exhaust",
+          "a mixture can be separated by physical means because its components retain their own properties"
+        ]
+      },
+      {
+        "heading": "Types of mixtures in the source chart",
+        "paragraphs": [
+          "The heterogeneous branch in the source chart includes suspensions, emulsions, solid sols, and aerosols. A suspension has particles dispersed in a fluid that can settle or be filtered. An emulsion disperses one liquid through another liquid that does not fully mix with it. A solid sol has one solid dispersed through another, and an aerosol has particles or droplets dispersed in a gas.",
+          "The homogeneous branch includes gas mixtures, solutions, and alloys. A solution is uniform at the particle level, such as sugar water; an alloy is a homogeneous mixture of metals or a metal with another element."
+        ],
+        "bullets": [
+          "suspension: iron sludge, quicksand, liquid concrete", "emulsion: oil/water, milk, mayonnaise", "solid sol: iron ore, granite, marble", "aerosol: cigarette smoke, water spray, car exhaust"
+        ]
+      },
+      {
+        "heading": "Properties of matter are clues for separation",
+        "paragraphs": [
+          "A physical property can be observed or measured without changing a material's chemical identity. The source lists color, texture, temperature, weight, hardness, shape, size, strength, flexibility, elasticity, density, taste, odor, malleability, melting point, boiling point, freezing point, viscosity, flammability, and electrical conductivity as useful characteristics to observe or measure.",
+          "Some properties are intensive: they do not depend on the amount of matter present. Temperature and pressure are examples in the source. Extensive properties depend on the amount of sample, such as mass and volume. When separating a mixture, choose a method that uses a real difference between the components."
+        ],
+        "bullets": [
+          "particle size difference → sieving or filtration", "solubility difference → dissolving followed by filtration", "boiling point/volatility difference → evaporation or distillation", "magnetism difference → magnetic separation"
+        ]
+      },
+      {
+        "heading": "Physical versus chemical properties",
+        "paragraphs": [
+          "The source defines physical properties as observations or measurements that do not change a material's chemical identity. Chemical properties are observed when matter changes chemical identity. The lesson names toxicity, chemical stability, electronegativity, oxidation, flammability, effervescence, heat of combustion, reactivity, and radioactivity as chemical properties.",
+          "Separation of a salt–sand–water mixture is designed to rely mainly on physical properties, not chemical reactions. The goal is to recover the components without turning them into new substances."
+        ],
+        "bullets": [
+          "physical: color, density, melting point, boiling point, viscosity, electrical conductivity", "chemical: flammability, corrosion/oxidation, toxicity, reactivity, heat of combustion, radioactivity"
+        ]
+      },
+      {
+        "heading": "Salt, sand, and water: the key differences",
+        "paragraphs": [
+          "In the mixture posed by the lesson, salt dissolves in water to form a solution, while sand is insoluble and remains as solid particles. Sand particles are large enough to be caught by filter paper; dissolved salt particles pass through with the water. Water can then be removed from the salt solution by evaporation, or both salt and water can be recovered by distillation.",
+          "The method works because it uses solubility, particle size, and boiling point—not because the substances react with one another."
+        ],
+        "bullets": [
+          "sand: insoluble in water → can be retained by filtration", "salt: soluble in water → stays in the filtrate with the water", "water: can be vaporized and condensed or evaporated away"
+        ]
+      },
+      {
+        "heading": "A complete separation sequence",
+        "paragraphs": [
+          "First stir the mixture so the salt dissolves in the water. Filter the mixture through filter paper. The sand stays on the filter paper as the residue, while salt solution passes through as the filtrate. Rinse and dry the sand if it must be recovered cleanly.",
+          "Next separate the salt and water. Gentle evaporation removes water and leaves salt crystals behind, but the evaporated water is not collected. If the task asks to recover water too, use distillation: heat the salt solution, cool the vapor in a condenser, and collect the liquid water while the salt remains in the original container."
+        ],
+        "bullets": [
+          "dissolve → filter → dry sand → evaporate or distill", "residue = material left on the filter paper", "filtrate = liquid that passed through the filter", "use safety equipment and teacher instructions when heating liquids"
+        ]
+      }
+    ]
   },
   "gensci-33-lesson-3": {
-    "title": "Osmosis, Tonicity, and Cell Water Balance",
-    "summary": "Explain water movement across cell membranes and predict what happens to cells in hypotonic, isotonic, and hypertonic solutions.",
-    "focus": ["State the direction water moves during osmosis.", "Compare hypertonic, hypotonic, and isotonic environments.", "Relate water movement to cell swelling, shrinking, or balance."]
+    "title": "Solutions, Concentration, and Osmosis",
+    "summary": "Calculate simple concentrations, distinguish unsaturated and supersaturated solutions, and predict water movement across cell membranes.",
+    "focus": ["Use percent by mass and percent by volume formulas accurately.", "Distinguish unsaturated from supersaturated solutions.", "Compare hypertonic, hypotonic, and isotonic environments and their effect on cells."],
+    "sections": [
+      {
+        "heading": "Solutions, solute, solvent, and concentration",
+        "paragraphs": [
+          "A solution is a homogeneous mixture. The solute is the substance being dissolved and the solvent is the substance that dissolves it. Concentration describes how much solute is present in a given amount of solution; it is important in food, laboratory work, and labelled products.",
+          "Do not confuse the amount of solute with the amount of solvent. Percent concentration uses the total amount of solution in the denominator, not just the solvent."
+        ],
+        "bullets": [
+          "solute: substance dissolved", "solvent: dissolving medium", "solution: homogeneous mixture of solute and solvent", "concentration: amount of solute relative to total solution"
+        ]
+      },
+      {
+        "heading": "Percent by mass",
+        "paragraphs": [
+          "Percent by mass tells how many grams of solute are present in each 100 g of solution. Use % by mass = (mass of solute ÷ mass of solution) × 100. The mass of solution is the mass of solute plus the mass of solvent.",
+          "The board example uses 40 g of salt in 240 g of solution. The calculation is (40 ÷ 240) × 100 = 16.67%, or about 16.7% by mass. Do not round to 20% unless the task specifically asks for a very rough whole-number estimate."
+        ],
+        "bullets": [
+          "% by mass = mass solute / mass solution × 100", "40 g salt in 240 g solution → 16.67% by mass", "keep units consistent: grams divided by grams"
+        ]
+      },
+      {
+        "heading": "Percent by volume",
+        "paragraphs": [
+          "Percent by volume is normally used when both solute and solution are measured in volume: % by volume = (volume of solute ÷ volume of solution) × 100. The source sample asks about 50 mL of methanol added to 450 mL of water. Treating the volumes as additive for this school calculation gives 500 mL of solution, so (50 ÷ 500) × 100 = 10% by volume.",
+          "Read product labels carefully. A 50% dextrose injection label shown in the source gives 25 g in 50 mL, which corresponds to 50 g per 100 mL. Medicines and injections must only be used or administered by qualified people following the label and medical instructions; the example here is for interpreting concentration."
+        ],
+        "bullets": [
+          "% by volume = volume solute / volume solution × 100", "50 mL methanol + 450 mL water → 10% v/v in the class example", "volume of solution is the final total volume used in the calculation"
+        ]
+      },
+      {
+        "heading": "Unsaturated and supersaturated solutions",
+        "paragraphs": [
+          "An unsaturated solution contains less solute than the solvent can dissolve under the stated conditions, so more solute can still dissolve. A saturated solution is at the usual limit for those conditions. A supersaturated solution contains more dissolved solute than the solvent would normally hold at that temperature and is often unstable.",
+          "The source points out that a supersaturated solution may look the same as an unsaturated solution. Appearance alone is not enough to classify it; conditions and the amount of dissolved solute matter."
+        ],
+        "bullets": [
+          "unsaturated: can still dissolve more solute", "saturated: at the normal solubility limit", "supersaturated: contains more dissolved solute than normally possible at that condition and may crystallize if disturbed"
+        ]
+      },
+      {
+        "heading": "Osmosis: water moves across a selectively permeable membrane",
+        "paragraphs": [
+          "Osmosis is the net movement of water across a selectively permeable membrane. In the simplified cell diagrams used here, water moves toward the side with the higher solute concentration. The difference in solute concentration on the two sides is called tonicity in the context of cell water balance.",
+          "The result is a change in cell water content. Water entering a cell tends to make it swell; water leaving tends to make it shrink. The cell type and its structures, such as a plant cell wall, affect exactly what happens, but the direction of water movement follows the concentration difference."
+        ],
+        "bullets": [
+          "hypo- means lower solute concentration relative to the cell", "hyper- means higher solute concentration relative to the cell", "iso- means equal solute concentration"
+        ]
+      },
+      {
+        "heading": "Hypotonic, isotonic, and hypertonic environments",
+        "paragraphs": [
+          "In a hypotonic solution, the outside solution has lower solute concentration than the cell. Water moves into the cell, so an animal cell may swell and can lyse if too much water enters. In an isotonic solution, the outside and inside have equal solute concentration, so water enters and leaves at equal overall rates and the cell stays about the same size.",
+          "In a hypertonic solution, the outside solution has higher solute concentration than the cell. Water moves out of the cell and it shrinks. In plant cells, loss of water can lead to plasmolysis, where the cell membrane pulls away from the cell wall."
+        ],
+        "bullets": [
+          "hypotonic outside → net water enters → swelling/possible cytolysis in animal cells", "isotonic outside → no net change in cell water balance", "hypertonic outside → net water leaves → shrinking; plasmolysis in plant cells"
+        ]
+      },
+      {
+        "heading": "How to solve the lesson's concentration and tonicity questions",
+        "paragraphs": [
+          "For concentration questions, identify whether the problem gives mass or volume, find the total mass or final solution volume, substitute into the appropriate percentage formula, and report the correct unit: % m/m or % v/v. For solution-type questions, compare the amount dissolved with the solvent's capacity at the stated condition.",
+          "For tonicity diagrams, compare the solute concentration outside the cell with the solute concentration inside. Draw the net water arrow toward the higher solute side, then name the expected change in cell size."
+        ],
+        "bullets": [
+          "1. Identify solute, solvent, and total solution", "2. Pick % by mass or % by volume", "3. Compare outside and inside solute concentration", "4. Predict net water direction and cell response"
+        ]
+      }
+    ]
   },
   "gensci-34-lesson-4": {
-    "title": "Body Systems and Interdependence",
-    "summary": "Explore how body systems work together and how an injury or change in one system can affect the rest of the body.",
-    "focus": ["Identify the systems involved in the situations from the notes.", "Explain one chain of effects from injury to body function.", "Connect prevention and healthy choices to system performance."]
+    "title": "Musculoskeletal Interdependence: ACL, Tendons, and Fractures",
+    "summary": "Use ACL injuries and related musculoskeletal conditions to trace how bones, muscles, ligaments, and tendons depend on one another for movement.",
+    "focus": ["Distinguish the jobs of bone, muscle, ligament, and tendon.", "Explain how an ACL or tendon injury disrupts stable movement.", "Trace how one injury can affect daily function and the wider body system."],
+    "sections": [
+      {
+        "heading": "A system-interdependence case study",
+        "paragraphs": [
+          "The source uses ACL injuries in Philippine sports as a case study in system interdependence. A failure in one part of the musculoskeletal system can affect overall movement, performance, rehabilitation time, and everyday activities. This is why the body is studied as linked systems rather than as isolated parts.",
+          "This page is for studying anatomy and system relationships. Pain, sudden loss of movement, a suspected tear, or a suspected fracture needs assessment by an appropriately qualified health professional; the notes do not diagnose an injury."
+        ],
+        "bullets": [
+          "system interdependence: a change in one part can alter the performance of connected parts", "sports injuries can affect both athletic participation and ordinary mobility", "proper evaluation and rehabilitation are important parts of recovery"
+        ]
+      },
+      {
+        "heading": "The skeletal and muscular systems work together",
+        "paragraphs": [
+          "The skeletal system provides a rigid framework, while skeletal muscles generate pulling force. Bones, joints, muscles, ligaments, and tendons work as a unit to make movement controlled rather than random. The source emphasizes that this interaction provides precision and stability.",
+          "A ligament connects bone to bone and helps stabilize a joint. A tendon connects muscle to bone and transmits a muscle's pulling force. These two connective tissues have different jobs but both are essential for movement."
+        ],
+        "bullets": [
+          "bone: rigid framework and lever for movement", "skeletal muscle: creates the pulling force", "ligament: bone-to-bone connection that supports joint stability", "tendon: muscle-to-bone connection that transfers force"
+        ]
+      },
+      {
+        "heading": "The anterior cruciate ligament (ACL)",
+        "paragraphs": [
+          "The anterior cruciate ligament is a strong tissue band inside the knee. It connects the femur to the tibia, helps anchor the knee joint, limits excessive forward movement of the tibia, and provides rotational stability during sudden pivots and stops.",
+          "The source links ACL injury risk to abrupt knee twisting, awkward landings, high-impact sports such as basketball, and uneven surfaces. An ACL tear can make the knee feel unstable and limit the ability to move safely."
+        ],
+        "bullets": [
+          "ACL: anterior cruciate ligament inside the knee", "connects femur and tibia", "helps maintain alignment during pivoting and stopping", "works with other knee structures such as the posterior cruciate and collateral ligaments"
+        ]
+      },
+      {
+        "heading": "Injury signals and the course's immediate-care reminder",
+        "paragraphs": [
+          "The source lists a loud pop or popping sensation, serious pain, rapid swelling, loss of range of motion, and a knee that feels as though it ‘gives out’ as immediate effects associated with an ACL tear. These signs are not enough to self-diagnose, because different injuries can have similar symptoms.",
+          "The course slide names rest, ice, compression, and elevation (R.I.C.E.) as an immediate-care reminder. For a real injury, the safe next step is prompt professional assessment—especially when weight bearing, joint stability, or severe pain is involved—instead of relying on a study-page checklist."
+        ],
+        "bullets": [
+          "possible source-listed effects: pop, pain, swelling, reduced motion, instability", "do not try to ‘test’ a potentially injured joint by forcing it to move", "seek medical assessment for a suspected significant injury"
+        ]
+      },
+      {
+        "heading": "Tendons and the Achilles example",
+        "paragraphs": [
+          "Tendons transmit the pull of a muscle to a bone, allowing controlled skeletal movement. The Achilles tendon connects calf muscles to the heel. The source explains that a rupture can interrupt force transfer and severely limit walking, standing, or running.",
+          "Tendon injury and ligament injury are not the same: tendons link muscle to bone, whereas ligaments link bone to bone. Mixing up those definitions is a common test error."
+        ],
+        "bullets": [
+          "Achilles tendon: calf muscles → heel", "tendon rupture: disrupted muscle-to-bone force transfer", "ligament injury: disrupted joint stability rather than direct muscle-to-bone transfer"
+        ]
+      },
+      {
+        "heading": "Fractures disrupt support and movement",
+        "paragraphs": [
+          "A fracture interrupts the bone's role as a weight-supporting framework. When the framework is damaged, muscles cannot generate effective movement through that part in the usual way, and mobility and independence may be reduced while healing occurs.",
+          "The diagram in the source names several fracture patterns: closed, open, transverse, spiral, comminuted, impacted, greenstick, and oblique. These labels describe the form of a break; they are not a substitute for medical imaging or professional classification."
+        ],
+        "bullets": [
+          "closed versus open: whether the fracture communicates with the outside through a wound", "transverse, oblique, and spiral: describe the direction/pattern of the break", "comminuted: bone broken into multiple pieces; greenstick: incomplete bend-and-break pattern"
+        ]
+      },
+      {
+        "heading": "The wider impact of musculoskeletal conditions",
+        "paragraphs": [
+          "The lesson connects local injury to wider function. A tendon rupture may stop the transfer of muscular force needed for walking or running. A chronic muscle condition, such as muscular dystrophy, can progressively weaken muscles and reduce mobility; in advanced cases, vital functions including breathing can be affected.",
+          "Untreated or improperly managed ACL tears, fractures, tendon ruptures, and muscle diseases can lead to long-term disability and lower quality of life. This conclusion illustrates the systems idea: muscles, bones, connective tissue, nerves, and other support systems need one another for normal movement."
+        ],
+        "bullets": [
+          "injury can change movement, training, school/work tasks, and independence", "rehabilitation restores function by addressing connected structures and movement patterns", "one damaged link can affect the performance of the entire movement system"
+        ]
+      }
+    ]
   },
   "gensci-35-lesson-5": {
-    "title": "Respiratory Gas Exchange and Diffusion",
-    "summary": "Study how oxygen and carbon dioxide move between alveoli and blood through diffusion.",
-    "focus": ["Locate the alveoli and nearby capillaries in a diagram.", "Explain diffusion using concentration differences.", "Relate thin surfaces, moisture, and surface area to efficient gas exchange."]
+    "title": "The Respiratory and Circulatory Systems: One Exchange Network",
+    "summary": "Trace one continuous route: ventilation brings air to the alveoli, diffusion exchanges gases, and circulation carries oxygen to cells and carbon dioxide back to the lungs.",
+    "focus": ["Trace oxygen from inhalation to a body cell and carbon dioxide back to exhalation.", "Distinguish ventilation, alveolar diffusion, and blood transport.", "Explain why respiratory and circulatory problems can affect each other."],
+    "sections": [
+      {
+        "heading": "Two systems, one job",
+        "paragraphs": [
+          "The respiratory system brings air to the gas-exchange surface in the lungs. The circulatory system moves blood between that surface and the body’s tissues. Their partnership keeps oxygen available for cellular respiration and removes carbon dioxide, a waste product of that process.",
+          "The source uses this pairing to illustrate system interdependence: a problem with airflow, gas exchange, blood flow, or oxygen transport can affect the performance of the other system. Think of the pathway as one connected loop rather than two unrelated chapters."
+        ],
+        "bullets": [
+          "respiratory system: moves air and provides the exchange surface", "circulatory system: pumps and transports blood", "shared outcome: oxygen reaches cells and carbon dioxide returns to the lungs"
+        ]
+      },
+      {
+        "heading": "Ventilation: the mechanical cycle of breathing",
+        "paragraphs": [
+          "During inhalation, the diaphragm contracts and moves downward while the rib cage expands. The volume of the chest increases, creating a pressure change that draws air into the lungs. During exhalation, the diaphragm relaxes and moves upward; the chest volume decreases and air is pushed out.",
+          "Ventilation moves air in and out, but it is not itself the exchange of oxygen and carbon dioxide. Gas exchange happens farther down the pathway, at the alveoli."
+        ],
+        "bullets": [
+          "inhalation: diaphragm contracts and descends; rib cage expands", "exhalation: diaphragm relaxes and rises; air moves out", "ventilation refreshes the air available for gas exchange"
+        ]
+      },
+      {
+        "heading": "Alveoli: the exchange surface",
+        "paragraphs": [
+          "Alveoli are tiny air sacs at the ends of the airway branches. They are wrapped in dense networks of capillaries. Across their thin, closely apposed walls, gases move passively by diffusion: oxygen moves from the air in an alveolus into nearby blood, while carbon dioxide moves from the blood into the alveolus to be exhaled.",
+          "Diffusion follows a concentration gradient. A substance has a net movement from where it is more concentrated toward where it is less concentrated. The source diagram identifies the bronchiole, alveolus, capillaries, and the transition between deoxygenated and oxygenated blood."
+        ],
+        "bullets": [
+          "oxygen: alveolar air → capillary blood", "carbon dioxide: capillary blood → alveolar air", "the direction of each gas is explained by its concentration gradient", "thin barriers and a large capillary contact area support efficient diffusion"
+        ]
+      },
+      {
+        "heading": "The heart and the vessel framework",
+        "paragraphs": [
+          "The heart is a hollow muscular pump with four chambers: right atrium, right ventricle, left atrium, and left ventricle. Its chambers and valves keep blood moving in an organized direction. The source also shows the electrical control centers commonly called the sinoatrial (SA) node and atrioventricular (AV) node, which coordinate the heartbeat.",
+          "Arteries carry blood away from the heart, veins carry blood toward the heart, and capillaries are the microscopic exchange vessels. Those names describe direction, not oxygen content: the pulmonary artery carries oxygen-poor blood to the lungs, while the pulmonary veins carry oxygen-rich blood back to the heart."
+        ],
+        "bullets": [
+          "right side of heart: sends blood toward the lungs", "left side of heart: sends blood toward the body", "capillaries: exchange sites for gases, nutrients, and wastes", "artery/vein rule: away from/toward the heart"
+        ]
+      },
+      {
+        "heading": "Pulmonary and systemic circulation",
+        "paragraphs": [
+          "Pulmonary circulation is the lung loop: the right ventricle sends oxygen-poor blood through the pulmonary artery to the lungs; after gas exchange, oxygen-rich blood returns through pulmonary veins to the left atrium. Systemic circulation is the body loop: the left ventricle pumps oxygen-rich blood through the aorta to body tissues, and oxygen-poor blood returns through the venae cavae to the right atrium.",
+          "The source additionally names coronary circulation, in which coronary vessels supply the heart muscle itself, and portal circulation, in which blood travels from one capillary bed to another through a portal vein. A hepatic portal route carries blood from the digestive organs to the liver."
+        ],
+        "bullets": [
+          "pulmonary loop: right ventricle → lungs → left atrium", "systemic loop: left ventricle → body tissues → right atrium", "coronary circulation: supplies the myocardium", "hepatic portal circulation: digestive organs → liver"
+        ]
+      },
+      {
+        "heading": "Hemoglobin carries the oxygen load",
+        "paragraphs": [
+          "Oxygen does not travel through the body mainly as a free gas in plasma. In red blood cells, it binds reversibly to hemoglobin, an iron-containing protein. This makes hemoglobin an efficient oxygen carrier from the lungs to body tissues.",
+          "At tissues, oxygen detaches and can be used in cellular respiration to support ATP production. Carbon dioxide produced by cells is carried back toward the lungs; the source notes that it can be transported dissolved in plasma or associated with hemoglobin."
+        ],
+        "bullets": [
+          "hemoglobin is found in red blood cells", "oxygen binds in the lungs and is released where cells need it", "cellular respiration uses oxygen and produces carbon dioxide", "carbon dioxide returns in blood for removal by the lungs"
+        ]
+      },
+      {
+        "heading": "When the shared pathway is disrupted",
+        "paragraphs": [
+          "The source uses asthma as an example of an airway condition: bronchoconstriction, swelling, and excess mucus can narrow the airways and reduce airflow reaching the alveoli. With less effective oxygen uptake, the respiratory and circulatory systems cannot work together as efficiently.",
+          "The final slides list other examples that can disturb the same pathway: COPD involves persistent airflow limitation, pneumonia can reduce oxygen transfer when infection affects the alveoli, and an embolism can obstruct blood flow in the lungs. These are study examples of system disruption, not tools for self-diagnosis; breathing or chest symptoms need appropriate clinical assessment."
+        ],
+        "bullets": [
+          "airway narrowing can reduce airflow to alveoli", "alveolar disruption can reduce gas exchange", "blocked lung blood flow can prevent effective gas transport", "a failure at one link can strain the connected system"
+        ]
+      },
+      {
+        "heading": "A complete oxygen-and-carbon-dioxide trace",
+        "paragraphs": [
+          "Use this ordered trace when answering an integration question. Oxygen enters during inhalation, reaches the alveoli, diffuses into pulmonary capillaries, binds mainly to hemoglobin, passes through the left side of the heart, and travels in systemic circulation to cells. Carbon dioxide made by cells takes the reverse functional route: it enters blood, reaches the right side of the heart, travels to pulmonary capillaries, diffuses into alveoli, and leaves during exhalation.",
+          "The source closes by showing that scientific and public-health collaboration can improve how linked respiratory and circulatory conditions are addressed. For this lesson, the key idea is the network: ventilation, diffusion, pumping, vessel flow, and blood transport must all cooperate."
+        ],
+        "bullets": [
+          "O₂: air → alveolus → blood → hemoglobin → heart → body cell", "CO₂: body cell → blood → heart → lung capillary → alveolus → exhaled air", "do not confuse air movement, membrane diffusion, and blood circulation—they are different stages of one pathway"
+        ]
+      }
+    ]
   },
   "gensci-36-lesson-6": {
-    "title": "Nervous System: Organization and Control",
-    "summary": "Organize the nervous system into central and peripheral divisions and trace sensory and motor pathways.",
-    "focus": ["Differentiate the CNS from the PNS.", "Compare sensory and motor divisions.", "Separate somatic and autonomic responses using examples."]
+    "title": "Nervous System: Input, Integration, and Response",
+    "summary": "Follow information from a receptor to the central nervous system and back to an effector, while organizing the major divisions and neuron structures.",
+    "focus": ["Differentiate the CNS from the PNS and sensory input from motor output.", "Identify the cell body, dendrites, axon, and terminals of a neuron.", "Trace a reflex arc and compare somatic with autonomic control."],
+    "sections": [
+      {
+        "heading": "The nervous system’s three linked functions",
+        "paragraphs": [
+          "The source organizes nervous-system activity into sensory input, integration, and motor output. Sensory input gathers information about changes inside and outside the body. A change that can be detected is called a stimulus.",
+          "Integration processes and interprets the incoming information, then determines whether action is needed. Motor output is the resulting command to an effector—usually a muscle or a gland. The three stages are a useful answer structure for any ‘how does the body respond?’ question."
+        ],
+        "bullets": [
+          "sensory input: detect a stimulus", "integration: process the information and decide on a response", "motor output: activate an effector such as a muscle or gland"
+        ]
+      },
+      {
+        "heading": "The major organization: CNS and PNS",
+        "paragraphs": [
+          "The central nervous system (CNS) consists of the brain and spinal cord. It is the main integration and control center. The peripheral nervous system (PNS) consists of the cranial and spinal nerves that link the CNS with receptors, muscles, glands, and the rest of the body.",
+          "The diagram in the source places the sensory (afferent) and motor (efferent) divisions within the PNS. Sensory information travels toward the CNS; motor commands travel away from the CNS."
+        ],
+        "bullets": [
+          "CNS: brain + spinal cord", "PNS: cranial nerves + spinal nerves", "afferent: toward the CNS", "efferent: away from the CNS"
+        ]
+      },
+      {
+        "heading": "Neurons are specialized message cells",
+        "paragraphs": [
+          "Neurons are nerve cells specialized to receive, process, and transmit messages. Their cell body, also called the soma, contains the nucleus and serves as a metabolic center. Extensions from the cell body increase contact area and make information transfer possible across long distances.",
+          "The source notes that neurons have a high metabolic demand and require a continuing supply of oxygen and glucose. Many mature neurons divide very little compared with many other body cells, which helps explain why protecting nervous tissue matters."
+        ],
+        "bullets": [
+          "cell body (soma): contains nucleus and supports the cell", "dendrites: carry incoming signals toward the cell body", "axon: carries signals away from the cell body", "axon terminals: pass signals on to the next cell or effector"
+        ]
+      },
+      {
+        "heading": "Reading a neuron diagram",
+        "paragraphs": [
+          "Start at the branching dendrites and follow the usual direction of information: dendrites → cell body → axon hillock → axon → axon terminals. The source diagram also labels myelin-forming Schwann cells and nodes of Ranvier along the axon, as well as collateral branches and terminals.",
+          "Dendrites are built for receiving input; the axon is built for conducting output. The cell body integrates incoming signals and maintains the neuron’s functions. Do not reverse the basic direction in a diagram question."
+        ],
+        "bullets": [
+          "dendrites point information inward", "axon points information outward", "myelin is an insulating covering on many axons", "nodes of Ranvier are gaps between myelin segments"
+        ]
+      },
+      {
+        "heading": "Sensory (afferent) pathways",
+        "paragraphs": [
+          "The sensory, or afferent, division carries information from sensory receptors to the central nervous system. Receptors detect a stimulus—for example, a change in light, pressure, temperature, or body position—then sensory neurons carry that information toward the brain or spinal cord.",
+          "In the source’s flow diagram, sensory receptors feed sensory input into the brain and spinal cord for integration. A memory aid is that afferent arrives at the CNS."
+        ],
+        "bullets": [
+          "receptor detects a stimulus", "sensory neuron carries the signal toward the CNS", "CNS integrates the signal", "‘afferent’ = arriving at the CNS"
+        ]
+      },
+      {
+        "heading": "Motor (efferent) pathways",
+        "paragraphs": [
+          "The motor, or efferent, division carries commands from the CNS to effectors. An effector is a structure that performs the response, such as a muscle contracting or a gland secreting. A memory aid is that efferent exits the CNS.",
+          "The motor division has two broad branches. The somatic nervous system controls voluntary actions of skeletal muscles. The autonomic nervous system regulates involuntary activity of cardiac muscle, smooth muscle, and glands; the source diagram further labels sympathetic and parasympathetic branches."
+        ],
+        "bullets": [
+          "motor neuron: CNS → effector", "somatic: voluntary control of skeletal muscle", "autonomic: involuntary control of cardiac muscle, smooth muscle, and glands", "sympathetic and parasympathetic are autonomic subdivisions"
+        ]
+      },
+      {
+        "heading": "The reflex arc",
+        "paragraphs": [
+          "A reflex is a rapid, predictable, involuntary response to a stimulus. A reflex arc is the route the signal follows: receptor → sensory neuron → integration center (often in the spinal cord, with an interneuron) → motor neuron → effector.",
+          "Because a spinal integration center can organize a response quickly, the body can act before conscious awareness is fully involved. This does not mean the brain receives no information; it means the immediate protective response can be coordinated without waiting for a deliberate decision."
+        ],
+        "bullets": [
+          "1. receptor detects the stimulus", "2. sensory neuron carries input inward", "3. interneuron/integration center processes it", "4. motor neuron carries output outward", "5. effector produces the response"
+        ]
+      },
+      {
+        "heading": "A map of the brain regions",
+        "paragraphs": [
+          "The source ends with a regional map that names the cerebral hemispheres, diencephalon, brain stem, and cerebellum. These are major anatomical regions of the brain; the following lesson develops their individual functions in more detail.",
+          "For now, place them by location: the cerebral hemispheres form the large upper portion, the diencephalon lies centrally below them, the brain stem links downward to the spinal cord, and the cerebellum sits toward the back of the brain."
+        ],
+        "bullets": [
+          "cerebral hemispheres", "diencephalon", "brain stem", "cerebellum", "all four belong to the CNS"
+        ]
+      }
+    ]
   },
   "gensci-37-lesson-7": {
-    "title": "The Brain and Its Major Regions",
-    "summary": "Identify major brain structures and connect each region to the functions it helps control.",
-    "focus": ["Locate the cerebrum, cerebellum, and brain stem.", "Match a major region with its core function.", "Use a scenario to infer which brain area may be involved."]
+    "title": "Four Main Regions of the Brain",
+    "summary": "Identify the cerebrum, diencephalon, brain stem, and cerebellum, then connect each region and its parts to the functions highlighted in the source notes.",
+    "focus": ["Locate the four major regions on a side-view brain diagram.", "Match major lobes and diencephalon parts with their key roles.", "Distinguish voluntary thought and movement, body regulation, automatic survival functions, and coordination."],
+    "sections": [
+      {
+        "heading": "The four-region map",
+        "paragraphs": [
+          "The source groups the brain into four main regions: cerebrum (forebrain), diencephalon, brain stem, and cerebellum. A diagram question often tests both location and function, so learn the map before memorizing the details.",
+          "The cerebrum forms the large upper portion. The diencephalon lies centrally above the brain stem and is enclosed by the cerebral hemispheres. The brain stem connects downward to the spinal cord. The cerebellum lies at the lower back of the head beneath the cerebrum."
+        ],
+        "bullets": [
+          "cerebrum: large upper forebrain", "diencephalon: central core above the brain stem", "brain stem: connection to spinal cord", "cerebellum: lower back, beneath the cerebrum"
+        ]
+      },
+      {
+        "heading": "The cerebrum and its hemispheres",
+        "paragraphs": [
+          "The cerebrum is the largest part of the brain. The source associates it with thinking, voluntary movement, reasoning, and the five senses. It is divided into left and right cerebral hemispheres, joined by a large bundle of nerve fibers called the corpus callosum.",
+          "In a side-view diagram, the four major cerebral lobes are frontal, parietal, temporal, and occipital. These regions work together rather than acting as perfectly isolated boxes, but each has common functions that are useful for review questions."
+        ],
+        "bullets": [
+          "cerebrum: thought, reasoning, senses, and voluntary movement", "left and right hemispheres are connected by the corpus callosum", "four major lobes: frontal, parietal, temporal, occipital"
+        ]
+      },
+      {
+        "heading": "Cerebral lobes and limbic structures",
+        "paragraphs": [
+          "The frontal lobe is associated in the source with personality, reasoning, planning, problem-solving, emotional regulation, and voluntary movement. The parietal lobe processes sensory information such as touch, temperature, pressure, pain, and spatial awareness.",
+          "The temporal lobe is associated with hearing, language recognition, speech comprehension, and memory; the source identifies the hippocampus as a memory-related structure in this region. The occipital lobe processes visual information such as shapes, colors, and depth. The amygdala is highlighted for emotion processing, threat-related responses, and emotional memory."
+        ],
+        "bullets": [
+          "frontal: planning, reasoning, personality, voluntary movement", "parietal: body-sense processing and spatial awareness", "temporal: hearing, language, and memory", "occipital: visual processing", "amygdala: emotion and threat-related processing"
+        ]
+      },
+      {
+        "heading": "The diencephalon: relay and regulation",
+        "paragraphs": [
+          "The diencephalon sits above the brain stem in the central core of the brain. The source divides it into the thalamus, hypothalamus, and epithalamus. The thalamus is described as a relay station that sends sensory and motor signals to the cerebral cortex.",
+          "The hypothalamus helps regulate body temperature, hunger, thirst, sleep–wake cycles, and hormone release through its connection with the pituitary gland. The epithalamus, including the pineal-gland region in the diagram, is associated in the source with circadian rhythms and connections involving the limbic system."
+        ],
+        "bullets": [
+          "thalamus: relay for many sensory and motor signals", "hypothalamus: homeostatic regulation and pituitary connection", "epithalamus: circadian-rhythm and related limbic-system roles", "pituitary gland: endocrine gland linked to hypothalamic control"
+        ]
+      },
+      {
+        "heading": "The brain stem: automatic survival functions",
+        "paragraphs": [
+          "The brain stem links the cerebrum and cerebellum with the spinal cord and helps control automatic survival functions. The source identifies three parts: midbrain, pons, and medulla oblongata.",
+          "The midbrain is linked to basic movement patterns, hearing, and reflexive responses. The pons contributes to balance, facial expression, and breathing regulation. The medulla oblongata regulates vital involuntary functions including heart rate, blood pressure, and breathing."
+        ],
+        "bullets": [
+          "midbrain: movement patterns, hearing, reflex responses", "pons: balance, facial expression, breathing-related regulation", "medulla oblongata: heart rate, blood pressure, and breathing", "brain stem: major connection between higher brain regions and spinal cord"
+        ]
+      },
+      {
+        "heading": "The cerebellum: balance and coordination",
+        "paragraphs": [
+          "The cerebellum sits at the lower back of the head beneath the cerebrum. The source emphasizes two key roles: maintaining balance and posture, and coordinating smooth, fine motor skills and learned muscle movements.",
+          "A useful contrast is that the cerebrum is strongly associated with planning and initiating voluntary action, whereas the cerebellum helps make movement accurate, balanced, and coordinated."
+        ],
+        "bullets": [
+          "maintains physical equilibrium and posture", "coordinates smooth and fine movement", "supports learned movement patterns", "located behind the brain stem, beneath the cerebrum"
+        ]
+      },
+      {
+        "heading": "Fast matching guide",
+        "paragraphs": [
+          "When a question describes planning, language, touch, vision, or voluntary movement, look first to the cerebrum and then choose the relevant lobe. When it describes hunger, thirst, temperature, or sleep timing, look to the hypothalamus or diencephalon. When it describes automatic heartbeat or breathing control, look to the brain stem; when it describes balance and smooth coordination, look to the cerebellum.",
+          "These are broad functional associations for studying. Real brain functions are interconnected, so an ability such as movement or memory normally involves multiple regions working together."
+        ],
+        "bullets": [
+          "planning/problem-solving → frontal lobe", "touch and spatial awareness → parietal lobe", "hearing/language/memory → temporal lobe", "vision → occipital lobe", "body regulation → hypothalamus", "balance/coordination → cerebellum"
+        ]
+      }
+    ]
   },
   "lcs-38-topic-1": {
     "title": "Career Planning: Factors and Personal Fit",

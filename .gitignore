@@ -19,3 +19,4 @@ reviewer-watchdog.cmd
 reviewer-watchdog.ps1
 serve.js
 /.vscode
+/tmp
