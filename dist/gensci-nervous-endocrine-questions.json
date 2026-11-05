@@ -1,0 +1,355 @@
+{
+  "title": "[Gen Sci] T2 - Quiz 3–4: Nervous & Endocrine",
+  "questions": [
+    {
+      "id": "ne-001",
+      "prompt": "What is the maintenance of relatively stable internal conditions called?",
+      "correct": "Homeostasis",
+      "wrong": ["Reflex action", "Sensory input", "Motor output"],
+      "explanation": "Homeostasis keeps internal conditions within a stable range even as conditions inside or outside the body change."
+    },
+    {
+      "id": "ne-002",
+      "prompt": "In nervous-system terms, a change inside or outside the body that can be detected is a…",
+      "correct": "Stimulus",
+      "wrong": ["Response", "Effector", "Synapse"],
+      "explanation": "A stimulus is a detectable change. The body then processes the information and may produce a response."
+    },
+    {
+      "id": "ne-003",
+      "prompt": "Which nervous-system function gathers information by monitoring changes in and outside the body?",
+      "correct": "Sensory input",
+      "wrong": ["Integration", "Motor output", "Hormone release"],
+      "explanation": "Sensory input gathers information about stimuli from the internal and external environment."
+    },
+    {
+      "id": "ne-004",
+      "prompt": "Which nervous-system function processes sensory information and decides what should happen next?",
+      "correct": "Integration",
+      "wrong": ["Sensory input", "Motor output", "Insulation"],
+      "explanation": "Integration interprets sensory input and determines an appropriate action."
+    },
+    {
+      "id": "ne-005",
+      "prompt": "Activating a muscle or gland after a stimulus has been interpreted is an example of…",
+      "correct": "Motor output",
+      "wrong": ["Sensory input", "Integration", "Circadian regulation"],
+      "explanation": "Motor output is the response stage: signals activate muscles or glands."
+    },
+    {
+      "id": "ne-006",
+      "prompt": "Which structures make up the central nervous system (CNS)?",
+      "correct": "The brain and spinal cord",
+      "wrong": ["Cranial nerves and spinal nerves", "The brain and all glands", "Sensory receptors and muscles"],
+      "explanation": "The CNS consists of the brain and spinal cord."
+    },
+    {
+      "id": "ne-007",
+      "prompt": "Which description best fits the peripheral nervous system (PNS)?",
+      "correct": "Nerves outside the brain and spinal cord",
+      "wrong": ["Only the brain and spinal cord", "Only the autonomic division", "All hormone-producing glands"],
+      "explanation": "The PNS includes nerves outside the CNS, including cranial and spinal nerves."
+    },
+    {
+      "id": "ne-008",
+      "prompt": "The sensory (afferent) division carries information in which direction?",
+      "correct": "From sense organs toward the CNS",
+      "wrong": ["From the CNS to muscles and glands", "From the brain to the spinal cord only", "From glands to sense organs"],
+      "explanation": "Afferent neurons carry sensory information from receptors toward the central nervous system."
+    },
+    {
+      "id": "ne-009",
+      "prompt": "The motor (efferent) division carries commands in which direction?",
+      "correct": "From the CNS to muscles or glands",
+      "wrong": ["From receptors to the CNS", "From sense organs to the spinal cord only", "From hormones to the pituitary gland"],
+      "explanation": "Efferent neurons carry motor commands away from the CNS to effectors such as muscles and glands."
+    },
+    {
+      "id": "ne-010",
+      "prompt": "Which motor subdivision controls voluntary movement of skeletal muscles?",
+      "correct": "Somatic nervous system",
+      "wrong": ["Autonomic nervous system", "Sensory division", "Endocrine system"],
+      "explanation": "The somatic division controls voluntary skeletal-muscle movement."
+    },
+    {
+      "id": "ne-011",
+      "prompt": "Which motor subdivision regulates involuntary activity of cardiac muscle, smooth muscle, and glands?",
+      "correct": "Autonomic nervous system",
+      "wrong": ["Somatic nervous system", "Sensory division", "Cerebral cortex"],
+      "explanation": "The autonomic division regulates involuntary effectors, including cardiac muscle, smooth muscle, and glands."
+    },
+    {
+      "id": "ne-012",
+      "prompt": "What are the two subdivisions of the autonomic nervous system named in the handout?",
+      "correct": "Sympathetic and parasympathetic",
+      "wrong": ["Sensory and motor", "Somatic and sensory", "Cranial and spinal"],
+      "explanation": "The autonomic nervous system is divided into sympathetic and parasympathetic subdivisions."
+    },
+    {
+      "id": "ne-013",
+      "prompt": "Which neuron type connects sensory neurons and motor neurons within CNS pathways?",
+      "correct": "Interneuron",
+      "wrong": ["Sensory neuron", "Motor neuron", "Schwann cell"],
+      "explanation": "Interneurons, also called association neurons, connect neurons within the CNS and link sensory and motor pathways."
+    },
+    {
+      "id": "ne-014",
+      "prompt": "Why do neurons require a steady supply of oxygen and glucose?",
+      "correct": "They have a high metabolic rate",
+      "wrong": ["They store oxygen in myelin", "They make hormones directly", "They form the blood-brain barrier"],
+      "explanation": "Neurons have a high metabolic rate, so they need oxygen and glucose to function."
+    },
+    {
+      "id": "ne-015",
+      "prompt": "Which part of a neuron contains the nucleus and serves as its metabolic center?",
+      "correct": "Cell body",
+      "wrong": ["Axon", "Dendrite", "Axon terminal"],
+      "explanation": "The cell body contains the nucleus and is the neuron’s metabolic center."
+    },
+    {
+      "id": "ne-016",
+      "prompt": "Which neuron extension conducts impulses toward the cell body?",
+      "correct": "Dendrite",
+      "wrong": ["Axon", "Myelin sheath", "Axon terminal"],
+      "explanation": "Dendrites receive signals and conduct impulses toward the cell body."
+    },
+    {
+      "id": "ne-017",
+      "prompt": "Which neuron extension conducts impulses away from the cell body?",
+      "correct": "Axon",
+      "wrong": ["Dendrite", "Cell body", "Node of Ranvier"],
+      "explanation": "An axon conducts nerve impulses away from the cell body."
+    },
+    {
+      "id": "ne-018",
+      "prompt": "A rapid, predictable, involuntary response to a stimulus is called a…",
+      "correct": "Reflex",
+      "wrong": ["Voluntary movement", "Homeostatic set point", "Sensory receptor"],
+      "explanation": "A reflex is a rapid, predictable, involuntary response."
+    },
+    {
+      "id": "ne-019",
+      "prompt": "In a basic reflex arc, which sequence is correct?",
+      "correct": "Receptor → sensory neuron → integration center → motor neuron → effector",
+      "wrong": ["Effector → motor neuron → receptor → sensory neuron → integration center", "Sensory neuron → receptor → motor neuron → effector → integration center", "Integration center → receptor → sensory neuron → motor neuron → effector"],
+      "explanation": "A reflex arc moves from receptor to sensory neuron, then an integration center, motor neuron, and finally an effector."
+    },
+    {
+      "id": "ne-020",
+      "prompt": "For many reflex arcs, where does the integration step occur?",
+      "correct": "In the spinal cord",
+      "wrong": ["In a skeletal muscle", "In a sensory receptor", "In the pituitary gland"],
+      "explanation": "The spinal cord can act as the integration center for a reflex, enabling a rapid response."
+    },
+    {
+      "id": "ne-021",
+      "prompt": "Which brain region is the largest part of the brain and is involved in thinking, reasoning, voluntary movement, and the five senses?",
+      "correct": "Cerebrum",
+      "wrong": ["Cerebellum", "Brainstem", "Diencephalon"],
+      "explanation": "The cerebrum is the largest brain region and controls higher functions, voluntary movement, and sensory processing."
+    },
+    {
+      "id": "ne-022",
+      "prompt": "What bundle of nerve fibers connects the left and right cerebral hemispheres?",
+      "correct": "Corpus callosum",
+      "wrong": ["Pons", "Thalamus", "Spinal cord"],
+      "explanation": "The corpus callosum connects the brain’s two cerebral hemispheres."
+    },
+    {
+      "id": "ne-023",
+      "prompt": "Which lobe is strongly associated with planning, problem-solving, personality, emotional regulation, and voluntary movement?",
+      "correct": "Frontal lobe",
+      "wrong": ["Parietal lobe", "Temporal lobe", "Occipital lobe"],
+      "explanation": "The frontal lobe manages planning, problem-solving, personality, emotional regulation, and voluntary movement."
+    },
+    {
+      "id": "ne-024",
+      "prompt": "Which lobe processes sensory information such as touch, temperature, pressure, pain, and spatial awareness?",
+      "correct": "Parietal lobe",
+      "wrong": ["Frontal lobe", "Temporal lobe", "Occipital lobe"],
+      "explanation": "The parietal lobe processes several kinds of body-sensory information and spatial awareness."
+    },
+    {
+      "id": "ne-025",
+      "prompt": "Which lobe handles hearing, language recognition, speech comprehension, and memory-related functions?",
+      "correct": "Temporal lobe",
+      "wrong": ["Frontal lobe", "Parietal lobe", "Occipital lobe"],
+      "explanation": "The temporal lobe is linked with hearing, language recognition, speech comprehension, and memory."
+    },
+    {
+      "id": "ne-026",
+      "prompt": "Which lobe processes visual data such as shapes, colors, and depth?",
+      "correct": "Occipital lobe",
+      "wrong": ["Temporal lobe", "Parietal lobe", "Frontal lobe"],
+      "explanation": "The occipital lobe processes visual information."
+    },
+    {
+      "id": "ne-027",
+      "prompt": "Which brain structure is especially associated with processing fear, threat detection, and emotional memory?",
+      "correct": "Amygdala",
+      "wrong": ["Hippocampus", "Thalamus", "Basal ganglia"],
+      "explanation": "The amygdala processes emotions such as fear and contributes to threat detection and emotional memory."
+    },
+    {
+      "id": "ne-028",
+      "prompt": "Which brain region sits on top of the brainstem and is enclosed by the cerebral hemispheres?",
+      "correct": "Diencephalon",
+      "wrong": ["Cerebellum", "Brainstem", "Corpus callosum"],
+      "explanation": "The diencephalon is a central brain region above the brainstem and enclosed by the cerebral hemispheres."
+    },
+    {
+      "id": "ne-029",
+      "prompt": "Which diencephalon structure serves as a relay station for sensory and motor signals to the cerebral cortex?",
+      "correct": "Thalamus",
+      "wrong": ["Hypothalamus", "Epithalamus", "Subthalamus"],
+      "explanation": "The thalamus relays sensory and motor signals to the cerebral cortex; it is the brain’s main sensory relay station."
+    },
+    {
+      "id": "ne-030",
+      "prompt": "Which structure helps regulate body temperature, hunger, thirst, sleep-wake cycles, and hormone release through the pituitary gland?",
+      "correct": "Hypothalamus",
+      "wrong": ["Thalamus", "Hippocampus", "Cerebellum"],
+      "explanation": "The hypothalamus regulates key homeostatic functions and influences hormone release through the pituitary gland."
+    },
+    {
+      "id": "ne-031",
+      "prompt": "Which diencephalon structure is associated with regulating circadian rhythms and sleep-wake cycles?",
+      "correct": "Epithalamus",
+      "wrong": ["Subthalamus", "Thalamus", "Pons"],
+      "explanation": "The epithalamus is involved in circadian-rhythm regulation, including sleep-wake cycles."
+    },
+    {
+      "id": "ne-032",
+      "prompt": "Which diencephalon structure helps suppress unwanted or excessive motor activity?",
+      "correct": "Subthalamus",
+      "wrong": ["Epithalamus", "Hypothalamus", "Medulla oblongata"],
+      "explanation": "The subthalamus helps suppress unwanted or excessive motor activity."
+    },
+    {
+      "id": "ne-033",
+      "prompt": "Which major brain region connects the cerebrum and cerebellum to the spinal cord and controls automatic survival functions?",
+      "correct": "Brainstem",
+      "wrong": ["Cerebrum", "Diencephalon", "Limbic system"],
+      "explanation": "The brainstem connects higher brain regions to the spinal cord and controls automatic survival functions."
+    },
+    {
+      "id": "ne-034",
+      "prompt": "Which brainstem part handles basic movement patterns, hearing, and reflexive responses?",
+      "correct": "Midbrain",
+      "wrong": ["Pons", "Medulla oblongata", "Cerebellum"],
+      "explanation": "The midbrain handles basic movement patterns, hearing, and reflexive responses."
+    },
+    {
+      "id": "ne-035",
+      "prompt": "Which brainstem part aids in balance, facial expressions, and regulating breathing?",
+      "correct": "Pons",
+      "wrong": ["Midbrain", "Medulla oblongata", "Thalamus"],
+      "explanation": "The pons contributes to balance, facial expressions, and breathing regulation."
+    },
+    {
+      "id": "ne-036",
+      "prompt": "Which structure regulates vital involuntary functions including heart rate, blood pressure, and breathing?",
+      "correct": "Medulla oblongata",
+      "wrong": ["Cerebellum", "Temporal lobe", "Hippocampus"],
+      "explanation": "The medulla oblongata regulates vital involuntary functions such as heart rate, blood pressure, and breathing."
+    },
+    {
+      "id": "ne-037",
+      "prompt": "Which brain region helps maintain balance and posture and coordinates smooth, fine motor skills?",
+      "correct": "Cerebellum",
+      "wrong": ["Cerebrum", "Thalamus", "Medulla oblongata"],
+      "explanation": "The cerebellum supports balance, posture, coordination, and learned muscle movements."
+    },
+    {
+      "id": "ne-038",
+      "prompt": "Which system is a network of interconnected brain structures involved in emotion, memory, motivation, and survival instinct?",
+      "correct": "Limbic system",
+      "wrong": ["Somatic nervous system", "Peripheral nervous system", "Endocrine system"],
+      "explanation": "The limbic system is a network involved in emotion, memory, motivation, and survival-related behavior."
+    },
+    {
+      "id": "ne-039",
+      "prompt": "Which limbic-system structure helps turn short-term memories into long-term memories?",
+      "correct": "Hippocampus",
+      "wrong": ["Amygdala", "Hypothalamus", "Cingulate gyrus"],
+      "explanation": "The hippocampus is associated with forming long-term memories from short-term memories."
+    },
+    {
+      "id": "ne-040",
+      "prompt": "Which structure helps link behavioral outcomes to motivation and processes emotional reactions to pain?",
+      "correct": "Cingulate gyrus",
+      "wrong": ["Basal ganglia", "Pons", "Corpus callosum"],
+      "explanation": "The cingulate gyrus helps connect behavioral outcomes with motivation and processes emotional reactions to pain."
+    },
+    {
+      "id": "ne-041",
+      "prompt": "Which group of structures is involved in reward processing, habit formation, and movement regulation?",
+      "correct": "Basal ganglia",
+      "wrong": ["Cerebral hemispheres", "Cranial nerves", "Dendrites"],
+      "explanation": "The basal ganglia are involved in reward processing, habit formation, and movement regulation."
+    },
+    {
+      "id": "ne-042",
+      "prompt": "Most sensory signals are routed through the thalamus before reaching other brain areas. Which sense is the named exception?",
+      "correct": "Smell",
+      "wrong": ["Hearing", "Touch", "Vision"],
+      "explanation": "The handout identifies smell as the sensory exception that bypasses the thalamus."
+    },
+    {
+      "id": "ne-043",
+      "prompt": "A sudden change in body temperature is first detected as which part of nervous-system function?",
+      "correct": "Sensory input",
+      "wrong": ["Motor output", "Voluntary control", "Memory consolidation"],
+      "explanation": "Detecting the temperature change is sensory input; the information can then be integrated into a response."
+    },
+    {
+      "id": "ne-044",
+      "prompt": "Which brain structure is the key control center for homeostasis involving temperature, hunger, thirst, and sleep?",
+      "correct": "Hypothalamus",
+      "wrong": ["Thalamus", "Amygdala", "Parietal lobe"],
+      "explanation": "The hypothalamus manages several homeostatic functions, including body temperature, hunger, thirst, and sleep."
+    },
+    {
+      "id": "ne-045",
+      "prompt": "In the handout’s description of thermoregulation, the hypothalamus connects nervous-system sensing with endocrine control chiefly through which gland?",
+      "correct": "Pituitary gland",
+      "wrong": ["Thyroid gland", "Pineal gland", "Adrenal gland"],
+      "explanation": "The hypothalamus influences hormone release through the pituitary gland, linking nervous and endocrine control."
+    },
+    {
+      "id": "ne-046",
+      "prompt": "Which pairing correctly matches a pathway with its direction?",
+      "correct": "Afferent — toward the CNS",
+      "wrong": ["Afferent — away from the CNS", "Efferent — from receptors toward the CNS", "Autonomic — from sense organs toward the CNS"],
+      "explanation": "Afferent pathways carry sensory information toward the CNS; efferent pathways carry commands away from it."
+    },
+    {
+      "id": "ne-047",
+      "prompt": "Which pairing correctly matches a neuron structure with the direction of impulse travel?",
+      "correct": "Axon — away from the cell body",
+      "wrong": ["Axon — toward the cell body", "Dendrite — away from the cell body", "Cell body — away from the axon terminal"],
+      "explanation": "Dendrites conduct impulses toward the cell body, while the axon conducts impulses away from it."
+    },
+    {
+      "id": "ne-048",
+      "prompt": "Touching a hot surface and pulling your hand away before consciously deciding to do so is best described as a…",
+      "correct": "Reflex action",
+      "wrong": ["Voluntary motor plan", "Circadian response", "Long-term memory"],
+      "explanation": "A reflex action is a rapid, involuntary response that often uses a reflex arc through the spinal cord."
+    },
+    {
+      "id": "ne-049",
+      "prompt": "A person deliberately raises a hand to answer a question. Which system most directly controls that skeletal-muscle action?",
+      "correct": "Somatic nervous system",
+      "wrong": ["Autonomic nervous system", "Sensory division", "Limbic system"],
+      "explanation": "Deliberate skeletal-muscle movement is controlled by the somatic nervous system."
+    },
+    {
+      "id": "ne-050",
+      "prompt": "Which sequence best shows how the nervous and endocrine systems can work together during a homeostatic challenge?",
+      "correct": "A stimulus is detected, the information is integrated, then glands can be signaled to adjust body processes",
+      "wrong": ["Glands detect a stimulus, then sensory neurons become muscles", "Motor neurons become hormones before the CNS receives information", "The spinal cord stores the stimulus as a long-term memory before any response"],
+      "explanation": "The nervous system detects and integrates changes, while endocrine signaling through glands can help adjust body processes to restore stable conditions."
+    }
+  ]
+}

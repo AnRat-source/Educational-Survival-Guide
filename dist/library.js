@@ -53,9 +53,9 @@
     const status = document.querySelectorAll('.hero-aside div');
     if (status.length === 3) {
       status[0].firstElementChild.textContent = 'REVIEWERS READY';
-      status[0].lastElementChild.textContent = '02 mock exams';
+      status[0].lastElementChild.textContent = '04 mock exams';
       status[1].firstElementChild.textContent = 'QUESTION BANK';
-      status[1].lastElementChild.textContent = '220 questions';
+      status[1].lastElementChild.textContent = '370 questions';
       status[2].firstElementChild.textContent = 'RANDOM SET SIZE';
       status[2].lastElementChild.textContent = '10 questions';
     }
@@ -64,10 +64,18 @@
       if (copy.textContent.includes('Work in progress')) copy.textContent = 'Every available lesson has its own page with original scans, diagrams, source material, and two PDF print layouts.';
       if (copy.textContent.includes('Slides and project')) copy.textContent = 'For when the GenSci presentation needs to be mendelicous.';
     });
-    const resourceCopy = document.querySelectorAll('.entry:not(.is-empty) p');
-    if (resourceCopy[0]) resourceCopy[0].textContent = 'PKLP practice for when 2nd thoughts are 80% wrong. Mendelche, lock in.';
-    if (resourceCopy[1]) resourceCopy[1].textContent = 'Mendelicous chemistry practice: ions, names, formulas, and no obvious distractors.';
-    if (resourceCopy[2]) resourceCopy[2].textContent = 'Reserved for the next GenSci presentation. Mendelche, we are ready-ish.';
+    const reviewerCopy = document.querySelectorAll('#reviewers .entry:not(.is-empty)');
+    reviewerCopy.forEach((entry) => {
+      const link = entry.querySelector('.entry-link');
+      const copy = entry.querySelector('p');
+      if (!link || !copy) return;
+      if (link.getAttribute('href') === 'pklp-reviewer.html') copy.textContent = 'PKLP practice for when 2nd thoughts are 80% wrong. Mendelche, lock in.';
+      if (link.getAttribute('href') === 'chemistry-specific-reviewer.html') copy.textContent = 'Mendelicous chemistry practice: ions, names, formulas, and no obvious distractors.';
+      if (link.getAttribute('href') === 'gensci-nervous-endocrine-reviewer.html') copy.textContent = 'Neurons, reflexes, brain regions, endocrine control, and homeostasis. Lock in before the next GenSci quiz.';
+      if (link.getAttribute('href') === 'chem-quiz4-reviewer.html') copy.textContent = 'Bonding, Lewis structures, polarity, VSEPR, and geometry. Mendelche, no random guessing.';
+    });
+    const presentationCopy = document.querySelector('#presentations .entry:not(.is-empty) p');
+    if (presentationCopy) presentationCopy.textContent = 'Reserved for the next GenSci presentation. Mendelche, we are ready-ish.';
     document.querySelectorAll('.entry.is-empty p').forEach((copy) => {
       copy.textContent = 'No reviewer yet. Ikaw na bahala, ginoo.';
     });

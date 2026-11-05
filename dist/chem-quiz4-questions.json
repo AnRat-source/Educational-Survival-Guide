@@ -1,0 +1,705 @@
+{
+  "title": "[Chemistry] T2 - Quiz 4: Bonding & Molecular Geometry",
+  "questions": [
+    {
+      "id": "cq4-001",
+      "prompt": "Which statement best defines a chemical bond?",
+      "correct": "An attraction between atomic nuclei and electrons that holds atoms together",
+      "wrong": ["A collision that transfers protons between atoms", "A force that exists only between neutral atoms", "An attraction between nuclei without any role for electrons"],
+      "explanation": "Chemical bonding results from attractions involving positively charged nuclei and electrons, which can lower the energy of the atoms together."
+    },
+    {
+      "id": "cq4-002",
+      "prompt": "Which set lists the three broad bond types discussed in the lesson?",
+      "correct": "Ionic, covalent, and metallic",
+      "wrong": ["Ionic, polar, and molecular", "Covalent, crystalline, and metallic", "Ionic, electrostatic, and nonpolar"],
+      "explanation": "The three broad types are ionic, covalent, and metallic bonding. Polar and nonpolar describe covalent bonding or molecular polarity."
+    },
+    {
+      "id": "cq4-003",
+      "prompt": "What happens to valence electrons in a typical ionic bond?",
+      "correct": "They are transferred from one atom to another",
+      "wrong": ["They are shared equally by both atoms", "They remain only on the nonmetal before bonding", "They are converted into protons in the crystal"],
+      "explanation": "Ionic bonding involves electron transfer, producing oppositely charged ions that attract one another."
+    },
+    {
+      "id": "cq4-004",
+      "prompt": "What happens to valence electrons in a covalent bond?",
+      "correct": "They are shared between atoms",
+      "wrong": ["They are completely transferred to the more electronegative atom", "They are removed from both atoms", "They are confined to a metal lattice"],
+      "explanation": "Covalent bonds form when atoms share valence electrons."
+    },
+    {
+      "id": "cq4-005",
+      "prompt": "Which pairing most commonly forms an ionic compound?",
+      "correct": "A metal cation and a nonmetal anion",
+      "wrong": ["Two nonmetal anions", "A metal anion and a nonmetal cation", "Two neutral nonmetal molecules"],
+      "explanation": "Metals usually lose electrons to form cations, while nonmetals gain electrons to form anions."
+    },
+    {
+      "id": "cq4-006",
+      "prompt": "During ionic bond formation, a metal atom usually ____.",
+      "correct": "loses electrons and becomes a cation",
+      "wrong": ["gains electrons and becomes a cation", "shares electrons and remains neutral", "gains protons and becomes an anion"],
+      "explanation": "Losing negatively charged electrons leaves a metal with a net positive charge, so it becomes a cation."
+    },
+    {
+      "id": "cq4-007",
+      "prompt": "During ionic bond formation, a nonmetal atom usually ____.",
+      "correct": "gains electrons and becomes an anion",
+      "wrong": ["loses electrons and becomes an anion", "shares only protons and becomes neutral", "loses neutrons and becomes a cation"],
+      "explanation": "Gaining negatively charged electrons gives a nonmetal a net negative charge, producing an anion."
+    },
+    {
+      "id": "cq4-008",
+      "prompt": "What directly holds the ions together in an ionic solid?",
+      "correct": "Electrostatic attraction between oppositely charged ions",
+      "wrong": ["Equal sharing of one electron pair", "Repulsion between ions of the same charge", "A directional overlap of metal orbitals only"],
+      "explanation": "Ionic solids are held by the attraction between positive cations and negative anions."
+    },
+    {
+      "id": "cq4-009",
+      "prompt": "Why do ionic compounds generally have high melting and boiling points?",
+      "correct": "A large amount of energy is needed to overcome attractions in the ionic lattice",
+      "wrong": ["Their molecules have especially weak intermolecular forces", "Their ions share electrons in double bonds", "Their electrons move freely between isolated molecules"],
+      "explanation": "The repeating ionic lattice contains strong electrostatic attractions that require substantial energy to break."
+    },
+    {
+      "id": "cq4-010",
+      "prompt": "Which description best fits the structure of a typical ionic solid?",
+      "correct": "A three-dimensional crystal lattice of repeating ions",
+      "wrong": ["Separate molecules arranged in pairs", "A chain of identical neutral atoms", "A two-dimensional sheet of shared electron pairs"],
+      "explanation": "Ionic compounds form extended three-dimensional lattices rather than individual molecules."
+    },
+    {
+      "id": "cq4-011",
+      "prompt": "Why can an ionic crystal be hard but brittle?",
+      "correct": "A shift can bring like-charged ions together, causing strong repulsion and cleavage",
+      "wrong": ["Its ions become neutral when the crystal is struck", "Its electron pairs flow away from the point of impact", "Its covalent bonds gradually stretch instead of breaking"],
+      "explanation": "When lattice layers shift, similarly charged ions may line up. Their repulsion can split the crystal."
+    },
+    {
+      "id": "cq4-012",
+      "prompt": "When does an ionic compound usually conduct electricity?",
+      "correct": "When molten or dissolved in water, because its ions can move",
+      "wrong": ["Only as a solid, because the lattice is rigid", "Only as a gas, because the ions become covalent", "In every state, because all electrons are delocalized"],
+      "explanation": "Molten and aqueous ionic compounds contain mobile ions that can carry electric current."
+    },
+    {
+      "id": "cq4-013",
+      "prompt": "Why does a solid ionic compound usually not conduct electricity?",
+      "correct": "Its ions are fixed in place in the crystal lattice",
+      "wrong": ["It contains no charged particles", "Its cations have become anions", "Its bonds are all nonpolar covalent"],
+      "explanation": "Ions are present in a solid ionic compound, but they cannot move through the rigid lattice."
+    },
+    {
+      "id": "cq4-014",
+      "prompt": "Which solvent would most ionic compounds be more likely to dissolve in?",
+      "correct": "Water, a polar solvent",
+      "wrong": ["Hexane, a nonpolar solvent", "Mineral oil, a nonpolar solvent", "A pure metal melt, because it is conductive"],
+      "explanation": "Polar water molecules can surround and stabilize separated ions, so ionic compounds are often water-soluble."
+    },
+    {
+      "id": "cq4-015",
+      "prompt": "A metallic bond is most characteristic of which substance?",
+      "correct": "A sample made only of metal atoms, such as solid silver",
+      "wrong": ["A compound of sodium and chlorine", "A molecule made of carbon and hydrogen", "A mixture of a nonmetal gas and water"],
+      "explanation": "Metallic bonding occurs between metal atoms in pure metals and metal alloys."
+    },
+    {
+      "id": "cq4-016",
+      "prompt": "Which pair is most likely joined primarily by covalent bonding?",
+      "correct": "Two nonmetal atoms",
+      "wrong": ["A metal atom and a nonmetal atom", "A metal cation and a nonmetal anion", "Two ions with opposite charges in a lattice"],
+      "explanation": "Covalent bonds commonly form between nonmetal atoms by sharing valence electrons."
+    },
+    {
+      "id": "cq4-017",
+      "prompt": "Which feature makes covalent bonds directional?",
+      "correct": "Shared electron pairs are located between particular atoms",
+      "wrong": ["Cations and anions attract equally in all directions", "The atoms must form a cubic crystal lattice", "Valence electrons are transferred completely away from both atoms"],
+      "explanation": "Because the shared electrons lie between specific nuclei, covalent bonds give molecules definite arrangements and shapes."
+    },
+    {
+      "id": "cq4-018",
+      "prompt": "Why do many covalent compounds have lower melting points than ionic compounds?",
+      "correct": "The attractions between separate molecules are often relatively weak",
+      "wrong": ["Covalent bonds inside molecules are always weak", "They contain mobile ions in a lattice", "Their atoms have no valence electrons"],
+      "explanation": "The covalent bonds within a molecule can be strong, but the intermolecular attractions between molecules are often weaker."
+    },
+    {
+      "id": "cq4-019",
+      "prompt": "Why are many simple covalent compounds poor electrical conductors?",
+      "correct": "They usually lack mobile ions or freely moving electrons",
+      "wrong": ["Their nuclei have no charge", "Their molecules are always symmetrical", "Their valence electrons are all transferred to water"],
+      "explanation": "Simple molecular substances generally have no mobile charged particles available to carry current."
+    },
+    {
+      "id": "cq4-020",
+      "prompt": "Which physical description is most typical of many molecular covalent substances?",
+      "correct": "Gases, liquids, or soft solids with relatively low melting points",
+      "wrong": ["Hard, high-melting three-dimensional ionic lattices", "Malleable metal solids with a sea of electrons", "Always rigid crystals that conduct as solids"],
+      "explanation": "Many covalent molecular substances are gases, liquids, or soft solids because of comparatively weak intermolecular forces."
+    },
+    {
+      "id": "cq4-021",
+      "prompt": "What is valency?",
+      "correct": "An atom's combining capacity based on electrons it can lose, gain, or share",
+      "wrong": ["The total number of protons in an atom", "The mass of the outermost electron shell", "The number of neutrons transferred in a reaction"],
+      "explanation": "Valency describes how many electrons an atom tends to lose, gain, or share to become stable."
+    },
+    {
+      "id": "cq4-022",
+      "prompt": "In a Lewis electron-dot symbol, the dots represent ____.",
+      "correct": "valence electrons",
+      "wrong": ["protons in the nucleus", "all electrons in the atom", "neutrons in the outer shell"],
+      "explanation": "Lewis dots show only valence electrons, the electrons most involved in bonding."
+    },
+    {
+      "id": "cq4-023",
+      "prompt": "For a representative element, what does the ones digit of its group number indicate in Lewis-dot work?",
+      "correct": "The number of valence electrons",
+      "wrong": ["The number of occupied energy levels", "The number of protons in the nucleus", "The number of bonds it must always form"],
+      "explanation": "For main-group elements, the ones digit of the group number corresponds to the number of valence electrons."
+    },
+    {
+      "id": "cq4-024",
+      "prompt": "When placing dots around a Lewis symbol, what is the usual first step?",
+      "correct": "Place one dot on each side before pairing any dots",
+      "wrong": ["Place all dots as pairs on the top side first", "Draw bond lines before placing any electrons", "Put every dot inside the element symbol"],
+      "explanation": "Lewis-dot symbols distribute single electrons around the four sides before electrons are paired."
+    },
+    {
+      "id": "cq4-025",
+      "prompt": "Which atom usually needs only two electrons for a filled first shell?",
+      "correct": "Hydrogen",
+      "wrong": ["Carbon", "Nitrogen", "Oxygen"],
+      "explanation": "Hydrogen follows the duet rule: its first energy level is filled by two electrons."
+    },
+    {
+      "id": "cq4-026",
+      "prompt": "Which atom is commonly taught as an octet-rule exception that can be stable with six electrons?",
+      "correct": "Boron",
+      "wrong": ["Fluorine", "Oxygen", "Nitrogen"],
+      "explanation": "Boron is commonly electron-deficient in compounds such as BCl₃ and can be stable with six surrounding electrons."
+    },
+    {
+      "id": "cq4-027",
+      "prompt": "In a covalent Lewis structure, which atom is usually chosen as the central atom?",
+      "correct": "The atom with more unpaired electrons, often carbon when it is present",
+      "wrong": ["Hydrogen, because it forms one bond", "Fluorine, because it is highly electronegative", "The terminal atom with the fewest unpaired electrons"],
+      "explanation": "The central atom generally has more unpaired electrons; carbon is normally central when it is in the formula."
+    },
+    {
+      "id": "cq4-028",
+      "prompt": "Which statement is correct for a molecule with only two atoms, such as HCl?",
+      "correct": "It has no central atom",
+      "wrong": ["The more electronegative atom is always central", "Hydrogen is always central", "The atom written first is always central"],
+      "explanation": "A diatomic molecule has only two atoms, so neither is considered a central atom."
+    },
+    {
+      "id": "cq4-029",
+      "prompt": "How many valence electrons are available for the Lewis structure of H₂O?",
+      "correct": "8",
+      "wrong": ["6", "10", "12"],
+      "explanation": "Each H supplies 1 valence electron and O supplies 6, giving 1 + 1 + 6 = 8."
+    },
+    {
+      "id": "cq4-030",
+      "prompt": "How many electrons are needed for H₂O when each H follows the duet rule and O follows the octet rule?",
+      "correct": "12",
+      "wrong": ["8", "10", "14"],
+      "explanation": "The two H atoms need 2 each and oxygen needs 8, so the total needed is 12 electrons."
+    },
+    {
+      "id": "cq4-031",
+      "prompt": "In the ANS method, what does the difference between needed and available electrons tell you?",
+      "correct": "How many electrons must be shared in bonds",
+      "wrong": ["How many protons must be transferred", "How many lone pairs must be removed", "How many energy levels the molecule has"],
+      "explanation": "Needed minus available equals the number of electrons that must be shared to satisfy the electron requirements."
+    },
+    {
+      "id": "cq4-032",
+      "prompt": "How is the number of covalent bonds found after calculating shared electrons in the ANS method?",
+      "correct": "Divide the number of shared electrons by 2",
+      "wrong": ["Multiply the number of shared electrons by 2", "Subtract 2 from the number of shared electrons", "Divide the available electrons by 8"],
+      "explanation": "Each covalent bond consists of one shared pair, or two electrons."
+    },
+    {
+      "id": "cq4-033",
+      "prompt": "How many bonding pairs are present in a double bond?",
+      "correct": "2",
+      "wrong": ["1", "3", "4"],
+      "explanation": "A double bond contains two shared electron pairs, which is four shared electrons."
+    },
+    {
+      "id": "cq4-034",
+      "prompt": "How many electrons are shared in a triple bond?",
+      "correct": "6",
+      "wrong": ["2", "4", "8"],
+      "explanation": "A triple bond has three shared electron pairs, for a total of six shared electrons."
+    },
+    {
+      "id": "cq4-035",
+      "prompt": "How many single bonds are shown in the usual Lewis structure of CH₄?",
+      "correct": "4",
+      "wrong": ["2", "3", "5"],
+      "explanation": "Carbon is central in methane and forms four single C—H bonds."
+    },
+    {
+      "id": "cq4-036",
+      "prompt": "How many lone-pair electrons remain on nitrogen in the usual Lewis structure of NH₃?",
+      "correct": "2",
+      "wrong": ["0", "4", "6"],
+      "explanation": "NH₃ has three N—H bonds and one lone pair on nitrogen, which contains two electrons."
+    },
+    {
+      "id": "cq4-037",
+      "prompt": "Which Lewis description matches CO₂?",
+      "correct": "Carbon is central with two double bonds to oxygen",
+      "wrong": ["Oxygen is central with two single bonds to carbon", "Carbon is central with four single bonds to oxygen", "The atoms form an ionic lattice of C⁴⁺ and O²⁻"],
+      "explanation": "CO₂ is represented as O=C=O, with carbon in the center and two C=O double bonds."
+    },
+    {
+      "id": "cq4-038",
+      "prompt": "How many electrons remain unshared after the bonding in the Lewis structure of CO₂ is completed?",
+      "correct": "8",
+      "wrong": ["4", "6", "12"],
+      "explanation": "CO₂ has 16 available valence electrons. Eight are in the two double bonds, leaving eight as oxygen lone-pair electrons."
+    },
+    {
+      "id": "cq4-039",
+      "prompt": "Why does BCl₃ have only three B—Cl bonds in its common Lewis structure?",
+      "correct": "Boron can be stable with six electrons rather than a full octet",
+      "wrong": ["Chlorine never forms more than one lone pair", "Boron must have a complete duet like hydrogen", "The compound is ionic rather than covalent"],
+      "explanation": "Boron is an octet-rule exception; three bonds place six electrons around B in BCl₃."
+    },
+    {
+      "id": "cq4-040",
+      "prompt": "Which statement distinguishes a molecular formula from a structural formula?",
+      "correct": "A molecular formula gives atom counts, while a structural formula shows bonding arrangement",
+      "wrong": ["A molecular formula shows bonds, while a structural formula gives only counts", "Both always show the same electron pairs", "Only a structural formula can name the elements present"],
+      "explanation": "For example, NH₃ gives the composition, while a structural formula shows how N is connected to the three H atoms."
+    },
+    {
+      "id": "cq4-041",
+      "prompt": "A bond has an electronegativity difference greater than about 1.8. How is it classified in this lesson?",
+      "correct": "Ionic",
+      "wrong": ["Nonpolar covalent", "Polar covalent", "Metallic"],
+      "explanation": "The lesson uses a difference above 1.8 as the ionic range."
+    },
+    {
+      "id": "cq4-042",
+      "prompt": "A bond has an electronegativity difference of 1.1. How is it classified in this lesson?",
+      "correct": "Polar covalent",
+      "wrong": ["Nonpolar covalent", "Ionic", "Metallic"],
+      "explanation": "A difference from about 0.50 to 1.79 is classified as polar covalent in the lesson."
+    },
+    {
+      "id": "cq4-043",
+      "prompt": "A bond has an electronegativity difference of 0.3. How is it classified in this lesson?",
+      "correct": "Nonpolar covalent",
+      "wrong": ["Polar covalent", "Ionic", "An ionic lattice"],
+      "explanation": "A difference below about 0.49 is classified as nonpolar covalent because the electrons are shared nearly evenly."
+    },
+    {
+      "id": "cq4-044",
+      "prompt": "As an electronegativity difference moves closer to 2.0, the bond generally has ____.",
+      "correct": "greater ionic character",
+      "wrong": ["greater nonpolar character", "less charge separation", "less attraction between nuclei and electrons"],
+      "explanation": "A larger electronegativity difference means more unequal electron attraction and more ionic character."
+    },
+    {
+      "id": "cq4-045",
+      "prompt": "Which bond is expected to be the most polar based on the lesson's sample differences?",
+      "correct": "H—F",
+      "wrong": ["N—N", "C—H", "H—Cl"],
+      "explanation": "The sample values show H—F with the largest difference (about 1.9), larger than H—Cl, C—H, or N—N."
+    },
+    {
+      "id": "cq4-046",
+      "prompt": "Which bond is nonpolar because its two atoms have the same electronegativity?",
+      "correct": "Cl—Cl",
+      "wrong": ["H—Cl", "C—O", "N—H"],
+      "explanation": "Atoms in a Cl₂ bond attract the shared electrons equally, so the bond is nonpolar."
+    },
+    {
+      "id": "cq4-047",
+      "prompt": "Can a molecule with polar bonds still be a nonpolar molecule?",
+      "correct": "Yes, if its bond dipoles cancel because of a symmetrical arrangement",
+      "wrong": ["No, one polar bond always makes the whole molecule polar", "Only if it contains an ionic bond", "Only if every atom has a lone pair"],
+      "explanation": "Molecular polarity depends on the vector sum of all bond dipoles, not on a single bond alone."
+    },
+    {
+      "id": "cq4-048",
+      "prompt": "Why is CO₂ usually classified as a nonpolar molecule even though each C=O bond is polar?",
+      "correct": "Its linear, symmetrical arrangement lets the two bond dipoles cancel",
+      "wrong": ["Carbon and oxygen have equal electronegativity", "The molecule contains no shared electrons", "Its double bonds are ionic instead of covalent"],
+      "explanation": "The two equal C=O bond dipoles point in opposite directions in linear CO₂, so the overall dipole is zero."
+    },
+    {
+      "id": "cq4-049",
+      "prompt": "Why is H₂O a polar molecule?",
+      "correct": "Its bent shape prevents the O—H bond dipoles from canceling",
+      "wrong": ["Its O—H bonds are nonpolar", "Oxygen transfers both electrons completely to hydrogen", "Its electron pairs form a linear arrangement"],
+      "explanation": "Water's bent molecular geometry creates a net dipole, so the molecule is polar."
+    },
+    {
+      "id": "cq4-050",
+      "prompt": "Which molecule is a good example of a symmetrical, nonpolar molecule from the lesson?",
+      "correct": "CCl₄",
+      "wrong": ["NH₃", "H₂O", "CH₃Cl"],
+      "explanation": "CCl₄ has a symmetrical tetrahedral arrangement of identical C—Cl bonds, so its bond dipoles cancel."
+    },
+    {
+      "id": "cq4-051",
+      "prompt": "Which molecule is polar because its atoms are not arranged symmetrically around the central atom?",
+      "correct": "CH₃Cl",
+      "wrong": ["CO₂", "BF₃", "CCl₄"],
+      "explanation": "CH₃Cl has different atoms around carbon, so its bond dipoles do not cancel completely."
+    },
+    {
+      "id": "cq4-052",
+      "prompt": "What is molecular geometry?",
+      "correct": "The three-dimensional arrangement of atoms in a molecule",
+      "wrong": ["The total mass of the atoms in a molecule", "The two-dimensional order of element symbols in a formula", "The number of electrons transferred in an ionic bond"],
+      "explanation": "Molecular geometry describes a molecule's 3-D atomic arrangement, which affects its properties and polarity."
+    },
+    {
+      "id": "cq4-053",
+      "prompt": "What does VSEPR stand for?",
+      "correct": "Valence Shell Electron Pair Repulsion",
+      "wrong": ["Variable Shell Electron Proton Ratio", "Valence State Energy Pair Rule", "Vector Shape Electron Pair Relation"],
+      "explanation": "VSEPR predicts molecular shape by considering repulsions among electron pairs around a central atom."
+    },
+    {
+      "id": "cq4-054",
+      "prompt": "According to VSEPR theory, electron pairs around a central atom arrange themselves to ____.",
+      "correct": "minimize repulsion by staying as far apart as possible",
+      "wrong": ["maximize repulsion by crowding together", "form a flat shape in every molecule", "line up only with lone pairs"],
+      "explanation": "Electron pairs repel one another, so they orient in space to reduce those repulsions."
+    },
+    {
+      "id": "cq4-055",
+      "prompt": "For VSEPR counting, how is a double or triple bond treated around the central atom?",
+      "correct": "As one electron domain",
+      "wrong": ["As two or three separate electron domains", "As no electron domain", "Only as a lone-pair domain"],
+      "explanation": "A multiple bond contains more electrons, but it occupies one region of electron density for basic VSEPR shape counting."
+    },
+    {
+      "id": "cq4-056",
+      "prompt": "Which electron pairs must be counted around a central atom for VSEPR?",
+      "correct": "Both bonding pairs and lone pairs",
+      "wrong": ["Bonding pairs only", "Lone pairs only", "Core-electron pairs only"],
+      "explanation": "Both bonding electron regions and lone pairs repel and affect the arrangement around the central atom."
+    },
+    {
+      "id": "cq4-057",
+      "prompt": "How does a lone pair generally repel compared with a bonding pair?",
+      "correct": "More strongly",
+      "wrong": ["More weakly", "Exactly the same in every case", "Not at all because it is unshared"],
+      "explanation": "Lone pairs are concentrated closer to the central atom and repel bonding pairs more strongly."
+    },
+    {
+      "id": "cq4-058",
+      "prompt": "In the notation ABₓ, what does A represent?",
+      "correct": "The central atom",
+      "wrong": ["A lone pair on the central atom", "Any terminal atom", "The total number of bonds"],
+      "explanation": "In VSEPR notation, A is the central atom and B represents atoms attached to it."
+    },
+    {
+      "id": "cq4-059",
+      "prompt": "In the notation ABₓEᵧ, what does E represent?",
+      "correct": "A lone pair on the central atom",
+      "wrong": ["An attached atom", "A double bond", "An electron transferred from a metal"],
+      "explanation": "E indicates lone-pair electron domains located on the central atom."
+    },
+    {
+      "id": "cq4-060",
+      "prompt": "A central atom with two electron domains and no lone pairs has what molecular geometry?",
+      "correct": "Linear",
+      "wrong": ["Bent", "Trigonal planar", "Tetrahedral"],
+      "explanation": "Two electron domains arrange opposite each other, producing a linear geometry."
+    },
+    {
+      "id": "cq4-061",
+      "prompt": "What is the ideal bond angle for a linear molecule such as BeCl₂?",
+      "correct": "180°",
+      "wrong": ["90°", "109.5°", "120°"],
+      "explanation": "Two electron domains are farthest apart when separated by 180°."
+    },
+    {
+      "id": "cq4-062",
+      "prompt": "A central atom with three electron domains and no lone pairs has what molecular geometry?",
+      "correct": "Trigonal planar",
+      "wrong": ["Trigonal pyramidal", "T-shaped", "Bent"],
+      "explanation": "Three bonding regions with no lone pairs arrange in one plane as trigonal planar."
+    },
+    {
+      "id": "cq4-063",
+      "prompt": "What is the ideal bond angle in a trigonal planar molecule such as BF₃?",
+      "correct": "120°",
+      "wrong": ["90°", "109.5°", "180°"],
+      "explanation": "Three electron domains in a plane are equally spaced by 120°."
+    },
+    {
+      "id": "cq4-064",
+      "prompt": "A central atom with four electron domains and no lone pairs has what molecular geometry?",
+      "correct": "Tetrahedral",
+      "wrong": ["Square planar", "Trigonal pyramidal", "Seesaw"],
+      "explanation": "Four bonding domains with no lone pairs arrange tetrahedrally, as in CH₄."
+    },
+    {
+      "id": "cq4-065",
+      "prompt": "What is the ideal bond angle in a tetrahedral molecule such as CH₄?",
+      "correct": "109.5°",
+      "wrong": ["90°", "107°", "120°"],
+      "explanation": "Four electron domains in a tetrahedral arrangement have ideal angles of about 109.5°."
+    },
+    {
+      "id": "cq4-066",
+      "prompt": "A central atom with five electron domains and no lone pairs has what molecular geometry?",
+      "correct": "Trigonal bipyramidal",
+      "wrong": ["Trigonal planar", "Octahedral", "Square pyramidal"],
+      "explanation": "Five bonding domains arrange as trigonal bipyramidal, as in PCl₅."
+    },
+    {
+      "id": "cq4-067",
+      "prompt": "Which pair of ideal angles occurs in a trigonal bipyramidal arrangement?",
+      "correct": "120° and 90°",
+      "wrong": ["180° and 109.5°", "109.5° and 107°", "120° and 180° only"],
+      "explanation": "Equatorial positions are 120° apart, and axial positions are 90° from equatorial positions."
+    },
+    {
+      "id": "cq4-068",
+      "prompt": "A central atom with six electron domains and no lone pairs has what molecular geometry?",
+      "correct": "Octahedral",
+      "wrong": ["Trigonal bipyramidal", "Square planar", "Tetrahedral"],
+      "explanation": "Six bonding domains arrange octahedrally, as in SF₆."
+    },
+    {
+      "id": "cq4-069",
+      "prompt": "What is the ideal angle between adjacent bonds in an octahedral molecule such as SF₆?",
+      "correct": "90°",
+      "wrong": ["109.5°", "120°", "180° only"],
+      "explanation": "In an octahedral arrangement, adjacent bonds are 90° apart; opposite bonds are 180° apart."
+    },
+    {
+      "id": "cq4-070",
+      "prompt": "Which VSEPR notation and shape match SO₂ in the lesson table?",
+      "correct": "AB₂E, bent",
+      "wrong": ["AB₂, linear", "AB₃E, trigonal pyramidal", "AB₂E₂, bent"],
+      "explanation": "SO₂ has three electron domains around sulfur: two bonding domains and one lone pair, giving AB₂E and a bent molecular shape."
+    },
+    {
+      "id": "cq4-071",
+      "prompt": "What is the electron-pair arrangement around the central atom in SO₂?",
+      "correct": "Trigonal planar",
+      "wrong": ["Linear", "Tetrahedral", "Bent"],
+      "explanation": "SO₂ has three electron domains, so its electron-pair arrangement is trigonal planar even though its molecular geometry is bent."
+    },
+    {
+      "id": "cq4-072",
+      "prompt": "Which VSEPR notation and shape match NH₃?",
+      "correct": "AB₃E, trigonal pyramidal",
+      "wrong": ["AB₃, trigonal planar", "AB₃E₂, T-shaped", "AB₄, tetrahedral"],
+      "explanation": "NH₃ has three N—H bonding domains and one lone pair, so its molecular geometry is trigonal pyramidal."
+    },
+    {
+      "id": "cq4-073",
+      "prompt": "What is the electron-pair arrangement around nitrogen in NH₃?",
+      "correct": "Tetrahedral",
+      "wrong": ["Trigonal pyramidal", "Trigonal planar", "Linear"],
+      "explanation": "Nitrogen in NH₃ has four electron domains: three bonding domains and one lone pair. The electron-pair arrangement is tetrahedral."
+    },
+    {
+      "id": "cq4-074",
+      "prompt": "Which VSEPR notation and shape match H₂O?",
+      "correct": "AB₂E₂, bent",
+      "wrong": ["AB₂, linear", "AB₂E, bent", "AB₃E, trigonal pyramidal"],
+      "explanation": "Water has two O—H bonding domains and two lone pairs on oxygen, giving AB₂E₂ and a bent molecular geometry."
+    },
+    {
+      "id": "cq4-075",
+      "prompt": "What is the electron-pair arrangement around oxygen in H₂O?",
+      "correct": "Tetrahedral",
+      "wrong": ["Bent", "Trigonal planar", "Linear"],
+      "explanation": "Oxygen in H₂O has four electron domains in total, so its electron-pair arrangement is tetrahedral."
+    },
+    {
+      "id": "cq4-076",
+      "prompt": "Which VSEPR notation and shape match SF₄?",
+      "correct": "AB₄E, seesaw",
+      "wrong": ["AB₄, tetrahedral", "AB₃E₂, T-shaped", "AB₅E, square pyramidal"],
+      "explanation": "SF₄ has five electron domains around sulfur: four bonding domains and one lone pair. Its molecular geometry is seesaw."
+    },
+    {
+      "id": "cq4-077",
+      "prompt": "Which VSEPR notation and shape match ClF₃?",
+      "correct": "AB₃E₂, T-shaped",
+      "wrong": ["AB₃E, trigonal pyramidal", "AB₄E, seesaw", "AB₂E₃, linear"],
+      "explanation": "ClF₃ has five electron domains with three bonding pairs and two lone pairs, producing a T-shaped molecular geometry."
+    },
+    {
+      "id": "cq4-078",
+      "prompt": "Which VSEPR notation and shape match I₃⁻ in the lesson table?",
+      "correct": "AB₂E₃, linear",
+      "wrong": ["AB₂E, bent", "AB₃E₂, T-shaped", "AB₂, linear"],
+      "explanation": "I₃⁻ has five electron domains around the central iodine: two bonding domains and three lone pairs. The remaining bonds are opposite, making it linear."
+    },
+    {
+      "id": "cq4-079",
+      "prompt": "Which VSEPR notation and shape match BrF₅?",
+      "correct": "AB₅E, square pyramidal",
+      "wrong": ["AB₅, trigonal bipyramidal", "AB₄E₂, square planar", "AB₆, octahedral"],
+      "explanation": "BrF₅ has six electron domains with five bonding domains and one lone pair, giving a square pyramidal geometry."
+    },
+    {
+      "id": "cq4-080",
+      "prompt": "Which VSEPR notation and shape match XeF₄?",
+      "correct": "AB₄E₂, square planar",
+      "wrong": ["AB₄, tetrahedral", "AB₅E, square pyramidal", "AB₄E, seesaw"],
+      "explanation": "XeF₄ has six electron domains. Four fluorines remain in a square plane while two lone pairs occupy opposite positions."
+    },
+    {
+      "id": "cq4-081",
+      "prompt": "Why is the molecular geometry of NH₃ not called tetrahedral?",
+      "correct": "One of nitrogen's four electron domains is a lone pair, not a bonded atom",
+      "wrong": ["Nitrogen has only three electron domains", "The N—H bonds are ionic", "Hydrogen atoms cannot form a tetrahedral arrangement"],
+      "explanation": "NH₃ has a tetrahedral electron-pair arrangement, but molecular geometry describes atom positions only, so it is trigonal pyramidal."
+    },
+    {
+      "id": "cq4-082",
+      "prompt": "Why is the molecular geometry of H₂O not called tetrahedral?",
+      "correct": "Two of oxygen's four electron domains are lone pairs, leaving two bonded atoms in a bent shape",
+      "wrong": ["Water has only two total electron domains", "Oxygen cannot form covalent bonds", "The O—H bonds are nonpolar"],
+      "explanation": "Water has a tetrahedral electron-pair arrangement, but only the two O—H bonds count for molecular geometry, giving bent."
+    },
+    {
+      "id": "cq4-083",
+      "prompt": "Which molecule has the same electron-pair arrangement as CH₄ but a different molecular geometry?",
+      "correct": "NH₃",
+      "wrong": ["BF₃", "BeCl₂", "PCl₅"],
+      "explanation": "Both CH₄ and NH₃ have four electron domains (tetrahedral arrangement), but NH₃ has a lone pair and is trigonal pyramidal."
+    },
+    {
+      "id": "cq4-084",
+      "prompt": "Which molecule has trigonal planar electron-pair arrangement but bent molecular geometry?",
+      "correct": "SO₂",
+      "wrong": ["CO₂", "BF₃", "CH₄"],
+      "explanation": "SO₂ has two bonding domains and one lone pair around sulfur, so it is trigonal planar by electron arrangement and bent by molecular geometry."
+    },
+    {
+      "id": "cq4-085",
+      "prompt": "Which molecule has octahedral electron-pair arrangement but square planar molecular geometry?",
+      "correct": "XeF₄",
+      "wrong": ["SF₆", "BrF₅", "PCl₅"],
+      "explanation": "XeF₄ has six electron domains, including two opposite lone pairs, leaving four fluorines in a square planar arrangement."
+    },
+    {
+      "id": "cq4-086",
+      "prompt": "Which molecule has trigonal bipyramidal electron-pair arrangement but T-shaped molecular geometry?",
+      "correct": "ClF₃",
+      "wrong": ["PCl₅", "SF₄", "I₃⁻"],
+      "explanation": "ClF₃ has five electron domains; three bonds and two lone pairs give the T-shaped molecular geometry."
+    },
+    {
+      "id": "cq4-087",
+      "prompt": "Which molecule has trigonal bipyramidal electron-pair arrangement but seesaw molecular geometry?",
+      "correct": "SF₄",
+      "wrong": ["PCl₅", "ClF₃", "BrF₅"],
+      "explanation": "SF₄ has five electron domains with one lone pair, producing a seesaw molecular geometry."
+    },
+    {
+      "id": "cq4-088",
+      "prompt": "Which molecule has octahedral electron-pair arrangement but square pyramidal molecular geometry?",
+      "correct": "BrF₅",
+      "wrong": ["SF₆", "XeF₄", "SF₄"],
+      "explanation": "BrF₅ has six electron domains around bromine. One is a lone pair, leaving five fluorines in a square pyramidal shape."
+    },
+    {
+      "id": "cq4-089",
+      "prompt": "How many electron domains surround the central atom in PCl₅?",
+      "correct": "5",
+      "wrong": ["3", "4", "6"],
+      "explanation": "PCl₅ has five P—Cl bonding domains and no lone pairs on phosphorus in the VSEPR model used here."
+    },
+    {
+      "id": "cq4-090",
+      "prompt": "How many electron domains surround the central atom in SF₆?",
+      "correct": "6",
+      "wrong": ["4", "5", "7"],
+      "explanation": "SF₆ has six S—F bonding domains around the sulfur atom."
+    },
+    {
+      "id": "cq4-091",
+      "prompt": "How many electron domains surround the central atom in NH₃?",
+      "correct": "4",
+      "wrong": ["3", "5", "6"],
+      "explanation": "NH₃ has three bonding domains and one lone-pair domain, totaling four electron domains."
+    },
+    {
+      "id": "cq4-092",
+      "prompt": "How many electron domains surround the central atom in H₂O?",
+      "correct": "4",
+      "wrong": ["2", "3", "5"],
+      "explanation": "H₂O has two bonding domains and two lone-pair domains around oxygen, totaling four."
+    },
+    {
+      "id": "cq4-093",
+      "prompt": "How many electron domains surround the central atom in CO₂ for VSEPR purposes?",
+      "correct": "2",
+      "wrong": ["1", "3", "4"],
+      "explanation": "Each C=O double bond counts as one electron domain, so carbon in CO₂ has two domains."
+    },
+    {
+      "id": "cq4-094",
+      "prompt": "Which statement correctly compares electron-pair arrangement and molecular geometry?",
+      "correct": "Electron-pair arrangement counts lone pairs; molecular geometry describes only atom positions",
+      "wrong": ["They always have exactly the same name", "Molecular geometry counts only lone pairs", "Electron-pair arrangement ignores bonded atoms"],
+      "explanation": "The two descriptions match when there are no central lone pairs, but they differ when lone pairs are present."
+    },
+    {
+      "id": "cq4-095",
+      "prompt": "When will electron-pair arrangement and molecular geometry have the same name?",
+      "correct": "When the central atom has no lone pairs",
+      "wrong": ["When the molecule contains a double bond", "When the central atom has exactly one lone pair", "When every bond is polar"],
+      "explanation": "Without central lone pairs, every electron domain corresponds to a bonded atom, so the two descriptions coincide."
+    },
+    {
+      "id": "cq4-096",
+      "prompt": "Which shape is expected for a central atom with three bonded atoms and one lone pair?",
+      "correct": "Trigonal pyramidal",
+      "wrong": ["Trigonal planar", "Tetrahedral", "T-shaped"],
+      "explanation": "Three bonding domains plus one lone pair is AB₃E: tetrahedral electron arrangement and trigonal pyramidal molecular geometry."
+    },
+    {
+      "id": "cq4-097",
+      "prompt": "Which shape is expected for a central atom with two bonded atoms and two lone pairs?",
+      "correct": "Bent",
+      "wrong": ["Linear", "Trigonal planar", "Square planar"],
+      "explanation": "Two bonding domains and two lone pairs is AB₂E₂, which gives a bent molecular shape."
+    },
+    {
+      "id": "cq4-098",
+      "prompt": "Which shape is expected for a central atom with two bonded atoms and three lone pairs?",
+      "correct": "Linear",
+      "wrong": ["Bent", "T-shaped", "Trigonal planar"],
+      "explanation": "AB₂E₃ has a trigonal bipyramidal electron arrangement. The three lone pairs leave the two bonds opposite each other, making it linear."
+    },
+    {
+      "id": "cq4-099",
+      "prompt": "Which shape is expected for a central atom with four bonded atoms and two lone pairs?",
+      "correct": "Square planar",
+      "wrong": ["Tetrahedral", "Seesaw", "Square pyramidal"],
+      "explanation": "AB₄E₂ has an octahedral electron arrangement; the two lone pairs occupy opposite positions, leaving a square planar molecular geometry."
+    },
+    {
+      "id": "cq4-100",
+      "prompt": "What should you draw first before determining a molecule's VSEPR shape?",
+      "correct": "Its Lewis electron-dot structure",
+      "wrong": ["Only its empirical formula", "A periodic-table group number with no electrons", "Its melting-point graph"],
+      "explanation": "A Lewis structure reveals the bonding and lone pairs needed to count electron domains and predict molecular geometry."
+    }
+  ]
+}
