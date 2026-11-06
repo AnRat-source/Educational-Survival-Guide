@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mendel Roulette — a classroom picker for groups B and G.">
+  <title>Mendel Roulette</title>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Nunito:wght@500;700;800;900&family=Patrick+Hand&display=swap');
+
+    :root {
+      --ink: #263142;
+      --muted: #647083;
+      --paper: #fff8e7;
+      --panel: rgba(255, 255, 252, .94);
+      --cyan: #138da1;
+      --lime: #b7dd50;
+      --pink: #ed789a;
+      --orange: #e99c2e;
+      --line: #b7c9c8;
+      --shadow: rgba(72, 101, 111, .15);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Nunito, system-ui, sans-serif;
+      overflow-x: hidden;
+    }
+
+    body::before, body::after {
+      content: '';
+      position: fixed;
+      z-index: -2;
+      width: min(48vw, 560px);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      filter: blur(24px);
+      opacity: .68;
+    }
+    body::before { top: -18vw; left: -13vw; background: #9fe3e0; }
+    body::after { right: -11vw; bottom: -20vw; background: #ffd696; }
+
+    .grain {
+      position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .075;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.8'/%3E%3C/svg%3E");
+    }
+
+    .page { width: min(1120px, calc(100% - 36px)); margin: 0 auto; padding: 26px 0 34px; }
+    .topline { display: flex; align-items: center; justify-content: space-between; gap: 18px; font: 12px 'DM Mono', monospace; color: var(--muted); letter-spacing: .12em; text-transform: uppercase; }
+    .back { color: var(--cyan); font-weight: 500; text-decoration: none; }
+    .back:hover, .back:focus-visible { color: var(--orange); }
+    .dot { color: var(--pink); }
+
+    main { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(300px, .8fr); gap: clamp(28px, 6vw, 84px); align-items: center; min-height: calc(100vh - 86px); }
+    .eyebrow { margin: 0 0 13px; color: var(--cyan); font: 13px 'DM Mono', monospace; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { max-width: 680px; margin: 0; font: clamp(68px, 11vw, 142px)/.76 'Patrick Hand', cursive; letter-spacing: -.055em; }
+    h1 span { color: var(--orange); text-decoration: underline wavy 2px var(--pink); text-underline-offset: 10px; }
+    .lead { max-width: 590px; margin: 28px 0 0; color: var(--muted); font-size: clamp(16px, 2vw, 20px); line-height: 1.55; }
+
+    .control-panel, .roulette-card { background: var(--panel); border: 2px solid var(--line); box-shadow: 6px 8px 0 var(--shadow); }
+    .control-panel { display: flex; flex-wrap: wrap; gap: 17px 25px; align-items: center; width: fit-content; max-width: 100%; margin-top: 31px; padding: 16px 19px; border-radius: 20px 25px 19px 26px; }
+    .control-copy { display: grid; gap: 2px; }
+    .control-copy strong { font-size: 16px; }
+    .control-copy span { color: var(--muted); font-size: 13px; }
+    .switch { position: relative; flex: 0 0 auto; width: 65px; height: 36px; }
+    .switch input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
+    .slider { position: absolute; inset: 0; border: 2px solid #91aaad; border-radius: 999px; background: #e5eeed; transition: .2s ease; }
+    .slider::after { content: ''; position: absolute; width: 24px; height: 24px; top: 4px; left: 4px; border-radius: 50%; background: #fffefa; box-shadow: 1px 2px 0 rgba(38,49,66,.18); transition: .2s ease; }
+    .switch input:checked + .slider { border-color: #8eaf48; background: #d7ee8e; }
+    .switch input:checked + .slider::after { transform: translateX(29px); background: #6e9d17; }
+    .switch input:focus-visible + .slider { outline: 3px dashed var(--cyan); outline-offset: 3px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+    .teams { display: none; width: 100%; gap: 8px; border-top: 1px dashed var(--line); padding-top: 16px; }
+    .teams.is-visible { display: flex; }
+    .team-button { min-width: 74px; padding: 7px 12px; border: 2px solid var(--line); border-radius: 10px 13px 9px 12px; background: #fffefa; color: var(--muted); font: 13px 'DM Mono', monospace; cursor: pointer; }
+    .team-button:hover, .team-button:focus-visible, .team-button.is-active { color: var(--ink); border-color: var(--cyan); background: #d7f1f0; outline: none; }
+    .team-button[data-team="G"].is-active { border-color: #dca849; background: #ffeca8; }
+
+    .hint { display: flex; align-items: center; gap: 10px; margin: 22px 0 0; color: var(--muted); font-size: 14px; }
+    kbd { padding: 4px 8px; border: 2px solid #9eabb1; border-radius: 7px; background: #fffdfa; box-shadow: 2px 2px 0 #ead9b4; color: var(--ink); font: 12px 'DM Mono', monospace; }
+
+    .roulette-card { position: relative; display: grid; place-items: center; min-height: min(61vw, 530px); aspect-ratio: 1; overflow: hidden; border-radius: 29px 22px 32px 25px; isolation: isolate; }
+    .roulette-card::before { content: ''; position: absolute; z-index: -1; width: 78%; aspect-ratio: 1; border: 2px dashed #b7c9c8; border-radius: 50%; transform: rotate(-7deg); }
+    .pointer { position: absolute; z-index: 3; top: 6.5%; left: 50%; width: 0; height: 0; border-right: 15px solid transparent; border-left: 15px solid transparent; border-top: 29px solid var(--pink); filter: drop-shadow(2px 2px 0 rgba(137,74,95,.22)); transform: translateX(-50%); }
+    .wheel { position: absolute; width: 72%; aspect-ratio: 1; border: 9px solid #fffefa; border-radius: 50%; background: repeating-conic-gradient(from -7deg, #d7f1f0 0deg 12deg, #fff4cb 12deg 24deg, #f9d6df 24deg 36deg); box-shadow: 0 0 0 2px var(--line), 6px 8px 0 rgba(72,101,111,.13); }
+    .wheel::after { content: '✦'; position: absolute; inset: 34%; display: grid; place-items: center; border: 2px dashed #fffefa; border-radius: 50%; color: var(--orange); background: #fffdf5; font: 48px 'Patrick Hand', cursive; }
+    .wheel.spinning { animation: spin 1.9s cubic-bezier(.12,.78,.12,1) both; }
+    @keyframes spin { to { transform: rotate(var(--spin)); } }
+
+    .result { position: relative; z-index: 2; display: grid; place-items: center; width: 49%; aspect-ratio: 1; padding: 10px; border: 3px dashed var(--cyan); border-radius: 50%; background: rgba(255,254,250,.96); text-align: center; box-shadow: 3px 5px 0 rgba(19,141,161,.14); }
+    .result-label { color: var(--muted); font: 10px 'DM Mono', monospace; letter-spacing: .11em; text-transform: uppercase; }
+    #winner { margin-top: 3px; color: var(--orange); font: clamp(48px, 7vw, 86px)/.85 'Patrick Hand', cursive; letter-spacing: -.055em; }
+    .result.spinning #winner { animation: jitter .11s steps(2) infinite; }
+    @keyframes jitter { 50% { transform: translate(-2px, 1px) rotate(-1deg); } }
+    .result-caption { min-height: 1.4em; margin-top: 7px; color: var(--muted); font-size: 12px; font-weight: 800; }
+    .spark { position: absolute; color: var(--pink); font: 39px 'Patrick Hand', cursive; animation: float 1.2s ease-in-out infinite alternate; }
+    .spark.one { top: 15%; right: 12%; } .spark.two { bottom: 12%; left: 11%; color: var(--orange); animation-delay: -.6s; }
+    @keyframes float { to { transform: rotate(19deg) scale(1.16); } }
+
+    .footer { margin-top: -12px; color: var(--muted); font: 11px 'DM Mono', monospace; letter-spacing: .06em; text-transform: uppercase; }
+
+    @media (max-width: 760px) {
+      .page { width: min(100% - 28px, 570px); padding-top: 18px; }
+      .topline { font-size: 10px; letter-spacing: .08em; }
+      main { grid-template-columns: 1fr; gap: 33px; padding: 37px 0 28px; }
+      h1 { font-size: clamp(73px, 22vw, 114px); }
+      .lead { margin-top: 23px; }
+      .roulette-card { min-height: 0; width: min(100%, 500px); justify-self: center; }
+      .footer { margin-top: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; } }
+  </style>
+</head>
+
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="page">
+    <header class="topline">
+      <a class="back" href="../index.html">← educational-survival-guide</a>
+      <span><span class="dot">●</span> GenSci / Mendel mode</span>
+    </header>
+
+    <main>
+      <section aria-labelledby="page-title">
+        <p class="eyebrow">Classroom picker // genetics edition</p>
+        <h1 id="page-title">Mendel<br><span>Roulette</span></h1>
+        <p class="lead">One spin, one brave volunteer. Turn on segregation to keep groups B and G in their own lanes.</p>
+
+        <div class="control-panel">
+          <div class="control-copy">
+            <strong>Segregation</strong>
+            <span id="mode-copy">Everyone is in the draw.</span>
+          </div>
+          <label class="switch" title="Toggle segregation">
+            <input id="segregation" type="checkbox" aria-describedby="mode-copy">
+            <span class="slider" aria-hidden="true"></span>
+            <span class="sr-only">Segregation</span>
+          </label>
+          <div class="teams" id="teams" aria-label="Separated group">
+            <button class="team-button is-active" type="button" data-team="B">B team</button>
+            <button class="team-button" type="button" data-team="G">G team</button>
+          </div>
+        </div>
+
+        <p class="hint"><kbd>Space</kbd> press to start the roulette</p>
+      </section>
+
+      <section class="roulette-card" aria-label="Roulette result">
+        <div class="pointer" aria-hidden="true"></div>
+        <div class="wheel" id="wheel" aria-hidden="true"></div>
+        <span class="spark one" aria-hidden="true">✦</span>
+        <span class="spark two" aria-hidden="true">✦</span>
+        <div class="result" id="result" aria-live="polite">
+          <span class="result-label" id="result-label">Ready to pick</span>
+          <strong id="winner">?</strong>
+          <span class="result-caption" id="caption">Press Space</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Mendel Roulette <span class="dot">✦</span> click the switch, then let chance choose</footer>
+  </div>
+
+  <script>
+    (() => {
+      const segregation = document.querySelector('#segregation');
+      const teams = document.querySelector('#teams');
+      const teamButtons = [...document.querySelectorAll('.team-button')];
+      const modeCopy = document.querySelector('#mode-copy');
+      const wheel = document.querySelector('#wheel');
+      const result = document.querySelector('#result');
+      const label = document.querySelector('#result-label');
+      const winner = document.querySelector('#winner');
+      const caption = document.querySelector('#caption');
+      const groups = { B: Array.from({ length: 14 }, (_, index) => `B${index + 1}`), G: Array.from({ length: 26 }, (_, index) => `G${index + 1}`) };
+      let team = 'B';
+      let spinning = false;
+      let lastWinner = '';
+      let audioContext;
+
+      const pickPool = () => segregation.checked ? groups[team] : [...groups.B, ...groups.G];
+      const modeLabel = () => segregation.checked ? `${team} team only` : 'B + G together';
+      function sound(frequency = 440, duration = .045) {
+        try {
+          audioContext ??= new (window.AudioContext || window.webkitAudioContext)();
+          const oscillator = audioContext.createOscillator();
+          const gain = audioContext.createGain();
+          const now = audioContext.currentTime;
+          oscillator.frequency.setValueAtTime(frequency, now);
+          gain.gain.setValueAtTime(.0001, now);
+          gain.gain.exponentialRampToValueAtTime(.04, now + .006);
+          gain.gain.exponentialRampToValueAtTime(.0001, now + duration);
+          oscillator.connect(gain).connect(audioContext.destination);
+          oscillator.start(now); oscillator.stop(now + duration + .01);
+        } catch (_) {}
+      }
+      function syncMode() {
+        teams.classList.toggle('is-visible', segregation.checked);
+        modeCopy.textContent = segregation.checked ? `Separated draw: ${team} team.` : 'Everyone is in the draw.';
+        label.textContent = segregation.checked ? `${team} team ready` : 'B + G ready';
+        caption.textContent = 'Press Space';
+        if (!spinning) winner.textContent = '?';
+      }
+      function selectTeam(nextTeam) {
+        team = nextTeam;
+        teamButtons.forEach(button => button.classList.toggle('is-active', button.dataset.team === team));
+        syncMode();
+      }
+      function spin() {
+        if (spinning) return;
+        spinning = true;
+        const pool = pickPool();
+        const final = pool[Math.floor(Math.random() * pool.length)];
+        const ticks = 17 + Math.floor(Math.random() * 11);
+        let tick = 0;
+        label.textContent = `Spinning ${modeLabel()}`;
+        caption.textContent = 'Finding a Mendelche…';
+        result.classList.add('spinning');
+        wheel.style.setProperty('--spin', `${1080 + Math.floor(Math.random() * 1080)}deg`);
+        wheel.classList.remove('spinning');
+        void wheel.offsetWidth;
+        wheel.classList.add('spinning');
+        const timer = setInterval(() => {
+          const choices = pool.filter(name => pool.length === 1 || name !== lastWinner);
+          winner.textContent = choices[Math.floor(Math.random() * choices.length)];
+          sound(340 + tick * 15, .025);
+          tick += 1;
+          if (tick >= ticks) {
+            clearInterval(timer);
+            winner.textContent = final;
+            lastWinner = final;
+            label.textContent = 'Chosen student';
+            caption.textContent = `${final}, you are up!`;
+            result.classList.remove('spinning');
+            spinning = false;
+            sound(740, .22);
+          }
+        }, 58);
+      }
+
+      segregation.addEventListener('change', () => { sound(540, .07); syncMode(); });
+      teamButtons.forEach(button => button.addEventListener('click', () => selectTeam(button.dataset.team)));
+      document.addEventListener('keydown', event => {
+        if (event.code === 'Space') {
+          event.preventDefault();
+          spin();
+        }
+      });
+      document.addEventListener('pointerdown', event => {
+        if (event.target.closest('button, input, a')) return;
+        // A click on the roulette itself is a convenient touch-screen equivalent to Space.
+        if (event.target.closest('.roulette-card')) spin();
+      });
+      syncMode();
+    })();
+  </script>
+</body>
+
+</html>
