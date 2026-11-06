@@ -115,17 +115,20 @@
     .stage { position: absolute; inset: 0; display: none; }
     .stage.is-active { display: block; }
     .pointer { position: absolute; z-index: 3; top: 6.5%; left: 50%; width: 0; height: 0; border-right: 15px solid transparent; border-left: 15px solid transparent; border-top: 29px solid var(--pink); filter: drop-shadow(2px 2px 0 rgba(137,74,95,.22)); transform: translateX(-50%); }
-    .wheel { position: absolute; width: 72%; aspect-ratio: 1; border: 9px solid #fffefa; border-radius: 50%; background: repeating-conic-gradient(from -7deg, #d7f1f0 0deg 12deg, #fff4cb 12deg 24deg, #f9d6df 24deg 36deg); box-shadow: 0 0 0 2px var(--line), 6px 8px 0 rgba(72,101,111,.13); }
+    .wheel { position: absolute; top: 14%; left: 14%; width: 72%; aspect-ratio: 1; border: 9px solid #fffefa; border-radius: 50%; background: repeating-conic-gradient(from -7deg, #d7f1f0 0deg 12deg, #fff4cb 12deg 24deg, #f9d6df 24deg 36deg); box-shadow: 0 0 0 2px var(--line), 6px 8px 0 rgba(72,101,111,.13); }
+    .wheel-token { position: absolute; z-index: 1; padding: 1px 3px; border-radius: 5px; background: rgba(255,254,250,.82); color: var(--ink); font: 10px/1 'DM Mono', monospace; text-align: center; transform: translate(-50%, -50%); }
+    .wheel.dense .wheel-token { padding: 1px 2px; font-size: 8px; }
     .wheel::after { content: '✦'; position: absolute; inset: 34%; display: grid; place-items: center; border: 2px dashed #fffefa; border-radius: 50%; color: var(--orange); background: #fffdf5; font: 48px 'Patrick Hand', cursive; }
     .wheel.spinning { animation: spin 1.9s cubic-bezier(.12,.78,.12,1) both; }
     @keyframes spin { to { transform: rotate(var(--spin)); } }
 
-    .result { position: relative; z-index: 2; display: grid; place-items: center; width: 49%; aspect-ratio: 1; padding: 10px; border: 3px dashed var(--cyan); border-radius: 50%; background: rgba(255,254,250,.96); text-align: center; box-shadow: 3px 5px 0 rgba(19,141,161,.14); }
+    .result { position: absolute; z-index: 4; top: 50%; left: 50%; display: grid; place-items: center; width: 32%; aspect-ratio: 1; padding: 8px; border: 3px dashed var(--cyan); border-radius: 50%; background: rgba(255,254,250,.96); text-align: center; box-shadow: 3px 5px 0 rgba(19,141,161,.14); transform: translate(-50%, -50%); }
     .result-label { color: var(--muted); font: 10px 'DM Mono', monospace; letter-spacing: .11em; text-transform: uppercase; }
     #winner { margin-top: 3px; color: var(--orange); font: clamp(48px, 7vw, 86px)/.85 'Patrick Hand', cursive; letter-spacing: -.055em; }
     .result.spinning #winner { animation: jitter .11s steps(2) infinite; }
     @keyframes jitter { 50% { transform: translate(-2px, 1px) rotate(-1deg); } }
     .result-caption { min-height: 1.4em; margin-top: 7px; color: var(--muted); font-size: 12px; font-weight: 800; }
+    .race-stage.is-active ~ .result, .fight-stage.is-active ~ .result { top: auto; left: auto; right: 4%; bottom: 4%; width: 27%; transform: none; }
     .spark { position: absolute; color: var(--pink); font: 39px 'Patrick Hand', cursive; animation: float 1.2s ease-in-out infinite alternate; }
     .spark.one { top: 15%; right: 12%; } .spark.two { bottom: 12%; left: 11%; color: var(--orange); animation-delay: -.6s; }
     @keyframes float { to { transform: rotate(19deg) scale(1.16); } }
@@ -133,9 +136,12 @@
     .race-stage { padding: 12% 9%; background: linear-gradient(145deg, rgba(215,241,240,.55), rgba(255,244,203,.5)); }
     .race-sign { position: absolute; top: 8%; left: 50%; transform: translateX(-50%) rotate(-2deg); color: var(--orange); font: clamp(28px, 4vw, 42px) 'Patrick Hand', cursive; white-space: nowrap; }
     .race-lanes { display: grid; gap: 6px; margin-top: 23%; }
+    .race-lanes.dense { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(20, 1fr); grid-auto-flow: column; gap: 1px 8px; height: 68%; margin-top: 17%; }
     .race-lane { position: relative; height: 35px; overflow: hidden; border-top: 2px dashed rgba(38,49,66,.2); }
     .race-lane:last-child { border-bottom: 2px dashed rgba(38,49,66,.2); }
     .race-runner { position: absolute; top: 2px; left: 0; color: var(--ink); font: 20px/1 'Patrick Hand', cursive; white-space: nowrap; transition: left 1.9s cubic-bezier(.18,.82,.2,1); }
+    .race-lanes.dense .race-lane { height: auto; min-height: 0; border-top-width: 1px; }
+    .race-lanes.dense .race-runner { top: 0; font-size: 12px; }
     .race-runner.winner { color: #597e0f; font-weight: 700; text-shadow: 2px 2px 0 #e9f6bc; }
     .finish-line { position: absolute; inset: 18% 10% 12% auto; width: 5px; border-left: 3px dashed var(--pink); }
     .race-stage .countdown { position: absolute; z-index: 2; top: 40%; left: 50%; transform: translate(-50%, -50%); color: var(--orange); font: clamp(82px, 15vw, 140px)/1 'Patrick Hand', cursive; text-shadow: 3px 3px 0 #fff2b7; }
@@ -143,6 +149,7 @@
     .fight-stage { background: radial-gradient(circle at center, #fffaf0 0 17%, #f9dce5 18% 19%, transparent 20%), linear-gradient(145deg, rgba(255,244,203,.55), rgba(249,220,229,.7)); }
     .fight-title { position: absolute; top: 7%; left: 0; right: 0; color: #bf527a; font: clamp(30px, 4.6vw, 48px) 'Patrick Hand', cursive; text-align: center; transform: rotate(-2deg); }
     .fighter { position: absolute; padding: 7px 9px; border: 2px solid var(--line); border-radius: 50% 45% 48% 43%; background: #fffefa; box-shadow: 2px 3px 0 rgba(72,101,111,.15); color: var(--ink); font: 15px 'Patrick Hand', cursive; transition: .32s ease; }
+    .fight-stage.dense .fighter { padding: 2px 5px; border-width: 1px; font-size: 12px; box-shadow: 1px 1px 0 rgba(72,101,111,.12); }
     .fighter.out { opacity: .18; transform: rotate(18deg) scale(.72); text-decoration: line-through; filter: grayscale(1); }
     .fighter.champion { z-index: 2; border-color: #8eaf48; background: #eaf5b9; color: #4f7a10; font-size: 25px; font-weight: 700; transform: translate(-50%, -50%) scale(1.25) rotate(-4deg); }
     .battle-word { position: absolute; z-index: 3; color: var(--orange); font: 38px 'Patrick Hand', cursive; animation: punch .38s ease both; }
@@ -305,6 +312,19 @@
       const pickPool = () => segregation.checked ? groupPool(team) : [...groupPool('B'), ...groupPool('G')];
       const modeLabel = () => segregation.checked ? `${team} team only` : 'B + G together';
       const gameNames = { roulette: 'roulette', race: 'horse race', fight: 'fight sequence', random: 'random game' };
+      function renderWheel(pool = pickPool()) {
+        wheel.querySelectorAll('.wheel-token').forEach(token => token.remove());
+        wheel.classList.toggle('dense', pool.length > 20);
+        pool.forEach((name, index) => {
+          const angle = (index / pool.length) * Math.PI * 2 - Math.PI / 2;
+          const token = document.createElement('span');
+          token.className = 'wheel-token';
+          token.textContent = name;
+          token.style.left = `${50 + Math.cos(angle) * 38}%`;
+          token.style.top = `${50 + Math.sin(angle) * 38}%`;
+          wheel.append(token);
+        });
+      }
       function sound(frequency = 440, duration = .045) {
         try {
           audioContext ??= new (window.AudioContext || window.webkitAudioContext)();
@@ -324,6 +344,7 @@
         modeCopy.textContent = segregation.checked ? `Separated draw: ${team} team.` : 'Everyone is in the draw.';
         label.textContent = segregation.checked ? `${team} team ready` : 'B + G ready';
         caption.textContent = 'Press Space';
+        renderWheel();
         if (!spinning) winner.textContent = '?';
       }
       function syncRange() {
@@ -335,6 +356,7 @@
         } else {
           rangeCopy.textContent = 'Use the whole B and G roster.';
         }
+        if (!spinning) renderWheel();
       }
       function showStage(nextGame) {
         stages.forEach(stage => {
@@ -368,10 +390,11 @@
         sound(740, .22);
       }
       function makeField(pool, final) {
-        const rivals = pool.filter(name => name !== final).sort(() => Math.random() - .5).slice(0, 5);
+        const rivals = pool.filter(name => name !== final).sort(() => Math.random() - .5);
         return [...rivals, final].sort(() => Math.random() - .5);
       }
       function roulettePick(pool, final) {
+        renderWheel(pool);
         const ticks = 17 + Math.floor(Math.random() * 11);
         let tick = 0;
         wheel.style.setProperty('--spin', `${1080 + Math.floor(Math.random() * 1080)}deg`);
@@ -392,6 +415,7 @@
       function racePick(pool, final) {
         const field = makeField(pool, final);
         raceLanes.innerHTML = '';
+        raceLanes.classList.toggle('dense', field.length > 12);
         field.forEach(name => {
           const lane = document.createElement('div');
           lane.className = 'race-lane';
@@ -415,7 +439,7 @@
               countdown.textContent = '';
               [...raceLanes.querySelectorAll('.race-runner')].forEach((runner, index) => {
                 const isWinner = runner.dataset.name === final;
-                runner.style.left = `${isWinner ? 77 : 35 + ((index * 11 + 9) % 35)}%`;
+                runner.style.left = `${isWinner ? (field.length > 12 ? 62 : 77) : 20 + ((index * 11 + 9) % 42)}%`;
                 if (isWinner) runner.classList.add('winner');
               });
               sound(650, .12);
@@ -427,20 +451,28 @@
       function fightPick(pool, final) {
         const field = makeField(pool, final);
         fightStage.querySelectorAll('.fighter, .battle-word').forEach(node => node.remove());
+        const dense = field.length > 12;
+        fightStage.classList.toggle('dense', dense);
         const positions = [[17, 24], [49, 17], [75, 28], [69, 66], [33, 73], [10, 55]];
         field.forEach((name, index) => {
           const fighter = document.createElement('span');
           fighter.className = 'fighter';
           fighter.dataset.name = name;
           fighter.textContent = name;
-          fighter.style.left = `${positions[index][0]}%`;
-          fighter.style.top = `${positions[index][1]}%`;
+          const columns = 5;
+          const rows = Math.ceil(field.length / columns);
+          const position = dense
+            ? [9 + (index % columns) * 20, 18 + Math.floor(index / columns) * (69 / rows)]
+            : positions[index];
+          fighter.style.left = `${position[0]}%`;
+          fighter.style.top = `${position[1]}%`;
           fightStage.append(fighter);
         });
         const sequence = field.filter(name => name !== final).sort(() => Math.random() - .5);
         label.textContent = 'Sequence locked in';
         caption.textContent = 'A champion has already been chosen…';
         let round = 0;
+        const duelDelay = dense ? 105 : 460;
         const duelTimer = setInterval(() => {
           const loser = sequence[round];
           const token = fightStage.querySelector(`[data-name="${loser}"]`);
@@ -459,9 +491,9 @@
             champion?.classList.add('champion');
             champion.style.left = '50%';
             champion.style.top = '51%';
-            setTimeout(() => finish(final, `${final} is the last one standing!`), 420);
+            setTimeout(() => finish(final, `${final} is the last one standing!`), dense ? 180 : 420);
           }
-        }, 460);
+        }, duelDelay);
       }
       function spin() {
         if (spinning) return;
