@@ -84,11 +84,20 @@
     .team-button:hover, .team-button:focus-visible, .team-button.is-active { color: var(--ink); border-color: var(--cyan); background: #d7f1f0; outline: none; }
     .team-button[data-team="G"].is-active { border-color: #dca849; background: #ffeca8; }
 
+    .game-picker { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; width: min(590px, 100%); margin-top: 20px; }
+    .game-button { min-height: 64px; padding: 9px 8px; border: 2px solid var(--line); border-radius: 12px 16px 11px 15px; background: rgba(255,254,250,.7); color: var(--muted); font: 12px 'DM Mono', monospace; line-height: 1.25; cursor: pointer; transition: .18s transform, .18s background, .18s border-color; }
+    .game-button strong { display: block; margin-bottom: 3px; color: var(--ink); font: 22px/1 'Patrick Hand', cursive; }
+    .game-button:hover, .game-button:focus-visible, .game-button.is-active { outline: none; transform: translateY(-3px) rotate(-.4deg); border-color: var(--cyan); background: #d7f1f0; box-shadow: 3px 4px 0 rgba(19,141,161,.12); }
+    .game-button[data-game="race"].is-active { border-color: #dca849; background: #fff0bd; }
+    .game-button[data-game="fight"].is-active { border-color: #d68aa3; background: #f9dce5; }
+
     .hint { display: flex; align-items: center; gap: 10px; margin: 22px 0 0; color: var(--muted); font-size: 14px; }
     kbd { padding: 4px 8px; border: 2px solid #9eabb1; border-radius: 7px; background: #fffdfa; box-shadow: 2px 2px 0 #ead9b4; color: var(--ink); font: 12px 'DM Mono', monospace; }
 
-    .roulette-card { position: relative; display: grid; place-items: center; min-height: min(61vw, 530px); aspect-ratio: 1; overflow: hidden; border-radius: 29px 22px 32px 25px; isolation: isolate; }
-    .roulette-card::before { content: ''; position: absolute; z-index: -1; width: 78%; aspect-ratio: 1; border: 2px dashed #b7c9c8; border-radius: 50%; transform: rotate(-7deg); }
+    .game-card { position: relative; display: grid; place-items: center; min-height: min(61vw, 530px); aspect-ratio: 1; overflow: hidden; border-radius: 29px 22px 32px 25px; isolation: isolate; }
+    .game-card::before { content: ''; position: absolute; z-index: -1; width: 78%; aspect-ratio: 1; border: 2px dashed #b7c9c8; border-radius: 50%; transform: rotate(-7deg); }
+    .stage { position: absolute; inset: 0; display: none; }
+    .stage.is-active { display: block; }
     .pointer { position: absolute; z-index: 3; top: 6.5%; left: 50%; width: 0; height: 0; border-right: 15px solid transparent; border-left: 15px solid transparent; border-top: 29px solid var(--pink); filter: drop-shadow(2px 2px 0 rgba(137,74,95,.22)); transform: translateX(-50%); }
     .wheel { position: absolute; width: 72%; aspect-ratio: 1; border: 9px solid #fffefa; border-radius: 50%; background: repeating-conic-gradient(from -7deg, #d7f1f0 0deg 12deg, #fff4cb 12deg 24deg, #f9d6df 24deg 36deg); box-shadow: 0 0 0 2px var(--line), 6px 8px 0 rgba(72,101,111,.13); }
     .wheel::after { content: '✦'; position: absolute; inset: 34%; display: grid; place-items: center; border: 2px dashed #fffefa; border-radius: 50%; color: var(--orange); background: #fffdf5; font: 48px 'Patrick Hand', cursive; }
@@ -105,6 +114,24 @@
     .spark.one { top: 15%; right: 12%; } .spark.two { bottom: 12%; left: 11%; color: var(--orange); animation-delay: -.6s; }
     @keyframes float { to { transform: rotate(19deg) scale(1.16); } }
 
+    .race-stage { padding: 12% 9%; background: linear-gradient(145deg, rgba(215,241,240,.55), rgba(255,244,203,.5)); }
+    .race-sign { position: absolute; top: 8%; left: 50%; transform: translateX(-50%) rotate(-2deg); color: var(--orange); font: clamp(28px, 4vw, 42px) 'Patrick Hand', cursive; white-space: nowrap; }
+    .race-lanes { display: grid; gap: 6px; margin-top: 23%; }
+    .race-lane { position: relative; height: 35px; overflow: hidden; border-top: 2px dashed rgba(38,49,66,.2); }
+    .race-lane:last-child { border-bottom: 2px dashed rgba(38,49,66,.2); }
+    .race-runner { position: absolute; top: 2px; left: 0; color: var(--ink); font: 20px/1 'Patrick Hand', cursive; white-space: nowrap; transition: left 1.9s cubic-bezier(.18,.82,.2,1); }
+    .race-runner.winner { color: #597e0f; font-weight: 700; text-shadow: 2px 2px 0 #e9f6bc; }
+    .finish-line { position: absolute; inset: 18% 10% 12% auto; width: 5px; border-left: 3px dashed var(--pink); }
+    .race-stage .countdown { position: absolute; z-index: 2; top: 40%; left: 50%; transform: translate(-50%, -50%); color: var(--orange); font: clamp(82px, 15vw, 140px)/1 'Patrick Hand', cursive; text-shadow: 3px 3px 0 #fff2b7; }
+
+    .fight-stage { background: radial-gradient(circle at center, #fffaf0 0 17%, #f9dce5 18% 19%, transparent 20%), linear-gradient(145deg, rgba(255,244,203,.55), rgba(249,220,229,.7)); }
+    .fight-title { position: absolute; top: 7%; left: 0; right: 0; color: #bf527a; font: clamp(30px, 4.6vw, 48px) 'Patrick Hand', cursive; text-align: center; transform: rotate(-2deg); }
+    .fighter { position: absolute; padding: 7px 9px; border: 2px solid var(--line); border-radius: 50% 45% 48% 43%; background: #fffefa; box-shadow: 2px 3px 0 rgba(72,101,111,.15); color: var(--ink); font: 15px 'Patrick Hand', cursive; transition: .32s ease; }
+    .fighter.out { opacity: .18; transform: rotate(18deg) scale(.72); text-decoration: line-through; filter: grayscale(1); }
+    .fighter.champion { z-index: 2; border-color: #8eaf48; background: #eaf5b9; color: #4f7a10; font-size: 25px; font-weight: 700; transform: translate(-50%, -50%) scale(1.25) rotate(-4deg); }
+    .battle-word { position: absolute; z-index: 3; color: var(--orange); font: 38px 'Patrick Hand', cursive; animation: punch .38s ease both; }
+    @keyframes punch { 50% { transform: scale(1.4) rotate(-10deg); } to { opacity: 0; transform: translateY(-24px) rotate(8deg); } }
+
     .footer { margin-top: -12px; color: var(--muted); font: 11px 'DM Mono', monospace; letter-spacing: .06em; text-transform: uppercase; }
 
     @media (max-width: 760px) {
@@ -113,7 +140,7 @@
       main { grid-template-columns: 1fr; gap: 33px; padding: 37px 0 28px; }
       h1 { font-size: clamp(73px, 22vw, 114px); }
       .lead { margin-top: 23px; }
-      .roulette-card { min-height: 0; width: min(100%, 500px); justify-self: center; }
+      .game-card { min-height: 0; width: min(100%, 500px); justify-self: center; }
       .footer { margin-top: 0; }
     }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; } }
@@ -150,14 +177,31 @@
           </div>
         </div>
 
-        <p class="hint"><kbd>Space</kbd> press to start the roulette</p>
+        <div class="game-picker" role="group" aria-label="Chance game">
+          <button class="game-button is-active" type="button" data-game="roulette"><strong>Roulette</strong>classic spin</button>
+          <button class="game-button" type="button" data-game="race"><strong>Horse race</strong>finish line</button>
+          <button class="game-button" type="button" data-game="fight"><strong>Fight sequence</strong>last one standing</button>
+        </div>
+
+        <p class="hint"><kbd>Space</kbd> press to start the selected game</p>
       </section>
 
-      <section class="roulette-card" aria-label="Roulette result">
-        <div class="pointer" aria-hidden="true"></div>
-        <div class="wheel" id="wheel" aria-hidden="true"></div>
-        <span class="spark one" aria-hidden="true">✦</span>
-        <span class="spark two" aria-hidden="true">✦</span>
+      <section class="game-card" aria-label="Chance game result">
+        <div class="stage is-active" id="roulette-stage">
+          <div class="pointer" aria-hidden="true"></div>
+          <div class="wheel" id="wheel" aria-hidden="true"></div>
+          <span class="spark one" aria-hidden="true">✦</span>
+          <span class="spark two" aria-hidden="true">✦</span>
+        </div>
+        <div class="stage race-stage" id="race-stage" aria-hidden="true">
+          <span class="race-sign">Mendel Derby</span>
+          <span class="finish-line"></span>
+          <div class="race-lanes" id="race-lanes"></div>
+          <span class="countdown" id="countdown"></span>
+        </div>
+        <div class="stage fight-stage" id="fight-stage" aria-hidden="true">
+          <span class="fight-title">Mendel Melee</span>
+        </div>
         <div class="result" id="result" aria-live="polite">
           <span class="result-label" id="result-label">Ready to pick</span>
           <strong id="winner">?</strong>
@@ -174,20 +218,27 @@
       const segregation = document.querySelector('#segregation');
       const teams = document.querySelector('#teams');
       const teamButtons = [...document.querySelectorAll('.team-button')];
+      const gameButtons = [...document.querySelectorAll('.game-button')];
+      const stages = [...document.querySelectorAll('.stage')];
       const modeCopy = document.querySelector('#mode-copy');
       const wheel = document.querySelector('#wheel');
+      const raceLanes = document.querySelector('#race-lanes');
+      const countdown = document.querySelector('#countdown');
+      const fightStage = document.querySelector('#fight-stage');
       const result = document.querySelector('#result');
       const label = document.querySelector('#result-label');
       const winner = document.querySelector('#winner');
       const caption = document.querySelector('#caption');
       const groups = { B: Array.from({ length: 14 }, (_, index) => `B${index + 1}`), G: Array.from({ length: 26 }, (_, index) => `G${index + 1}`) };
       let team = 'B';
+      let game = 'roulette';
       let spinning = false;
       let lastWinner = '';
       let audioContext;
 
       const pickPool = () => segregation.checked ? groups[team] : [...groups.B, ...groups.G];
       const modeLabel = () => segregation.checked ? `${team} team only` : 'B + G together';
+      const gameNames = { roulette: 'roulette', race: 'horse race', fight: 'fight sequence' };
       function sound(frequency = 440, duration = .045) {
         try {
           audioContext ??= new (window.AudioContext || window.webkitAudioContext)();
@@ -209,21 +260,41 @@
         caption.textContent = 'Press Space';
         if (!spinning) winner.textContent = '?';
       }
+      function selectGame(nextGame) {
+        if (spinning) return;
+        game = nextGame;
+        gameButtons.forEach(button => button.classList.toggle('is-active', button.dataset.game === game));
+        stages.forEach(stage => {
+          const active = stage.id === `${game}-stage`;
+          stage.classList.toggle('is-active', active);
+          stage.setAttribute('aria-hidden', String(!active));
+        });
+        label.textContent = `${gameNames[game]} ready`;
+        caption.textContent = 'Press Space';
+        winner.textContent = '?';
+        sound(500, .05);
+      }
       function selectTeam(nextTeam) {
         team = nextTeam;
         teamButtons.forEach(button => button.classList.toggle('is-active', button.dataset.team === team));
         syncMode();
       }
-      function spin() {
-        if (spinning) return;
-        spinning = true;
-        const pool = pickPool();
-        const final = pool[Math.floor(Math.random() * pool.length)];
+      function finish(final, message = `${final}, you are up!`) {
+        winner.textContent = final;
+        lastWinner = final;
+        label.textContent = 'Chosen student';
+        caption.textContent = message;
+        result.classList.remove('spinning');
+        spinning = false;
+        sound(740, .22);
+      }
+      function makeField(pool, final) {
+        const rivals = pool.filter(name => name !== final).sort(() => Math.random() - .5).slice(0, 5);
+        return [...rivals, final].sort(() => Math.random() - .5);
+      }
+      function roulettePick(pool, final) {
         const ticks = 17 + Math.floor(Math.random() * 11);
         let tick = 0;
-        label.textContent = `Spinning ${modeLabel()}`;
-        caption.textContent = 'Finding a Mendelche…';
-        result.classList.add('spinning');
         wheel.style.setProperty('--spin', `${1080 + Math.floor(Math.random() * 1080)}deg`);
         wheel.classList.remove('spinning');
         void wheel.offsetWidth;
@@ -235,19 +306,98 @@
           tick += 1;
           if (tick >= ticks) {
             clearInterval(timer);
-            winner.textContent = final;
-            lastWinner = final;
-            label.textContent = 'Chosen student';
-            caption.textContent = `${final}, you are up!`;
-            result.classList.remove('spinning');
-            spinning = false;
-            sound(740, .22);
+            finish(final);
           }
         }, 58);
+      }
+      function racePick(pool, final) {
+        const field = makeField(pool, final);
+        raceLanes.innerHTML = '';
+        field.forEach(name => {
+          const lane = document.createElement('div');
+          lane.className = 'race-lane';
+          const runner = document.createElement('span');
+          runner.className = 'race-runner';
+          runner.dataset.name = name;
+          runner.textContent = `♞ ${name}`;
+          lane.append(runner);
+          raceLanes.append(lane);
+        });
+        let number = 3;
+        countdown.textContent = number;
+        const countTimer = setInterval(() => {
+          number -= 1;
+          sound(360 + (3 - number) * 80, .05);
+          if (number > 0) countdown.textContent = number;
+          else {
+            countdown.textContent = 'GO!';
+            clearInterval(countTimer);
+            setTimeout(() => {
+              countdown.textContent = '';
+              [...raceLanes.querySelectorAll('.race-runner')].forEach((runner, index) => {
+                const isWinner = runner.dataset.name === final;
+                runner.style.left = `${isWinner ? 77 : 35 + ((index * 11 + 9) % 35)}%`;
+                if (isWinner) runner.classList.add('winner');
+              });
+              sound(650, .12);
+            }, 250);
+            setTimeout(() => finish(final, `${final} crosses the finish line!`), 2300);
+          }
+        }, 360);
+      }
+      function fightPick(pool, final) {
+        const field = makeField(pool, final);
+        fightStage.querySelectorAll('.fighter, .battle-word').forEach(node => node.remove());
+        const positions = [[17, 24], [49, 17], [75, 28], [69, 66], [33, 73], [10, 55]];
+        field.forEach((name, index) => {
+          const fighter = document.createElement('span');
+          fighter.className = 'fighter';
+          fighter.dataset.name = name;
+          fighter.textContent = name;
+          fighter.style.left = `${positions[index][0]}%`;
+          fighter.style.top = `${positions[index][1]}%`;
+          fightStage.append(fighter);
+        });
+        const sequence = field.filter(name => name !== final).sort(() => Math.random() - .5);
+        label.textContent = 'Sequence locked in';
+        caption.textContent = 'A champion has already been chosen…';
+        let round = 0;
+        const duelTimer = setInterval(() => {
+          const loser = sequence[round];
+          const token = fightStage.querySelector(`[data-name="${loser}"]`);
+          token?.classList.add('out');
+          const word = document.createElement('span');
+          word.className = 'battle-word';
+          word.textContent = ['POW!', 'BOP!', 'ZAP!'][round % 3];
+          word.style.left = token?.style.left || '50%';
+          word.style.top = token?.style.top || '50%';
+          fightStage.append(word);
+          sound(280 + round * 45, .06);
+          round += 1;
+          if (round >= sequence.length) {
+            clearInterval(duelTimer);
+            const champion = fightStage.querySelector(`[data-name="${final}"]`);
+            champion?.classList.add('champion');
+            champion.style.left = '50%';
+            champion.style.top = '51%';
+            setTimeout(() => finish(final, `${final} is the last one standing!`), 420);
+          }
+        }, 460);
+      }
+      function spin() {
+        if (spinning) return;
+        spinning = true;
+        const pool = pickPool();
+        const final = pool[Math.floor(Math.random() * pool.length)];
+        label.textContent = `Starting ${gameNames[game]}`;
+        caption.textContent = `Drawing from ${modeLabel()}…`;
+        result.classList.add('spinning');
+        ({ roulette: roulettePick, race: racePick, fight: fightPick })[game](pool, final);
       }
 
       segregation.addEventListener('change', () => { sound(540, .07); syncMode(); });
       teamButtons.forEach(button => button.addEventListener('click', () => selectTeam(button.dataset.team)));
+      gameButtons.forEach(button => button.addEventListener('click', () => selectGame(button.dataset.game)));
       document.addEventListener('keydown', event => {
         if (event.code === 'Space') {
           event.preventDefault();
@@ -256,8 +406,8 @@
       });
       document.addEventListener('pointerdown', event => {
         if (event.target.closest('button, input, a')) return;
-        // A click on the roulette itself is a convenient touch-screen equivalent to Space.
-        if (event.target.closest('.roulette-card')) spin();
+        // A click on the game board is a touch-screen equivalent to Space.
+        if (event.target.closest('.game-card')) spin();
       });
       syncMode();
     })();
