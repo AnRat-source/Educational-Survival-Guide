@@ -133,27 +133,41 @@
     .spark.one { top: 15%; right: 12%; } .spark.two { bottom: 12%; left: 11%; color: var(--orange); animation-delay: -.6s; }
     @keyframes float { to { transform: rotate(19deg) scale(1.16); } }
 
-    .race-stage { padding: 12% 9%; background: linear-gradient(145deg, rgba(215,241,240,.55), rgba(255,244,203,.5)); }
-    .race-sign { position: absolute; top: 8%; left: 50%; transform: translateX(-50%) rotate(-2deg); color: var(--orange); font: clamp(28px, 4vw, 42px) 'Patrick Hand', cursive; white-space: nowrap; }
-    .race-lanes { display: grid; gap: 6px; margin-top: 23%; }
-    .race-lanes.dense { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(20, 1fr); grid-auto-flow: column; gap: 1px 8px; height: 68%; margin-top: 17%; }
-    .race-lane { position: relative; height: 35px; overflow: hidden; border-top: 2px dashed rgba(38,49,66,.2); }
-    .race-lane:last-child { border-bottom: 2px dashed rgba(38,49,66,.2); }
-    .race-runner { position: absolute; top: 2px; left: 0; color: var(--ink); font: 20px/1 'Patrick Hand', cursive; white-space: nowrap; transition: left 1.9s cubic-bezier(.18,.82,.2,1); }
+    .race-stage { padding: 12% 9%; background: linear-gradient(180deg, #cceff2 0 16%, #8fcb82 16% 18%, #6eae65 18% 100%); }
+    .race-stage::before { content: '🏁'; position: absolute; z-index: 1; top: 7%; right: 7%; font-size: clamp(24px, 4vw, 40px); filter: drop-shadow(2px 3px 0 rgba(38,49,66,.16)); }
+    .race-sign { position: absolute; z-index: 1; top: 7%; left: 8%; color: var(--ink); font: clamp(28px, 4vw, 42px) 'Patrick Hand', cursive; text-shadow: 2px 2px 0 rgba(255,254,250,.62); transform: rotate(-2deg); white-space: nowrap; }
+    .race-lanes { display: grid; gap: 5px; margin-top: 23%; }
+    .race-lanes.dense { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(20, 1fr); grid-auto-flow: column; gap: 1px 9px; height: 68%; margin-top: 17%; }
+    .race-lane { position: relative; height: 35px; overflow: hidden; border-top: 2px dashed rgba(255,254,250,.68); background: rgba(255,254,250,.1); }
+    .race-lane:last-child { border-bottom: 2px dashed rgba(255,254,250,.68); }
+    .race-runner { position: absolute; top: 2px; left: 0; display: flex; align-items: center; gap: 3px; color: var(--ink); font: 18px/1 'Patrick Hand', cursive; white-space: nowrap; transition: left var(--run-time, .5s) cubic-bezier(.2,.76,.25,1); }
+    .race-horse { display: inline-block; font: 26px/1 system-ui, sans-serif; filter: drop-shadow(1px 2px 0 rgba(38,49,66,.18)); transform: scaleX(-1); }
     .race-lanes.dense .race-lane { height: auto; min-height: 0; border-top-width: 1px; }
-    .race-lanes.dense .race-runner { top: 0; font-size: 12px; }
-    .race-runner.winner { color: #597e0f; font-weight: 700; text-shadow: 2px 2px 0 #e9f6bc; }
-    .finish-line { position: absolute; inset: 18% 10% 12% auto; width: 5px; border-left: 3px dashed var(--pink); }
-    .race-stage .countdown { position: absolute; z-index: 2; top: 40%; left: 50%; transform: translate(-50%, -50%); color: var(--orange); font: clamp(82px, 15vw, 140px)/1 'Patrick Hand', cursive; text-shadow: 3px 3px 0 #fff2b7; }
+    .race-lanes.dense .race-runner { top: 0; gap: 1px; font-size: 11px; }
+    .race-lanes.dense .race-horse { font-size: 16px; }
+    .race-runner.winner { color: #274e15; font-weight: 700; text-shadow: 1px 1px 0 #e9f6bc; }
+    .finish-line { position: absolute; z-index: 1; inset: 18% 9% 12% auto; width: 8px; border-left: 4px dashed #fffefa; box-shadow: 3px 0 0 var(--pink); }
+    .race-stage .countdown { position: absolute; z-index: 7; top: 45%; left: 50%; padding: 0 14px; color: var(--orange); font: clamp(82px, 15vw, 140px)/1 'Patrick Hand', cursive; text-shadow: 3px 3px 0 #fff2b7; transform: translate(-50%, -50%); }
+    .race-finish { position: absolute; z-index: 8; top: 50%; left: 50%; display: none; width: min(78%, 410px); padding: 18px; border: 3px solid var(--ink); border-radius: 18px 22px 19px 24px; background: #fffdf5; box-shadow: 7px 8px 0 var(--pink); transform: translate(-50%, -50%) rotate(-1deg); }
+    .race-finish.is-visible { display: block; animation: race-pop .3s cubic-bezier(.18,.9,.3,1.2) both; }
+    .race-finish h3 { margin: 0 0 9px; font: 34px/1 'Patrick Hand', cursive; }
+    .race-finish ol { display: grid; gap: 6px; padding: 0; margin: 0; list-style: none; counter-reset: finishers; }
+    .race-finish li { display: flex; align-items: center; gap: 8px; padding: 5px 8px; border: 2px solid var(--line); border-radius: 8px 11px 9px 12px; background: #fff8d7; font-weight: 900; counter-increment: finishers; }
+    .race-finish li::before { content: '0' counter(finishers); color: var(--muted); font: 11px 'DM Mono', monospace; }
+    .race-finish li:first-child { border-color: var(--orange); background: #ffe282; }
+    @keyframes race-pop { from { opacity: 0; transform: translate(-50%, -50%) scale(.7) rotate(4deg); } }
 
     .fight-stage { background: radial-gradient(circle at center, #fffaf0 0 17%, #f9dce5 18% 19%, transparent 20%), linear-gradient(145deg, rgba(255,244,203,.55), rgba(249,220,229,.7)); }
     .fight-title { position: absolute; top: 7%; left: 0; right: 0; color: #bf527a; font: clamp(30px, 4.6vw, 48px) 'Patrick Hand', cursive; text-align: center; transform: rotate(-2deg); }
-    .fighter { position: absolute; padding: 7px 9px; border: 2px solid var(--line); border-radius: 50% 45% 48% 43%; background: #fffefa; box-shadow: 2px 3px 0 rgba(72,101,111,.15); color: var(--ink); font: 15px 'Patrick Hand', cursive; transition: .32s ease; }
-    .fight-stage.dense .fighter { padding: 2px 5px; border-width: 1px; font-size: 12px; box-shadow: 1px 1px 0 rgba(72,101,111,.12); }
+    .fighter { position: absolute; padding: 10px 13px; border: 2px solid var(--line); border-radius: 50% 45% 48% 43%; background: #fffefa; box-shadow: 2px 3px 0 rgba(72,101,111,.15); color: var(--ink); font: 20px 'Patrick Hand', cursive; transition: left .18s cubic-bezier(.2,.8,.2,1), top .18s cubic-bezier(.2,.8,.2,1), transform .18s ease, opacity .18s ease; }
+    .fight-stage.dense .fighter { padding: 4px 8px; border-width: 1px; font-size: 14px; box-shadow: 1px 1px 0 rgba(72,101,111,.12); }
+    .fighter.dueling { z-index: 4; border-color: var(--orange); background: #fff1bb; transform: scale(1.16) rotate(-5deg); }
     .fighter.out { opacity: .18; transform: rotate(18deg) scale(.72); text-decoration: line-through; filter: grayscale(1); }
     .fighter.champion { z-index: 2; border-color: #8eaf48; background: #eaf5b9; color: #4f7a10; font-size: 25px; font-weight: 700; transform: translate(-50%, -50%) scale(1.25) rotate(-4deg); }
     .battle-word { position: absolute; z-index: 3; color: var(--orange); font: 38px 'Patrick Hand', cursive; animation: punch .38s ease both; }
     @keyframes punch { 50% { transform: scale(1.4) rotate(-10deg); } to { opacity: 0; transform: translateY(-24px) rotate(8deg); } }
+    .battle-particle { position: absolute; z-index: 5; width: 10px; height: 10px; border-radius: 50%; background: var(--particle, var(--pink)); box-shadow: 0 0 0 2px rgba(255,254,250,.85), 0 0 10px var(--particle, var(--pink)); pointer-events: none; animation: burst var(--burst-time, .8s) ease-out both; }
+    @keyframes burst { 20% { transform: translate(0, 0) scale(1.35); } to { opacity: 0; transform: translate(var(--burst-x), var(--burst-y)) scale(.15); } }
 
     .footer { margin-top: -12px; color: var(--muted); font: 11px 'DM Mono', monospace; letter-spacing: .06em; text-transform: uppercase; }
 
@@ -203,6 +217,7 @@
           <span class="finish-line"></span>
           <div class="race-lanes" id="race-lanes"></div>
           <span class="countdown" id="countdown"></span>
+          <div class="race-finish" id="race-finish" aria-live="polite"></div>
         </div>
         <div class="stage fight-stage" id="fight-stage" aria-hidden="true">
           <span class="fight-title">Mendel Melee</span>
@@ -287,6 +302,7 @@
       const wheel = document.querySelector('#wheel');
       const raceLanes = document.querySelector('#race-lanes');
       const countdown = document.querySelector('#countdown');
+      const raceFinish = document.querySelector('#race-finish');
       const fightStage = document.querySelector('#fight-stage');
       const result = document.querySelector('#result');
       const label = document.querySelector('#result-label');
@@ -397,7 +413,10 @@
         renderWheel(pool);
         const ticks = 17 + Math.floor(Math.random() * 11);
         let tick = 0;
-        wheel.style.setProperty('--spin', `${1080 + Math.floor(Math.random() * 1080)}deg`);
+        const winnerIndex = pool.indexOf(final);
+        const fullTurns = 4 + Math.floor(Math.random() * 3);
+        const landingAngle = fullTurns * 360 - winnerIndex * (360 / pool.length);
+        wheel.style.setProperty('--spin', `${landingAngle}deg`);
         wheel.classList.remove('spinning');
         void wheel.offsetWidth;
         wheel.classList.add('spinning');
@@ -414,18 +433,79 @@
       }
       function racePick(pool, final) {
         const field = makeField(pool, final);
+        const finishingOrder = [final, ...field.filter(name => name !== final).sort(() => Math.random() - .5)];
+        const finishRank = new Map(finishingOrder.map((name, index) => [name, index]));
+        const horseIcons = ['🐎', '🏇', '🐴', '♞'];
+        const runners = new Map();
+        const progress = new Map(field.map(name => [name, 0]));
         raceLanes.innerHTML = '';
         raceLanes.classList.toggle('dense', field.length > 12);
-        field.forEach(name => {
+        raceFinish.classList.remove('is-visible');
+        raceFinish.replaceChildren();
+        field.forEach((name, index) => {
           const lane = document.createElement('div');
           lane.className = 'race-lane';
           const runner = document.createElement('span');
           runner.className = 'race-runner';
           runner.dataset.name = name;
-          runner.textContent = `♞ ${name}`;
+          const horse = document.createElement('span');
+          horse.className = 'race-horse';
+          horse.textContent = horseIcons[index % horseIcons.length];
+          const racerName = document.createElement('span');
+          racerName.textContent = name;
+          runner.append(horse, racerName);
           lane.append(runner);
           raceLanes.append(lane);
+          runners.set(name, runner);
         });
+
+        function revealFinish() {
+          finishingOrder.slice(0, 3).forEach((name, index) => {
+            const runner = runners.get(name);
+            runner.classList.toggle('winner', index === 0);
+          });
+          const heading = document.createElement('h3');
+          heading.textContent = '🏆 Top 3 finishers';
+          const list = document.createElement('ol');
+          finishingOrder.slice(0, 3).forEach(name => {
+            const item = document.createElement('li');
+            const horse = document.createElement('span');
+            horse.className = 'race-horse';
+            horse.textContent = horseIcons[field.indexOf(name) % horseIcons.length];
+            const racerName = document.createElement('span');
+            racerName.textContent = name;
+            item.append(horse, racerName);
+            list.append(item);
+          });
+          raceFinish.append(heading, list);
+          raceFinish.classList.add('is-visible');
+          finish(final, `${final} wins the Mendel Derby!`);
+        }
+
+        function runRace() {
+          let burst = 0;
+          const bursts = 5;
+          const runnerTimer = setInterval(() => {
+            burst += 1;
+            field.forEach(name => {
+              const runner = runners.get(name);
+              const rank = finishRank.get(name);
+              const finishPoint = name === final ? 84 : Math.max(40, 78 - rank * (field.length > 12 ? .48 : 1.75));
+              const lead = finishPoint * (burst / bursts);
+              const wobble = burst === bursts ? 0 : (Math.random() * 8 - 4);
+              const next = Math.max(progress.get(name) + 4, Math.min(finishPoint, lead + wobble));
+              progress.set(name, next);
+              runner.style.setProperty('--run-time', `${260 + Math.floor(Math.random() * 360)}ms`);
+              runner.style.left = `${next}%`;
+            });
+            sound(430 + burst * 60, .06);
+            if (burst === bursts) {
+              clearInterval(runnerTimer);
+              setTimeout(revealFinish, 650);
+            }
+          }, 460);
+        }
+
         let number = 3;
         countdown.textContent = number;
         const countTimer = setInterval(() => {
@@ -437,23 +517,18 @@
             clearInterval(countTimer);
             setTimeout(() => {
               countdown.textContent = '';
-              [...raceLanes.querySelectorAll('.race-runner')].forEach((runner, index) => {
-                const isWinner = runner.dataset.name === final;
-                runner.style.left = `${isWinner ? (field.length > 12 ? 62 : 77) : 20 + ((index * 11 + 9) % 42)}%`;
-                if (isWinner) runner.classList.add('winner');
-              });
-              sound(650, .12);
-            }, 250);
-            setTimeout(() => finish(final, `${final} crosses the finish line!`), 2300);
+              runRace();
+            }, 280);
           }
-        }, 360);
+        }, 520);
       }
       function fightPick(pool, final) {
         const field = makeField(pool, final);
-        fightStage.querySelectorAll('.fighter, .battle-word').forEach(node => node.remove());
-        const dense = field.length > 12;
+        fightStage.querySelectorAll('.fighter, .battle-word, .battle-particle').forEach(node => node.remove());
+        const dense = field.length > 6;
         fightStage.classList.toggle('dense', dense);
         const positions = [[17, 24], [49, 17], [75, 28], [69, 66], [33, 73], [10, 55]];
+        const positionsByName = new Map();
         field.forEach((name, index) => {
           const fighter = document.createElement('span');
           fighter.className = 'fighter';
@@ -466,34 +541,92 @@
             : positions[index];
           fighter.style.left = `${position[0]}%`;
           fighter.style.top = `${position[1]}%`;
+          positionsByName.set(name, position);
           fightStage.append(fighter);
         });
         const sequence = field.filter(name => name !== final).sort(() => Math.random() - .5);
-        label.textContent = 'Sequence locked in';
-        caption.textContent = 'A champion has already been chosen…';
-        let round = 0;
-        const duelDelay = dense ? 105 : 460;
-        const duelTimer = setInterval(() => {
-          const loser = sequence[round];
-          const token = fightStage.querySelector(`[data-name="${loser}"]`);
-          token?.classList.add('out');
-          const word = document.createElement('span');
-          word.className = 'battle-word';
-          word.textContent = ['POW!', 'BOP!', 'ZAP!'][round % 3];
-          word.style.left = token?.style.left || '50%';
-          word.style.top = token?.style.top || '50%';
-          fightStage.append(word);
-          sound(280 + round * 45, .06);
-          round += 1;
-          if (round >= sequence.length) {
-            clearInterval(duelTimer);
+        const active = new Set(field);
+        const firstClashDelay = dense ? 220 : 340;
+        let eliminated = 0;
+        let wave = 0;
+        label.textContent = 'Battle royale locked';
+        caption.textContent = 'Everyone targets a nearby contender…';
+
+        function nearestTarget(name, names) {
+          const origin = positionsByName.get(name);
+          const nearby = names.filter(other => other !== name).sort((a, b) => {
+            const pointA = positionsByName.get(a), pointB = positionsByName.get(b);
+            const distanceA = Math.hypot(origin[0] - pointA[0], origin[1] - pointA[1]);
+            const distanceB = Math.hypot(origin[0] - pointB[0], origin[1] - pointB[1]);
+            return distanceA - distanceB;
+          });
+          // The closest target is most likely, but a nearby fighter can still jump into an existing brawl.
+          return nearby[Math.floor(Math.random() * Math.min(3, nearby.length))];
+        }
+        function addImpact(point, duration, color) {
+          setTimeout(() => {
+            for (let index = 0; index < 5; index += 1) {
+              const particle = document.createElement('i');
+              particle.className = 'battle-particle';
+              particle.style.left = `${point[0]}%`;
+              particle.style.top = `${point[1]}%`;
+              particle.style.setProperty('--particle', color);
+              particle.style.setProperty('--burst-time', `${620 + Math.floor(Math.random() * 300)}ms`);
+              particle.style.setProperty('--burst-x', `${-30 + Math.floor(Math.random() * 61)}px`);
+              particle.style.setProperty('--burst-y', `${-30 + Math.floor(Math.random() * 61)}px`);
+              particle.addEventListener('animationend', () => particle.remove());
+              fightStage.append(particle);
+            }
+          }, duration);
+        }
+
+        function clash() {
+          if (active.size === 1) {
             const champion = fightStage.querySelector(`[data-name="${final}"]`);
+            fightStage.querySelectorAll('.fighter.dueling').forEach(token => token.classList.remove('dueling'));
             champion?.classList.add('champion');
             champion.style.left = '50%';
             champion.style.top = '51%';
-            setTimeout(() => finish(final, `${final} is the last one standing!`), dense ? 180 : 420);
+            setTimeout(() => finish(final, `${final} is the last one standing!`), 220);
+            return;
           }
-        }, duelDelay);
+          wave += 1;
+          const names = [...active];
+          const durations = [];
+          const targetCounts = new Map();
+          names.forEach(name => {
+            const target = nearestTarget(name, names);
+            targetCounts.set(target, (targetCounts.get(target) || 0) + 1);
+            const origin = positionsByName.get(name);
+            const destination = positionsByName.get(target);
+            const step = .36 + Math.random() * .18;
+            const next = [origin[0] + (destination[0] - origin[0]) * step, origin[1] + (destination[1] - origin[1]) * step];
+            positionsByName.set(name, next);
+            const token = fightStage.querySelector(`[data-name="${name}"]`);
+            const duration = (dense ? 170 : 280) + Math.floor(Math.random() * (dense ? 360 : 520));
+            durations.push(duration);
+            token?.classList.add('dueling');
+            if (token) { token.style.transitionDuration = `${duration}ms`; token.style.left = `${next[0]}%`; token.style.top = `${next[1]}%`; }
+            addImpact(next, duration, ['#ef7194', '#e59b22', '#2fa7ad'][Math.floor(Math.random() * 3)]);
+          });
+          const waveDuration = Math.max(...durations) + 90;
+          const count = Math.min(active.size - 1, Math.max(1, Math.ceil((active.size - 1) / 4)));
+          const losers = sequence.slice(eliminated, eliminated + count);
+          label.textContent = `Clash ${wave}`;
+          const pileOn = Math.max(...targetCounts.values());
+          caption.textContent = `${names.length} fights, ${Math.min(...durations)}–${Math.max(...durations)}ms each — up to ${pileOn} attackers per brawl!`;
+          sound(360 + wave * 30, .1);
+          setTimeout(() => {
+            eliminated += losers.length;
+            losers.forEach(name => {
+              fightStage.querySelector(`[data-name="${name}"]`)?.classList.add('out');
+              active.delete(name);
+            });
+            fightStage.querySelectorAll('.fighter.dueling').forEach(token => token.classList.remove('dueling'));
+            setTimeout(clash, 70);
+          }, waveDuration);
+        }
+        setTimeout(clash, firstClashDelay);
       }
       function spin() {
         if (spinning) return;
